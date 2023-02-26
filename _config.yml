@@ -1,6 +1,6 @@
 # Site settings
-title:          Tale
-description:    "CG, VFX, and Math"
+title:          CG, VFX, and Math
+description:    "Math for Computer Graphics and VFX"
 baseurl:        "/"
 url:            "https://cgvfxmath.github.io"
 
