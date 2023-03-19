@@ -2,7 +2,6 @@
 layout: post
 title: "The 1st Posting"
 author: "Wano Choi"
-categories: blog
 tags: blog
 ---
 
