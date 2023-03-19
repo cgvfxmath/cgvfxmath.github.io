@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The 1st Posting"
-author: "Wano Choi"
-tags: blog
+title: "The 1st Post"
+author: "WanoChoi"
+tags: Tutorial
 ---
 
-This is my first posting in my new blog.
+This is my first post in my new blog.
