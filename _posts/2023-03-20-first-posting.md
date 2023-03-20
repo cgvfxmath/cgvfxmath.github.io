@@ -17,5 +17,3 @@ I hope this new blog will grow steadily.
 이 새로운 블로그가 무럭무럭 성장하기를 바랍니다.
 
 ![img](https://cgvfxmath.github.io/assets/sprout.png)
-
-![img](https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/15745/sprout-plant-water-clipart-md.png)
