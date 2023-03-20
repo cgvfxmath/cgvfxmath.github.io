@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 tags: Math
 ---
 
-Pascal's triangle is a triangular array of the binomial coefficients<!--more-->
+Pascal's triangle is a triangular array of the binomial coefficients.<!--more-->
 
 두 변수 $a$와 $b$로 이루어진 다항식의 제곱식을 전개하면 다음과 같다.
 
