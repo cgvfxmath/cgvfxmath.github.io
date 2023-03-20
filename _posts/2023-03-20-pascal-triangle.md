@@ -18,7 +18,7 @@ Pascal's triangle is a triangular array of the binomial coefficients.<!--more-->
 
 $(a+b)^n$을 전개한 식의 $k$번째 항의 계수를 $_{n} C _{k-1}$라 하면 다음과 같이 쓸 수 있다.
 
-<p style="text-align: center;">$(a+b)^n = _{n} C _{0} a^n b^0 + _{n} C _{1} a^{n-1} b^1 + \cdots + _{n} C _{k-1} a^{n-k+1} b^{k-1} + _{n} C _{k} a^{n-k} b^k + \cdots + _{n} C _{n} a^0 b^n $</p>
+<p style="text-align: center;">$(a+b)^n = _{n} C _{0} a^n b^0 + _{n} C _{1} a^{n-1} b^1 + \cdots + _{n} C _{k-1} a^{n-k+1} b^{k-1} + _{n} C _{k} a^{n-k} b^k + \cdots + _{n} C _{n} a^0 b^n$</p>
 
 위의 식은 $a$에 대한 내림차순으로 정리한 식으로 $a^n b^0$항을 시작으로 $a$의 차수는 1씩 감소하고, $b$의 차수는 1씩 증가하여 총 $n+1$개의 항을 가지는 다항식이다. 이처럼 이항식의 거듭제곱을 일련의 단항식들의 합으로 전개하는 것을 이항정리(二項定理, binomial theorem)라고 한다.
 
@@ -26,6 +26,8 @@ $(a+b)^n$을 전개한 식의 $k$번째 항의 계수를 $_{n} C _{k-1}$라 하�
 
 한편 마찬가지 방법으로 차수가 하나 작은 $(a+b)^{n-1}$을 전개한 식의 $k$번째 항의 계수를 $_{n-1} C _{k-1}$라 할 수 있으므로 $(a+b)^{n-1}$을 전개하면 다음과 같다.
 
-<p style="text-align: center;">$(a+b)^{n-1} = _{n-1} C _{0} a^{n-1} b^0 + _{n-1} C _{1} a^{n-2} b^1 + \cdots + _{n-1} C _{k-1} a^{n-k} b^{k-1} + _{n-1} C _{k} a^{n-k-1} b^k + \cdots + _{n-1} C _{n-1} a^0 b^{n-1} $</p>
+<p style="text-align: center;">$(a+b)^{n-1} = _{n-1} C _{0} a^{n-1} b^0 + _{n-1} C _{1} a^{n-2} b^1 + \cdots + _{n-1} C _{k-1} a^{n-k} b^{k-1} + _{n-1} C _{k} a^{n-k-1} b^k + \cdots$</p>
 
+여기서 $a^{n-k-1} b^k$보다 뒤에 있는 항들은 중요하지 않으므로 생략하였다.
 
+그런데 $(a+b)^n = (a+b)^{n-1} (a+b)$이므로 $(a+b)^n$의 $k+1$번째 항인 $_{n} C _{k} a^{n-k} b^k$는 $(a+b)^{n-1}$의 $k$번째 항인 $_{n-1} C _{k-1} a^{n-k} b^{k-1}$과 $k+1$번째 항인 $_{n-1} C _{k-1} a^{n-k-1} b^k$에 각각 $b$와 $a$를 곱해서 만들어지는 것을 알 수 있다.
