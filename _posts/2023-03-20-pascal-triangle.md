@@ -9,7 +9,7 @@ use_math: true
 
 Pascal's triangle is a triangular array of the binomial coefficients.<!--more-->
 
-다음과 같이 두 변수 $a$와 $b$로 이루어진 이항식(=항이 2개인 다항식)의 제곱식을 전개하면 다음과 같다.
+다음과 같이 두 변수 $a$와 $b$로 이루어진 이항식(=항이 2개인 다항식)의 거듭제곱식을 전개하면 다음과 같다.
 
 <p style="text-align: center;">$(a+b)^2 = a^2 + 2ab + b^2$</p>
 <p style="text-align: center;">$(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$</p>
@@ -42,6 +42,6 @@ $(a+b)^n$을 전개한 식의 $k$번째 항의 계수를 $_{n} C _{k-1}$라 하�
 
 따라서 다음과 같은 사실이 성립합을 알 수 있다.
 
-<div class="alert-danger"><p style="text-align: center;">$_{n} C _{k} = _{n-1} C _{k-1} + _{n-1} C _{k}$</p></div>
+<div class="alert-danger"><p style="text-align: center;">$\color{red}_{n} C _{k} = _{n-1} C _{k-1} + _{n-1} C _{k}$</p></div>
 
 위의 수식이 이번 포스팅의 핵심 내용이다.
