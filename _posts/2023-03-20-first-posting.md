@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Sticky Posts"
-author: "Chester"
-tags: Tutorial
-excerpt_separator: <!--more-->
+title: "The 1st Post"
+author: "Wano"
+tags: Blog
 ---
 
 This is my first post in my new blog.
