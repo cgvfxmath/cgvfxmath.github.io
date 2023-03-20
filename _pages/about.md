@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 ## Name
-최완호 (Wanho Choi)
+최완호 (Wanho Choi) "[cgvfxmath (at) gmail.com]"
 
 ## Education & Experience
 
