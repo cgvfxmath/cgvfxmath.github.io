@@ -14,7 +14,7 @@ Pascal's triangle is a triangular array of the binomial coefficients.<!--more-->
 <p style="text-align: center;">$(a+b)^2 = a^2 + 2ab + b^2$</p>
 <p style="text-align: center;">$(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$</p>
 
-무언가 규칙이 있는 것 보인다. 일반적인 자연수 $n(= 2, 3, 4, \cdots)$ 에 대한 $(a+b)^n$의 전개는 어떻게 될까?
+무언가 규칙이 있는 것처럼 보인다. 일반적인 자연수 $n(= 2, 3, 4, \cdots)$ 에 대한 $(a+b)^n$의 전개는 어떻게 될까?
 
 $(a+b)^n$을 전개한 식의 $k$번째 항의 계수를 $_{n} C _{k-1}$라 하면 다음과 같이 쓸 수 있다.
 
