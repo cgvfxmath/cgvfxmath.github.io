@@ -42,5 +42,5 @@ $(a+b)^n$을 전개한 식의 $k$번째 항의 계수를 $_{n} C _{k-1}$라 하�
 
 따라서 다음과 같은 사실이 성립합을 알 수 있다.
 
-<p style="text-align: center;">$_{n} C _{k} = _{n-1} C _{k-1} + _{n-1} C _{k}$</p>
+<div class="alert-danger"><p style="text-align: center;">$_{n} C _{k} = _{n-1} C _{k-1} + _{n-1} C _{k}$</p></div>
 
