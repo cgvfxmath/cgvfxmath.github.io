@@ -16,6 +16,6 @@ I hope this new blog will grow steadily.
 이제는 Wordpress와 web hosting 관리의 스트레스에서 벗어나려고 합니다.
 이 새로운 블로그가 무럭무럭 성장하기를 바랍니다.
 
-![img](https://cgvfxmath/assets/sprout.png)
+![img](https://cgvfxmath.github.io/assets/sprout.png)
 
 ![img](https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/15745/sprout-plant-water-clipart-md.png)
