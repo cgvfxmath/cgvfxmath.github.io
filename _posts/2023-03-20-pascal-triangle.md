@@ -9,7 +9,7 @@ use_math: true
 
 Pascal's triangle is a triangular array of the binomial coefficients.<!--more-->
 
-다음과 같이 두 변수 $a$와 $b$로 이루어진 이항식(=항이 2개인 다항식)의 거듭제곱식을 전개하면 다음과 같다.
+다음과 같이 두 변수 $a$와 $b$로 이루어진 이항식(二項式, binomial = 항이 2개인 다항식)의 거듭제곱식을 전개하면 다음과 같다.
 
 <p style="text-align: center;">$(a+b)^2 = a^2 + 2ab + b^2$</p>
 <p style="text-align: center;">$(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$</p>
@@ -45,3 +45,34 @@ $(a+b)^n$을 전개한 식의 $k$번째 항의 계수를 $_{n} C _{k-1}$라 하�
 <div class="alert-danger"><p style="text-align: center;">$\color{red}{_{n} C _{k} = _{n-1} C _{k-1} + _{n-1} C _{k}}$</p></div>
 
 위의 수식이 이번 포스팅의 핵심 내용이다.
+
+이 등식을 3개의 6각형을 사용하여 도식화하면 다음과 같다.
+<p style="text-align: center;">![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_01.png)</p>
+
+이것을 모든 자연수 $n$과 $k$에 대해서 일반화하여 그리면 다음과 같다.
+<p style="text-align: center;">![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_02.png)</p>
+
+임의의 수에 0을 더하면 원래의 수와 같기 때문에 다음과 같이 가상의 0으로 둘러싸인 개념으로 생각할 수도 있다.
+<p style="text-align: center;">![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_03.png)</p>
+
+이러한 삼각형을 파스칼의 삼각형(Pascal’s Triangle)이라고 한다. 인도의 수학자들은 이것을 “메루산의 계단”이라는 이름으로 불렀고, 이란과 중국에서는 각각 “카얌 삼각형”과 “양휘의 삼각형”이라고 불렀으나, 후대에 프랑스의 수학자인 파스칼이 집대성하여 그의 이름이 붙여졌다고 한다.
+
+파스칼의 삼각형을 이용하면 이항식을 전개한 각 항의 계수를 쉽게 구할 수 있다. 각 행(row)의 숫자가 차례대로 $(a+b)^n$를 전개한 항의 계수이기 때문이다.
+<p style="text-align: center;">![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_04.png)</p>
+
+파스칼의 삼각형이 유명해진 이유는 이 외에도 여러 가지 신기한 성질들을 가지기 때문이다. 파스칼의 삼각형이 가지는 몇 가지 대표적인 패턴은 다음과 같다.
+
+1. 파스칼의 삼각형은 좌우대칭이다.
+
+2. 다음과 같은 위치의 숫자들을 순서대로 나열하면 자연수들의 집합이 된다.
+<p style="text-align: center;">![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_05.png)</p>
+
+3. 다음과 같은 위치의 숫자들은 정삼각형을 구성하는 점들의 개수를 의미한다.
+<p style="text-align: center;">![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_06.png)</p>
+
+4. 각 행을 모두 합한 수는 2의 거듭제곱과 같다.
+<p style="text-align: center;">![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_07.png)</p>
+
+5. 파스칼의 삼각형 안에는 피보나치 수열(Fibonacci sequence)가 숨어있다.
+<p style="text-align: center;">![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_08.png)</p>
+
