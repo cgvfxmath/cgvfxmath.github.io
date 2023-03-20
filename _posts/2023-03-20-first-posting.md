@@ -2,6 +2,7 @@
 layout: post
 title: "The 1st Post"
 author: "wano"
+excerpt: "My First Post in My New Blog"
 tags: Blog
 ---
 
