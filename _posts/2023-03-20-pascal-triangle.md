@@ -11,7 +11,7 @@ Pascal's triangle is a triangular array of the binomial coefficients.<!--more-->
 
 두 변수 $a$와 $b$로 이루어진 다항식의 제곱식을 전개하면 다음과 같다.
 
-$$(a+b)^2 = a^2 + 2ab + b^2$$
+<p style="text-align: center;">$(a+b)^2 = a^2 + 2ab + b^2$</p>
 
 $$(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$$
 
