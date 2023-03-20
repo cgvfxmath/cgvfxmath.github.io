@@ -76,3 +76,4 @@ $(a+b)^n$을 전개한 식의 $k$번째 항의 계수를 $_{n} C _{k-1}$라 하�
 성질 5) 파스칼의 삼각형 안에는 피보나치 수열(Fibonacci sequence)가 숨어있다.
 ![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_08.png)
 
+앞에서 $_{n} C _{k-1}$는 조합(combination)을 의미한다고 언급하였다.
