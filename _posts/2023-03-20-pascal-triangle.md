@@ -92,3 +92,7 @@ $n$개 중에서 순서대로 $k$개를 뽑는 경우의 수는 순열(permutati
 
 이항정리를 이용하여 다음과 같은 항등식을 얻을 수 있다. ($a=1$, $b=x$를 대입)
 <p style="text-align: center;">$(1+x)^n = _{n} C _{0} x^0 + _{n} C _{1} x^1 + _{n} C _{2} x^2 + \cdots + _{n} C _{n} x^n $</p>
+
+1. 양변에 $x=1$을 대입하면 다음과 같은 공식을 얻을 수 있다.
+2. <p style="text-align: center;">$_{n} C _{0} + _{n} C _{1} + _{n} C _{2} + \cdots + _{n} C _{n} = 2^n$</p>
+
