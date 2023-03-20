@@ -84,7 +84,7 @@ $n$개 중에서 순서대로 $k$개를 뽑는 경우의 수는 순열(permutati
 
 이 식을 변형하면 다음과 같은 순열에 대한 공식을 얻을 수 있다.
 
-<p style="text-align: center;">$_{n} P _{k} = \frac{n(n-1)(n-2) \cdots (n-k+1)(n-k)!}{(n-k)!} = \frac{n!}{(n-k)!}$</p>
+<p style="text-align: center;">$_{n} P _{k} = {n(n-1)(n-2) \cdots (n-k+1)(n-k)!} / {(n-k)!} = {n!} / {(n-k)!}$</p>
 
 조합(combination)은 순열(permutation)에서 $k$개에 대한 순서를 제거한 것이기 때문에 $_{n} P _{k}$를 $k$개를 순서대로 나열하는 경우의 수인 $k!$로 나누면 얻을 수 있다.
 
