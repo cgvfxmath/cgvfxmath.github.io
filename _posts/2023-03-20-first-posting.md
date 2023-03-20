@@ -2,11 +2,11 @@
 layout: post
 title: "The 1st Post"
 author: "wano"
-excerpt: "My First Post in My New Blog"
+excerpt_separator: <!--more-->
 tags: Blog
 ---
 
-새로운 블로그에서의 첫 번째 포스팅입니다.
+새로운 블로그에서의 첫 번째 포스팅입니다. <!--more-->
 기존 블로그(https://wanochoi.com/)는 더 이상 운영하지 않습니다.
 이제는 Wordpress와 web hosting 관리의 스트레스에서 벗어나려고 합니다.
 이 새로운 블로그가 무럭무럭 성장하기를 바랍니다.
