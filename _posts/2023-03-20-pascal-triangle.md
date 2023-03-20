@@ -62,17 +62,17 @@ $(a+b)^n$을 전개한 식의 $k$번째 항의 계수를 $_{n} C _{k-1}$라 하�
 
 파스칼의 삼각형이 유명해진 이유는 이 외에도 여러 가지 신기한 성질들을 가지기 때문이다. 파스칼의 삼각형이 가지는 몇 가지 대표적인 패턴은 다음과 같다.
 
-1. 파스칼의 삼각형은 좌우대칭이다.
+성질 1) 파스칼의 삼각형은 좌우대칭이다.
 
-2. 다음과 같은 위치의 숫자들을 순서대로 나열하면 자연수들의 집합이 된다.
+성질 2) 다음과 같은 위치의 숫자들을 순서대로 나열하면 자연수들의 집합이 된다.
 ![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_05.png)
 
-3. 다음과 같은 위치의 숫자들은 정삼각형을 구성하는 점들의 개수를 의미한다.
+성질 3) 다음과 같은 위치의 숫자들은 정삼각형을 구성하는 점들의 개수를 의미한다.
 ![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_06.png)
 
-4. 각 행을 모두 합한 수는 2의 거듭제곱과 같다.
+성질 4) 각 행을 모두 합한 수는 2의 거듭제곱과 같다.
 ![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_07.png)
 
-5. 파스칼의 삼각형 안에는 피보나치 수열(Fibonacci sequence)가 숨어있다.
+성질 5) 파스칼의 삼각형 안에는 피보나치 수열(Fibonacci sequence)가 숨어있다.
 <p style="text-align: center;">![img](https://cgvfxmath.github.io/assets/Pascal_Triangle_08.png)</p>
 
