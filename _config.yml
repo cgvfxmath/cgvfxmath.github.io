@@ -39,6 +39,3 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 disqus:         jekyll-tale
-
-# Math equation
-markdown:       kramdown
