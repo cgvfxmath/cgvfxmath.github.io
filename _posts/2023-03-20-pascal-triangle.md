@@ -82,7 +82,7 @@ $n$개 중에서 순서대로 $k$개를 뽑는 경우의 수는 순열(permutati
 
 <p style="text-align: center;">$_{n} P _{k} = n(n-1)(n-2) \cdots (n-k+1)$</p>
 
-이 식을 변형하면 다음과 같은 순열에 대한 공식을 얻을 수 있다.
+이 식의 분자와 분모에 각각 (n-k)!를 곱해서 변형하면 다음과 같은 순열에 대한 공식을 얻을 수 있다.
 
 <p style="text-align: center;">$_{n} P _{k} = {n(n-1)(n-2) \cdots (n-k+1)(n-k)!} / {(n-k)!} = {n!} / {(n-k)!}$</p>
 
