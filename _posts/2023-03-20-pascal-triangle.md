@@ -89,3 +89,6 @@ $n$개 중에서 순서대로 $k$개를 뽑는 경우의 수는 순열(permutati
 조합(combination)은 순열(permutation)에서 $k$개에 대한 순서를 제거한 것이기 때문에 $_{n} P _{k}$를 $k$개를 순서대로 나열하는 경우의 수인 $k!$로 나누면 얻을 수 있다.
 
 <p style="text-align: center;">$_{n} C _{k} = { _{n} P _{k} } / { k! } = { n! } / { (n-k)! k! }$</p>
+
+이항정리를 이용하여 다음과 같은 항등식을 얻을 수 있다. ($a=1$, $b=x$를 대입)
+<p style="text-align: center;">$(1+x)^n = _{n} C _{0} x^0 + _{n} C _{1} x^1 + _{n} C _{2} x^2 + \cdots + _{n} C _{n} x^n $</p>
