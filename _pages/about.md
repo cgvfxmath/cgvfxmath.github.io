@@ -6,10 +6,10 @@ permalink: /about/
 ---
 
 ### Name & E-mail
-##### 최완호 (Wanho Choi)
-##### cgvfxmath (at) gmail.com
+* 최완호 (Wanho Choi)
+* cgvfxmath (at) gmail.com
 
-### Education & Experience
+### Edaucation & Experience
 ##### 2022.04~ CEO @ DiBlAT Inc.
 ##### 2020.01~2022.03 CTO @ Dexter Studios
 ##### 2019.03~2022.03 Head of Technical Support Department @ Dexter Studios
