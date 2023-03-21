@@ -3,7 +3,7 @@ layout: post
 title: "The 1st Post"
 author: "wano"
 excerpt_separator: <!--more-->
-tags: Blog
+tags: blog
 ---
 
 This is my first post in my new blog. <!--more-->
