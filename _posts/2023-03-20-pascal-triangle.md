@@ -4,6 +4,7 @@ title: "Pascal's Triangle"
 author: "wano"
 excerpt_separator: <!--more-->
 tags: Math
+use_math: true
 ---
 
 Pascal's triangle is a triangular array of the binomial coefficients.<!--more-->
