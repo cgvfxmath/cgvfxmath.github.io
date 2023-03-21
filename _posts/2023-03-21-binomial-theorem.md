@@ -44,19 +44,19 @@ $n$개 중에서 순서대로 $k$개를 뽑는 경우의 수를 의미하는 개
 <p style="text-align: center;">$_{n-1}C_{k-1} + _{n-1}C_{k} = \frac{(n-1)!}{(k-1)!(n-k)!} + \frac{(n-1)!}{k!(n-k-1)!} = (n-1)! \left( \frac{k}{k!(n-k)!} + \frac{n-k}{k!(n-k)!} \right) = (n-1)! \frac{n}{k!(n-k)!} = \frac{n!}{k!(n-k)!} = _{n}C_{k} $</p>  
 
 한편 이항정리를 이용하여 다음과 같은 항등식을 얻을 수 있다. ($a=1$, $b=x$인 경우)
-<p style="text-align: center;">$(1+x)^{n} = \_{n}C\_{0} x^0 + \_{n}C\_{1} x^1 + \_{n}C\_{2} x^2 + \cdots + \_{n}C\_{n} x^n$</p>
+<p style="text-align: center;">$(1+x)^{n} = _{n}C_{0} x^0 + _{n}C_{1} x^1 + _{n}C_{2} x^2 + \cdots + _{n}C_{n} x^n$</p>
 
 * 양변에 $x=1$을 대입하면 다음과 같은 공식을 얻을 수 있다. (이항계수들의 총합)
-<p style="text-align: center;">$\_{n}C\_{0} + \_{n}C\_{1} + \_{n}C\_{2} + \cdots + \_{n}C\_{n} = 2^n$</p>
+<p style="text-align: center;">$_{n}C_{0} + _{n}C_{1} + _{n}C_{2} + \cdots + _{n}C_{n} = 2^n$</p>
 
 * 양변에 $x=-1$을 대입하면 다음과 같은 공식을 얻을 수 있다.
-<p style="text-align: center;">$\_{n}C\_{0} - \_{n}C\_{1} + \_{n}C\_{2} + \cdots + (-1)^n \cdot \_{n}C\_{n} = 0$</p>
+<p style="text-align: center;">$_{n}C_{0} - _{n}C_{1} + _{n}C_{2} + \cdots + (-1)^n \cdot _{n}C_{n} = 0$</p>
 
 * 위의 두 식을 더한 후 2로 나누면 다음과 같은 공식을 얻을 수 있다. (홀수 번째 항의 계수들의 총합)
-<p style="text-align: center;">$\_{n}C\_{0} + \_{n}C\_{2} + \_{n}C\_{4} + \cdots = 2^{n-1}$</p>
+<p style="text-align: center;">$_{n}C_{0} + _{n}C_{2} + _{n}C_{4} + \cdots = 2^{n-1}$</p>
 
 * 위의 두 식을 뺀 후 2로 나누면 다음과 같은 공식을 얻을 수 있다. (짝수 번째 항의 계수들의 총합)
-<p style="text-align: center;">$\_{n}C\_{1} + \_{n}C\_{3} + \_{n}C\_{5} + \cdots = 2^{n-1}$</p>
+<p style="text-align: center;">$_{n}C_{1} + _{n}C_{3} + _{n}C_{5} + \cdots = 2^{n-1}$</p>
 
 따라서 (홀수 번째 항의 계수들의 총합)과 (짝수 번째 항의 계수들의 총합)은 같음을 알 수 있다.
 
