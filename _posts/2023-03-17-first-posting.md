@@ -4,6 +4,10 @@ title: "The 1st Post"
 author: "wano"
 excerpt_separator: <!--more-->
 tags: ['blog']
+lastmode: 2023-03-17 13:00:00
+sitemap:
+  changefreq: weekly
+  priority: 0.5
 ---
 
 This is my first post in my new blog. <!--more-->

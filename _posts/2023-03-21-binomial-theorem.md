@@ -5,6 +5,10 @@ author: "wano"
 excerpt_separator: <!--more-->
 tags: ['math']
 use_math: true
+lastmode: 2023-03-21 13:00:00
+sitemap:
+  changefreq: weekly
+  priority: 0.5
 ---
 
 Binomial theorem (or binomial expansion) describes the algebraic expansion of powers of a binomial.<!--more-->
