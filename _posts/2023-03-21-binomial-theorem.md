@@ -11,7 +11,11 @@ Binomial theorem (or binomial expansion) describes the algebraic expansion of po
 
 *본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요.*
 
-[파스칼의 삼각형(Pascal’s Triangle)](https://cgvfxmath.github.io/2023-03-20/pascal-triangle)에서 계수를 나타내는 $_{n} C _{k}$는 조합(combination)을 의미한다고 언급하였다. 즉, $n$개 중에서 $k$개를 순서없이 뽑는 경우의 수를 의미한다. $(a+b)^n$을 전개한 식의 $k$번째 계수인 $_{n} C _{k-1}$는 두 개의 구슬 $a$와 $b$를 가지는 $n$개의 주머니에서 순서에 상관없이 $k-1$개를 뽑는 것과 같은 경우의 수를 가지기 떄문이다.
+[파스칼의 삼각형(Pascal’s Triangle)](https://cgvfxmath.github.io/2023-03-20/pascal-triangle)에서 계수를 나타내는 $_{n} C _{k}$는 조합(combination)을 의미한다고 언급하였다.
+
+$_{n} C _{k}$는 $n$개 중에서 $k$개를 순서없이 뽑는 경우의 수를 의미한다.
+
+$(a+b)^n$을 전개한 식의 $k$번째 계수인 $_{n} C _{k-1}$는 두 개의 구슬 $a$와 $b$를 가지는 $n$개의 주머니에서 순서에 상관없이 $k-1$개를 뽑는 것과 같은 경우의 수를 가지기 떄문이다.
 
 
 
