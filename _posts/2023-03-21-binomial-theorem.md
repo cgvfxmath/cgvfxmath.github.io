@@ -21,7 +21,7 @@ Binomial theorem (or binomial expansion) describes the algebraic expansion of po
 
 $n=4$인 경우를 생각해보자. $(a+b)^4 = (a+b)(a+b)(a+b)(a+b)$ 이다. 이 식을 전개한 항들을 계수를 제외하고 나열하면 다음과 같다.
 
-$aaaa$, $aaab$, $aaba$, $abaa$, $baaa$, $aabb$, $abab$, $abba$, $baab$, $baba$, $bbaa$, $abbb$, $babb$, $bbab$, $bbba$, $bbbb$
+<p style="text-align: center;">$aaaa$, $aaab$, $aaba$, $abaa$, $baaa$, $aabb$, $abab$, $abba$, $baab$, $baba$, $bbaa$, $abbb$, $babb$, $bbab$, $bbba$, $bbbb$</p>
 
 이중에서 $a^3 b$에 해당하는 것은 $a$를 3개, $b$를 1개 가지고 있는 것이므로 $aaab$, $aaba$, $abaa$, $baaa$ 이다. 즉, 4개 중에서 순서에 상관없이 3개를 뽑는 경우의 수이므로 이 항의 계수는 $ _{4} C _{3}  = 4$가 됨을 알 수 있다.
 
