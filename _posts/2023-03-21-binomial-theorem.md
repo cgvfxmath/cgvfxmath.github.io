@@ -27,14 +27,11 @@ $n$개 중에서 순서대로 $k$개를 뽑는 경우의 수는 순열(permutati
 
 <p style="text-align: center;">$_{n} C _{k} = \frac{ _{n} P _{k} }{ k! } = \frac{ n! }{ k! (n-k)! }$</p>
 
-[파스칼의 삼각형](https://cgvfxmath.github.io/2023-03-20/pascal-triangle)에서 유도한 다음의 등식은 이러한 조합(combination)은 순열(permutation)의 정의를 이용해서도 증명할 수 있다.
+[파스칼의 삼각형](https://cgvfxmath.github.io/2023-03-20/pascal-triangle)에서 유도한 다음의 등식은 이러한 조합(combination)과 순열(permutation)의 정의를 이용해서도 증명할 수 있다.
 
 <p style="text-align: center;">$\color{red}{_{n} C _{k} = _{n-1} C _{k-1} + _{n-1} C _{k}}$</p>
 
-<p style="text-align: center;">$ _{n-1} C _{k-1} + _{n-1} C _{k} = \frac{(n-1)!}{(k-1)! (n-k)!} + \frac{(n-1)!}{k! (n-k-1)!} = (n-1)! \left( \frac{k}{k! (n-k)!} + \frac{n-k}{k! (n-k)!} \right)$</p>
-<p style="text-align: center;">$ = (n-1)! \frac{n}{k! (n-k)!} }$</p>
-<p style="text-align: center;">$ = \frac{n!}{k! (n-k)!} }$</p>
-<p style="text-align: center;">$ = _{n} C _{k}$</p>
+<p style="text-align: center;">$ _{n-1} C _{k-1} + _{n-1} C _{k} = \frac{(n-1)!}{(k-1)! (n-k)!} + \frac{(n-1)!}{k! (n-k-1)!} = (n-1)! \left( \frac{k}{k! (n-k)!} + \frac{n-k}{k! (n-k)!} \right) = (n-1)! \frac{n}{k! (n-k)!} } = \frac{n!}{k! (n-k)!} } = _{n} C _{k} $</p>
 
 한편 이항정리를 이용하여 다음과 같은 항등식을 얻을 수 있다. ($a=1$, $b=x$인 경우)
 <p style="text-align: center;">$(1+x)^n = _{n} C _{0} x^0 + _{n} C _{1} x^1 + _{n} C _{2} x^2 + \cdots + _{n} C _{n} x^n $</p>
