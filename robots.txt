@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cgvfxmath.github.io/sitemap.xml
