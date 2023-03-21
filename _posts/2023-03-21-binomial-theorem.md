@@ -17,7 +17,7 @@ Binomial theorem (or binomial expansion) describes the algebraic expansion of po
 
 [파스칼의 삼각형](https://cgvfxmath.github.io/2023-03-20/pascal-triangle)에서 계수를 나타내는 $_{n} C _{k}$는 조합(combination)을 의미한다고 언급하였다.
 
-왜냐하면 $(a+b)^n$을 전개한 식의 $k+1$번째 항은 ${}_{n}C_{k}$인데,
+왜냐하면 $(a+b)^n$을 전개한 식의 $k+1$번째 항은 ${}_{n}\mathrm{C}_{k}$인데,
 
 
 
