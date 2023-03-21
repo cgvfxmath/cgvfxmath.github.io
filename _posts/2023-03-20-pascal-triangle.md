@@ -11,7 +11,6 @@ Pascal's triangle is a triangular array of the binomial coefficients.<!--more-->
 
 *본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요.*
 
-
 다음과 같이 두 변수 $a$와 $b$로 이루어진 이항식(二項式, binomial = 항이 2개인 다항식)의 거듭제곱식을 전개하면 다음과 같다.
 
 <p style="text-align: center;">$(a+b)^2 = a^2 + 2ab + b^2$</p>
