@@ -17,7 +17,9 @@ Binomial theorem (or binomial expansion) describes the algebraic expansion of po
 
 [파스칼의 삼각형](https://cgvfxmath.github.io/2023-03-20/pascal-triangle)에서 계수를 나타내는 $_{n} C _{k}$는 조합(combination)을 의미한다고 언급하였다.
 
-왜냐하면 $(a+b)^n$을 전개한 식의 $k+1$번째 항은 $ _{n} C_{k} a^{n-k} b^{k}$인데, 이 항의 계수인 $_{n} C_{k}$는 두 개의 구슬 $a$와 $b$를 가지는 $n$개의 주머니에서 순서에 상관없이 $k$개를 뽑는 것과 같은 경우의 수를 가지기 때문이다.
+왜냐하면 $(a+b)^n$을 전개한 식의 $k+1$번째 항은 $ _{n} C_{k} a^{n-k} b^{k}$인데,
+
+이 항의 계수인 $_{n} C_{k}$는 두 개의 구슬 $a$와 $b$를 가지는 $n$개의 주머니에서 순서에 상관없이 $k$개를 뽑는 것과 같은 경우의 수를 가지기 때문이다.
 
 $n=4$인 경우에 $a^3 b$항의 계수에 대해서 생각해보자. $n=4$이면 $(a+b)^4 = (a+b)(a+b)(a+b)(a+b)$이고, 이 식을 전개하면 다음과 같은 항들이 만들어진다.
 
