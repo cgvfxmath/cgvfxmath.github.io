@@ -19,7 +19,7 @@ Binomial theorem (or binomial expansion) describes the algebraic expansion of po
 
 왜냐하면 $(a+b)^n$을 전개한 식의 $k+1$번째 항은 $\_{n}C\_{k} a^{n-k} b^{k}$인데, 이 항의 계수인 $\_{n}C\_{k}$는 두 개의 구슬 $a$와 $b$를 가지는 $n$개의 주머니에서 순서에 상관 없이 구슬을 하나씩 꺼낼 때 $k$개의 $b$가 존재하는 경우의 수와 같기 때문이다.
 
-$n=4$인 경우에 $ab^{3}$항의 계수에 대해서 생각해보자. $n=4$이면 $(a+b)^{4} = (a+b)(a+b)(a+b)(a+b)$이고, 이 식을 전개하면 다음과 같은 항들이 만들어진다.
+$n=4$인 경우에 대해서 생각해보자. $n=4$이면 $(a+b)^{4} = (a+b)(a+b)(a+b)(a+b)$이고, 이 식을 전개하면 다음과 같은 항들이 만들어진다.
 
 <p style="text-align: center;">$aaaa, aaab, aaba, abaa, baaa, aabb, abab, abba, baab, baba, bbaa, abbb, babb, bbab, bbba, bbbb$</p>  
 
