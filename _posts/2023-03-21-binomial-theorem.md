@@ -31,8 +31,8 @@ $n$개 중에서 순서대로 $k$개를 뽑는 경우의 수는 순열(permutati
 
 <p style="text-align: center;">$\color{red}{_{n} C _{k} = _{n-1} C _{k-1} + _{n-1} C _{k}}$</p>
 
-<p style="text-align: center;">$_{n-1} C _{k-1} + _{n-1} C _{k} = \frac{ (n-1)! }{ (k-1)! (n-k)! } + \frac{ (n-1)! }{ k! (n-k-1)! } = (n-1)! \left( \frac{k}{k! (n-k)!} + \frac{n-k}{k! (n-k)!} \right) = (n-1)! \frac{ n }{ k! (n-k)!} $</p>  
-<p style="text-align: center;">$ = \frac{ n! }{ k! (n-k)! } = _{n} C _{k} $</p>  
+<p style="text-align: center;">$_{n-1} C _{k-1} + _{n-1} C _{k} = \frac{ (n-1)! }{ (k-1)! (n-k)! } + \frac{ (n-1)! }{ k! (n-k-1)! } = (n-1)! \left( \frac{k}{k! (n-k)!} + \frac{n-k}{k! (n-k)!} \right) $</p>  
+<p style="text-align: center;">$ = (n-1)! \frac{ n }{ k! (n-k)!} = \frac{ n! }{ k! (n-k)! } = _{n} C _{k} $</p>  
 
 
 한편 이항정리를 이용하여 다음과 같은 항등식을 얻을 수 있다. ($a=1$, $b=x$인 경우)
