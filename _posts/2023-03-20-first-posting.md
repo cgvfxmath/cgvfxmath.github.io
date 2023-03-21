@@ -18,4 +18,4 @@ I hope this new blog will grow steadily.
 
 ![img](https://cgvfxmath.github.io/assets/img/sprout.png)
 
-<img src="https://cgvfxmath.github.io/assets/img/sprout.png" width="50%">
+<center><img src="https://cgvfxmath.github.io/assets/img/sprout.png" width="50%"></center>
