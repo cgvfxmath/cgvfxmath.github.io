@@ -53,31 +53,31 @@ $(a+b)^n$을 전개한 식의 $k$번째 항의 계수를 $_{n} C _{k-1}$라 하�
 위의 수식이 이번 포스팅의 핵심 내용이다.
 
 이 등식을 3개의 6각형을 사용하여 도식화하면 다음과 같다.
-<center>![img](https://cgvfxmath.github.io/assets/img/Pascal_Triangle_01.png)</center>
+<center><img src="https://cgvfxmath.github.io/assets/img/Pascal_Triangle_01.png"></center>
 
 이것을 모든 자연수 $n$과 $k$에 대해서 일반화하여 그리면 다음과 같다.
-<center>![img](https://cgvfxmath.github.io/assets/img/Pascal_Triangle_02.png)</center>
+<center><img src="https://cgvfxmath.github.io/assets/img/Pascal_Triangle_02.png"></center>
 
 임의의 수에 0을 더하면 원래의 수와 같기 때문에 다음과 같이 가상의 0으로 둘러싸인 개념으로 생각할 수도 있다.
-<center>![img](https://cgvfxmath.github.io/assets/img/Pascal_Triangle_03.png)</center>
+<center><img src="https://cgvfxmath.github.io/assets/img/Pascal_Triangle_03.png"></center>
 
 이러한 삼각형을 파스칼의 삼각형(Pascal’s Triangle)이라고 한다. 인도의 수학자들은 이것을 “메루산의 계단”이라는 이름으로 불렀고, 이란과 중국에서는 각각 “카얌 삼각형”과 “양휘의 삼각형”이라고 불렀으나, 후대에 프랑스의 수학자인 파스칼이 집대성하여 그의 이름이 붙여졌다고 한다.
 
 파스칼의 삼각형을 이용하면 이항식을 전개한 각 항의 계수를 쉽게 구할 수 있다. 각 행(row)의 숫자가 차례대로 $(a+b)^n$를 전개한 항의 계수이기 때문이다.
-<center>![img](https://cgvfxmath.github.io/assets/img/Pascal_Triangle_04.png)</center>
+<center><img src="https://cgvfxmath.github.io/assets/img/Pascal_Triangle_04.png"></center>
 
 파스칼의 삼각형이 유명해진 이유는 이 외에도 여러 가지 신기한 성질들을 가지기 때문이다. 파스칼의 삼각형이 가지는 몇 가지 대표적인 패턴은 다음과 같다.
 
 성질 1) 파스칼의 삼각형은 좌우대칭이다.
 
 성질 2) 다음과 같은 위치의 숫자들을 순서대로 나열하면 자연수들의 집합이 된다.
-<center>![img](https://cgvfxmath.github.io/assets/img/Pascal_Triangle_05.png)</center>
+<center><img src="https://cgvfxmath.github.io/assets/img/Pascal_Triangle_05.png"></center>
 
 성질 3) 다음과 같은 위치의 숫자들은 정삼각형을 구성하는 점들의 개수를 의미한다.
-<center>![img](https://cgvfxmath.github.io/assets/img/Pascal_Triangle_06.png)</center>
+<center><img src="https://cgvfxmath.github.io/assets/img/Pascal_Triangle_06.png"></center>
 
 성질 4) 각 행을 모두 합한 수는 2의 거듭제곱과 같다.
-<center>![img](https://cgvfxmath.github.io/assets/img/Pascal_Triangle_07.png)</center>
+<center><img src="https://cgvfxmath.github.io/assets/img/Pascal_Triangle_07.png"></center>
 
 성질 5) 파스칼의 삼각형 안에는 피보나치 수열(Fibonacci sequence)이 숨어있다. (기울기가 30도인 직선을 사용하면 찾을 수 있다.)
-  <center>![img](https://cgvfxmath.github.io/assets/img/Pascal_Triangle_08.png)</center>
+<center><img src="https://cgvfxmath.github.io/assets/img/Pascal_Triangle_08.png"></center>
