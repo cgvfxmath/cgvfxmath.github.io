@@ -112,3 +112,5 @@ test
 $\frac{1}{2}$
 $\dfrac{1}{2}$
 $\tfrac{1}{2}$
+
+$\int_{0}^{1}f(x)dx=\sum_{n=0}^{1}f(n)\delta n$
