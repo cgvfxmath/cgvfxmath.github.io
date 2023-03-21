@@ -3,7 +3,7 @@ layout: post
 title: "Pascal's Triangle"
 author: "wano"
 excerpt_separator: <!--more-->
-tags: math
+tags: ['math']
 use_math: true
 ---
 
