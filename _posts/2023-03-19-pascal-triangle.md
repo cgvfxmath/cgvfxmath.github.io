@@ -5,7 +5,7 @@ author: "wano"
 excerpt_separator: <!--more-->
 tags: ['math']
 use_math: true
-lastmode: 2023-03-20 13:00:00
+lastmode: 2023-03-19 13:00:00
 sitemap:
   changefreq: weekly
   priority: 0.5
