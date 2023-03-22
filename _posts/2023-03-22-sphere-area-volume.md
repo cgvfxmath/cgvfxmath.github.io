@@ -99,7 +99,7 @@ Finding the surface area and volume of a sphere without using integrals<!--more-
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_09.png" width="100%"><figcaption>그림 출처: http://www.photointerior.co.kr/shop/goods/goods_view.php?goodsno=575&category=001003006</figcaption></figure></center>
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_10.png" width="50%"><figcaption>그림 출처: https://thatsmaths.com/2019/11/28/archimedes-and-the-volume-of-a-sphere</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_10.png" width="100%"><figcaption>그림 출처: https://thatsmaths.com/2019/11/28/archimedes-and-the-volume-of-a-sphere</figcaption></figure></center>
 
 그리고, 아르키메데스의 묘비에는 이 그림이 새겨져 있었다고 한다. 따라서, 이 그림을 “아르키메데스의 묘비 (Archimedes’ tombstone)” 그림이라고 부른다.
 
