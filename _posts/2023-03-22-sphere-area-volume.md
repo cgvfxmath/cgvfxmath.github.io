@@ -16,7 +16,7 @@ Finding the surface area and volume of a sphere without using integrals<!--more-
 
 반지름이 $r$인 구(sphere)의 겉넓이와 부피를 계산하는 공식은 각각 다음과 같다.
 
-<p style="text-align: center;">$\text{area} = 4 \pi r^2 \;\;\; \text{volume} = \frac{4}{3} \pi \r^3$</p>
+<p style="text-align: center;">$\text{area} = 4 \pi r^2 \;\;\; \text{volume} = \frac{4}{3} \pi r^3$</p>
 
 
 적분을 이용하면 간단명료하게 위의 두 가지 공식을 증명할 수 있다. (구글이나 유튜브에서 검색해 보면 관련 내용을 쉽게 찾아볼 수 있다.)
