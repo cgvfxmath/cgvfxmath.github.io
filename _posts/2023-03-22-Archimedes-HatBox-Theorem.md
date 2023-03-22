@@ -27,7 +27,7 @@ Relationship between the surface area of ​​a sphere and a cylinder<!--more--
 
 같은 위도상(여기서는 위에서 5번째 줄)에 존재하는 띠 형태를 구성하는 사각형 요소들을 합하면 위의 그림에서의 $S_1$이 된다. 임의의 $S_1$에 속해 있는 사각형 요소들 중에서 하나를 선택해서 생각해보자. 이 사각형 요소를 노란색으로 표시하였다. 수직 방향의 중심축에서 바깥쪽 방향으로 뻗어 나와서 원기둥 상에 투영(projection)되어 대응되는 사각형 또한 같은 노란색으로 표시하였다. (이 사각형은 $S_2$를 구성하는 요소이다.) 이 때 해당 요소들만을 떼어내서 생각하면 다음과 같은 쐐기(wedge) 형태가 된다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_03.png"></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_03.png" width="70%"></figure></center>
 
 그림상에서는 둘 다 곡면상에 존재하기 때문에 직사각형이 아니지만 높이 $h$를 무한히 작게 만들면 곡면은 평면으로 수렴되고, 이 평면상에 존재하는 도형은 직사각형으로 간주할 수 있다.
 
