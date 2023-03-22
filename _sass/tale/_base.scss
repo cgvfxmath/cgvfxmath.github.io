@@ -21,12 +21,18 @@ html {
 }
 
 body {
-  font-family: 'Nanum Gothic', serif;
   -webkit-text-size-adjust: 100%;
 }
 
-h1, h2, h3, h4, h5, .site-title, .site-nav {
-  font-family: 'Nanum Gothic', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $default-shade;
+  font-family: $sans-serif;
+  line-height: normal;
 }
 
 a {
