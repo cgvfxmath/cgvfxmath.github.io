@@ -91,14 +91,13 @@ Finding the surface area and volume of a sphere without using integrals<!--more-
 
 보다 자세한 설명은 다음 [링크](https://www.youtube.com/watch?v=xuPl_8o_j7k)에서 확인할 수 있다.
 
-
 마지막으로 한 가지 중요한 사실을 확인해보자. 다음 그림과 같이 반지름을 공유하는 원뿔, 원기둥, 구의 부피 사이에는 1:2:3의 비가 성립한다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_08.png" width="50%"><figcaption>그림 출처: http://dic.kumsung.co.kr/web/smart/detail.do?headwordId=4567&findCategory=B002003&findBookId=28</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_08.png" width="100%"><figcaption>그림 출처: http://dic.kumsung.co.kr/web/smart/detail.do?headwordId=4567&findCategory=B002003&findBookId=28</figcaption></figure></center>
 
 아르키메데스는 이러한 사실을 알고 있었고, 이를 이용하여 원기둥의 부피로부터 구의 부피를 계산하였다고 한다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_09.png" width="50%"><figcaption>그림 출처: http://www.photointerior.co.kr/shop/goods/goods_view.php?goodsno=575&category=001003006</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_09.png" width="100%"><figcaption>그림 출처: http://www.photointerior.co.kr/shop/goods/goods_view.php?goodsno=575&category=001003006</figcaption></figure></center>
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_10.png" width="50%"><figcaption>그림 출처: https://thatsmaths.com/2019/11/28/archimedes-and-the-volume-of-a-sphere</figcaption></figure></center>
 
