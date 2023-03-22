@@ -38,7 +38,7 @@ XGenSplineAPI::XgFnSpline splines;
 
 MPointArray cvs:
 {
-    XGenSplineAPI::xgItSpline itr = splines.iterator();
+    XGenSplineAPI::XgItSpline itr = splines.iterator();
     for(; !itr.isDone(); itr.next())
     {
         const unsigned int nCurves = itr.primitiveCount();
