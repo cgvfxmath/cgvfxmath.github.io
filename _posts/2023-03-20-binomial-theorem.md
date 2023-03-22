@@ -15,7 +15,7 @@ Binomial theorem (or binomial expansion) describes the algebraic expansion of po
 
 *본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요.*
 
-[파스칼의 삼각형](https://cgvfxmath.github.io/2023-03-20/pascal-triangle)에서 계수를 나타내는 $\_{n}C\_{k}$는 조합(combination)을 의미한다고 언급하였다.
+[파스칼의 삼각형](https://cgvfxmath.github.io/2023-03-19/pascal-triangle)에서 계수를 나타내는 $\_{n}C\_{k}$는 조합(combination)을 의미한다고 언급하였다.
 
 왜냐하면 $(a+b)^n$을 전개한 식의 $k+1$번째 항은 $\_{n}C\_{k} a^{n-k} b^{k}$인데, 이 항의 계수인 $\_{n}C\_{k}$는 두 개의 구슬 $a$와 $b$를 가지는 $n$개의 주머니에서 순서에 상관 없이 구슬을 하나씩 꺼낼 때 $k$개의 $b$가 존재하는 경우의 수와 같기 때문이다.
 
