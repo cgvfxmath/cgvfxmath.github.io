@@ -56,7 +56,7 @@ Finding the surface area and volume of a sphere without using integrals<!--more-
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_01.png" width="50%"><figcaption>그림 출처: https://mathworld.wolfram.com/ArchimedesHat-BoxTheorem.html</figcaption></figure></center>
 
-위의 그림에서 $S_1$과 $S_2$의 넓이가 같다는 사실을 [아르키메데스의 모자상자 정리(Archimedes’ HatBox Theorem)](https://cgvfxmath.github.io/2023-03-22/archimedes-hatbox-theorem)라고 한다.
+위의 그림에서 $S_1$과 $S_2$의 넓이가 같다는 사실을 [아르키메데스의 모자상자 정리(Archimedes’ HatBox Theorem)](https://cgvfxmath.github.io/2023-03-22/archimedes-hatbox)라고 한다.
 
 이 정리에 의하여 $h = 2r$이 되면 다음의 등식이 성립한다.
 
