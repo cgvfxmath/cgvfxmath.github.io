@@ -37,8 +37,8 @@ Relationship between the surface area of ​​a sphere and a cylinder<!--more--
 
 구(sphere) 상에 존재하는 직사각형을 빨간색으로 표시하고 밑변의 길이와 높이를 각각 $x$와 $y$라 하자. 마찬가지로 원기둥(cylinder) 상에 존재하는 직사각형을 파란색으로 표시하고 밑변의 길이와 높이를 각각 $w$와 $h$라고 하자.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_04.png"></figure></center>
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_05.png"></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_04.png" width="70%"></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_05.png" width="70%"></figure></center>
 
 위의 그림은 구를 옆에서 본 모습이다. 편의상 빨간색 직사각형과 파란색 직사각형을 크게 그렸지만 사실 이 두 사각형의 크기는 굉장히 작다는 것을 명심해야 한다.
 
@@ -46,7 +46,7 @@ Relationship between the surface area of ​​a sphere and a cylinder<!--more--
 
 이 그림을 위에서 보면 다음과 같이 보인다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_06.png"></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_06.png" width="70%"></figure></center>
 
 빨간색을 밑변으로 가지는 이등변 삼각형과 파란색을 밑변으로 가지는 이등변 삼각형은 서로 닮음이다. 따라서, 다음과 같은 관계가 성립한다.
 
@@ -54,7 +54,7 @@ Relationship between the surface area of ​​a sphere and a cylinder<!--more--
 
 다시 옆에서 본 모양을 상상해보자.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_07.png"></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_07.png" width="70%"></figure></center>
 
 위의 그림에서 두 개의 직삼각형은 서로 닮음이다. 따라서, 다음과 같은 관계가 성립한다.
 
