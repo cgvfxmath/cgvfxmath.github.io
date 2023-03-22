@@ -5,7 +5,7 @@ author: "wano"
 excerpt_separator: <!--more-->
 tags: ['opencv', 'dev']
 use_math: true
-lastmode: 2023-03-22 13:00:00
+lastmode: 2023-03-23 00:00:00
 sitemap:
   changefreq: weekly
   priority: 0.5
