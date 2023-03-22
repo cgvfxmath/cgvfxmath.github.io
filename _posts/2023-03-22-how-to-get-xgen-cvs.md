@@ -25,9 +25,9 @@ XGenSplineAPI::XgFnSpline splines;
     MObject outRenderDataObj = outRenderDataPlg.asMObject();
     MPxData* outRenderDataPtr = MFnPluginDaga(outRenderDataObj).data();
 
-    stringstream bs;
+    std::stringstream bs;
     outRenderDataPtr->writeBinary(bs);
-    string bd = bs.str();
+    std::string bd = bs.str();
 
     const unsigned int tail = bd.size() % sizeof(unsigned int);
     const unsigned int padding = (tail>0) ? sizeof(unsigned int) - tail : 0;
