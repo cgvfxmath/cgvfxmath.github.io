@@ -103,6 +103,6 @@ Finding the surface area and volume of a sphere without using integrals<!--more-
 
 그리고, 아르키메데스의 묘비에는 이 그림이 새겨져 있었다고 한다. 따라서, 이 그림을 “아르키메데스의 묘비 (Archimedes’ tombstone)” 그림이라고 부른다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_11.png" width="50%"><figcaption>그림 출처: https://indico.cern.ch/event/729290/contributions/3004364/attachments/1652977/2644737/WATCHMAN-AITMay2018-Davis.pdf</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_11.png" width="30%"><figcaption>그림 출처: https://indico.cern.ch/event/729290/contributions/3004364/attachments/1652977/2644737/WATCHMAN-AITMay2018-Davis.pdf</figcaption></figure></center>
 
 
