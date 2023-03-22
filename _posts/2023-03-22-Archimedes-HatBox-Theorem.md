@@ -15,7 +15,9 @@ Relationship between the surface area of ​​a sphere and a cylinder<!--more--
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_01.png"><figcaption>그림 출처: https://mathworld.wolfram.com/ArchimedesHat-BoxTheorem.html</figcaption></figure></center>
 
-위의 그림에서 $S_1$과 $S_2$의 넓이가 같다는 사실을 아르키메데스의 모자상자 정리(Archimedes’ HatBox Theorem)라고 한다. 그 이유를 대략적으로 살펴보면 다음과 같다. 높이 $h$가 고정된 상태에서 이 높이가 나타내는 영역이 위 또는 아래로 움직이는 경우를 생각해보자. 원기둥의 경우 띠의 위치가 올라가거나 내려가더라도 $S_2$의 넓이는 변하지 않는다. 그런데 구의 경우 띠가 위로 올라갈수록 $S_1$은 점점 더 기울어지기 때문에 넓이가 증가하는 것처럼 보인다. 하지만 기울어져서 넓이가 증가하는 만큼 이에 정확하게 비례해서 반지름이 감소하면서 기울기 변화에 의한 넓이 증가분을 상쇄시키기 때문에 넓이는 변하지 않는다.
+위의 그림에서 $S_1$과 $S_2$의 넓이가 같다는 사실을 아르키메데스의 모자상자 정리(Archimedes’ HatBox Theorem)라고 한다. 그 이유를 대략적으로 살펴보면 다음과 같다.
+
+높이 $h$가 고정된 상태에서 이 높이가 나타내는 영역이 위 또는 아래로 움직이는 경우를 생각해보자. 원기둥의 경우 띠의 위치가 올라가거나 내려가더라도 $S_2$의 넓이는 변하지 않는다. 그런데 구의 경우 띠가 위로 올라갈수록 $S_1$은 점점 더 기울어지기 때문에 넓이가 증가하는 것처럼 보인다. 하지만 기울어져서 넓이가 증가하는 만큼 이에 정확하게 비례해서 반지름이 감소하면서 기울기 변화에 의한 넓이 증가분을 상쇄시키기 때문에 넓이는 변하지 않는다.
 
 수학적으로 보다 엄밀하게 증명을 해보자.
 
