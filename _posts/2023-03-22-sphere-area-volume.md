@@ -73,37 +73,37 @@ Finding the surface area and volume of a sphere without using integrals<!--more-
 
 여기서 잠깐. 한 가지 특이한 사실을 확인하고 다음으로 넘어가자. 구의 겉넓이는 구의 중심을 지나는 평면으로 구를 잘랐을 때 만들어지는 원의 넓이의 4배이다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_04.png" width="50%"></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_04.png" width="50%"></figure></center>
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_05.png" width="50%"><figcaption>그림 출처: https://www.youtube.com/watch?v=GNcFjFmqEc8</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_05.png" width="50%"><figcaption>그림 출처: https://www.youtube.com/watch?v=GNcFjFmqEc8</figcaption></figure></center>
 
 이제 구의 부피를 구해보자. 구의 부피는 구의 겉넓이를 이용하여 계산한다.
 
 다음 그림과 같이 구를 $n$개의 각뿔들의 합으로 생각할 수 있다. (삼각뿔이어도 상관 없고 사각뿔, 오각뿔이어도 상관없다. 심지어 여러 모양의 각뿔들이 섞여 있어도 된다.)
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_06.png" width="50%"><figcaption>그림 출처: https://www.shmoop.com/surface-area-volume/volume-spheres-help.html</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_06.png" width="50%"><figcaption>그림 출처: https://www.shmoop.com/surface-area-volume/volume-spheres-help.html</figcaption></figure></center>
 
 각 각뿔들의 밑면의 모양과 넓이는 다를 수 있지만 높이는 모두 구의 반지름인 r로 동일하다. 각 각뿔들의 밑면의 넓이를 각각 $B_1$, $B_2$, $\cdots$, $B_n$이라고 하자. (여기서 $n$은 매우 큰 수이다. $n$이 크면 클수록 구의 부피에 수렴한다.) 이 때, 모든 각뿔들의 부피를 더하면 구의 부피가 되므로 다음과 같은 식이 성립한다. (이 글을 읽는 사람들은 각뿔의 부피는 각기둥의 부피의 $\frac{1}{3}$이라는 사실을 알고 있다고 가정한다. 이에 대한 수학적 증명은 [초등수학을 결정하는 개념 총정리](https://m.search.naver.com/search.naver?query=%EC%B4%88%EB%93%B1%EC%88%98%ED%95%99%EC%9D%84+%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94+%EA%B0%9C%EB%85%90+%EC%B4%9D%EC%A0%95%EB%A6%AC&where=m&sm=mob_hty.idx&qdt=1#api=%3F_lp_type%3Dcm%26col_prs%3Dcsa%26format%3Dtext%26nqx_theme%3D%257B%2B%2522theme%2522%253A%257B%2522main%2522%253A%257B%2522name%2522%253A%2522book_info%2522%252C%2522os%2522%253A16269186%252C%2522pkid%2522%253A20000%257D%257D%2B%257D%26query%3D%2525EC%2525B4%252588%2525EB%252593%2525B1%2525EC%252588%252598%2525ED%252595%252599%2525EC%25259D%252584%252B%2525EA%2525B2%2525B0%2525EC%2525A0%252595%2525ED%252595%252598%2525EB%25258A%252594%252B%2525EA%2525B0%25259C%2525EB%252585%252590%252B%2525EC%2525B4%25259D%2525EC%2525A0%252595%2525EB%2525A6%2525AC%26sm%3Digr_brg%26tab%3Dinfo%26tab_prs%3Dcsa%26where%3Dbridge&_lp_type=cm)라는 책에 정리되어 있다.)
 
 따라서 구의 부피는 다음과 같다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_07.png" width="50%"></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_07.png" width="50%"></figure></center>
 
 보다 자세한 설명은 다음 [링크](https://www.youtube.com/watch?v=xuPl_8o_j7k)에서 확인할 수 있다.
 
 
 마지막으로 한 가지 중요한 사실을 확인해보자. 다음 그림과 같이 반지름을 공유하는 원뿔, 원기둥, 구의 부피 사이에는 1:2:3의 비가 성립한다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_08.png" width="50%"><figcaption>그림 출처: http://dic.kumsung.co.kr/web/smart/detail.do?headwordId=4567&findCategory=B002003&findBookId=28</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_08.png" width="50%"><figcaption>그림 출처: http://dic.kumsung.co.kr/web/smart/detail.do?headwordId=4567&findCategory=B002003&findBookId=28</figcaption></figure></center>
 
 아르키메데스는 이러한 사실을 알고 있었고, 이를 이용하여 원기둥의 부피로부터 구의 부피를 계산하였다고 한다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_09.png" width="50%"><figcaption>그림 출처: http://www.photointerior.co.kr/shop/goods/goods_view.php?goodsno=575&category=001003006</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_09.png" width="50%"><figcaption>그림 출처: http://www.photointerior.co.kr/shop/goods/goods_view.php?goodsno=575&category=001003006</figcaption></figure></center>
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_10.png" width="50%"><figcaption>그림 출처: https://thatsmaths.com/2019/11/28/archimedes-and-the-volume-of-a-sphere</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_10.png" width="50%"><figcaption>그림 출처: https://thatsmaths.com/2019/11/28/archimedes-and-the-volume-of-a-sphere</figcaption></figure></center>
 
 그리고, 아르키메데스의 묘비에는 이 그림이 새겨져 있었다고 한다. 따라서, 이 그림을 “아르키메데스의 묘비 (Archimedes’ tombstone)” 그림이라고 부른다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_11.png" width="50%"><figcaption>그림 출처: https://indico.cern.ch/event/729290/contributions/3004364/attachments/1652977/2644737/WATCHMAN-AITMay2018-Davis.pdf</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_11.png" width="50%"><figcaption>그림 출처: https://indico.cern.ch/event/729290/contributions/3004364/attachments/1652977/2644737/WATCHMAN-AITMay2018-Davis.pdf</figcaption></figure></center>
 
 
