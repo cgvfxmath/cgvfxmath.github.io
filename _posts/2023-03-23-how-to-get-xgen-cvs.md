@@ -18,7 +18,7 @@ How to get control vertex positions in Maya XGen Interactive<!--more-->
 
 XGenSplineAPI::XgFnSpline splines;
 {
-    MDagPath dagPath = NodeNameToDagPath(fromNodeName);
+    MDagPath dagPath = NodeNameToDagPath(fromNodeName); // custom function
     MFnDagNode nodeFn(dagPath);
 
     MPlug outRenderDataPlg = nodeFn.findPlug("outRender Data");
