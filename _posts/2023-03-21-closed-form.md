@@ -28,7 +28,7 @@ Closed Form vs Open Form<!--more-->
 선형 회귀(linear regression) 문제의 답을 최소제곱법(least square)으로 구하는 것도 닫힌 형태의 문제로 볼 수 있다. 반복해법을 사용해서 최소제곱법을 풀 수도 있지만, 이 경우에도 해 자체는 “해 = …” 꼴로 표현할 수 있기 때문에 닫힌 형태의 문제로 볼 수 있다.
 
 <p style="text-align: center;">$ax=b \;\;\; s.t. \;\;\;  $</p>
-$\begin{bmatrix}a & b\\c & d\end{bmatrix}$
+$\begin{bmatrix} $\gamma 1$ &  $\gamma 2$\\ $\gamma 3$ &$\gamma 4$
 
 닫힌 형태를 가지는 공학 문제들은 결국 $\mathbf{Ax=b}$ 꼴의 행렬 방정식을 푸는 문제로 귀결되는데, 이 때 시스템 행렬(system matrix)인 $\mathbf{A}$의 고유값(eigenvalue)과 고유벡터(eigenvector)를 이용하면 해의 특성을 분석하고 예측하는데 도움이 된다.
 
