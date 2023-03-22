@@ -27,7 +27,7 @@ XGenSplineAPI::XgFnSpline splines;
 
     stringstream bs;
     outRenderDataPtr->writeBinary(bs);
-    string bd = gs.str();
+    string bd = bs.str();
 
     const unsigned int tail = bd.size() % sizeof(unsigned int);
     const unsigned int padding = (tail>0) ? sizeof(unsigned int) - tail : 0;
