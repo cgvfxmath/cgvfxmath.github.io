@@ -23,6 +23,9 @@ sass:
   sass_dir:     _sass
   style:        compressed
 
+# Fonts
+google_fonts:   "Nanum+Gothic:400,700"
+
 # Gems
 plugins:
   - jekyll-feed
