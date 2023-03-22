@@ -13,7 +13,7 @@ sitemap:
 
 How to get control vertex positions in Maya XGen Interactive<!--more-->
 
-```C++
+```cpp
 #include <XGen/XgSplineAPI.h>
 
 XGenSplineAPI::XgFnSpline splines;
