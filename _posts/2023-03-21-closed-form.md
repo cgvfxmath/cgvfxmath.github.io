@@ -31,5 +31,5 @@ Closed Form vs Open Form<!--more-->
 
 <p style="text-align: center;">$\underset{a, b}{\mathrm{argmin}} \sum \left \| y_i - (ax_i + b) \right \| \;\;\; \Longleftrightarrow \;\;\; a = \overline{y} - b \overline{x}, \;\;\; b = \frac{\sum(x_i - \overline{x})(y_i - \overline{y})}{\sum(x_i - \overline{x})^2}$</p>
 
-닫힌 형태를 가지는 공학 문제들은 결국 $\mathbf{Ax=b}$ 꼴의 행렬 방정식을 푸는 문제로 귀결되는데, 이 때 시스템 행렬(system matrix)인 $\mathbf{A}$의 고유값(eigenvalue)과 고유벡터(eigenvector)를 이용하면 해의 특성을 분석하고 예측하는데 도움이 된다.
+닫힌 형태를 가지는 공학 문제들은 결국 $\mathbf{Ax=b}$ 꼴의 행렬 방정식을 푸는 문제로 귀결되는데, 이때 시스템 행렬(system matrix)인 $\mathbf{A}$의 고유값(eigenvalue)과 고유벡터(eigenvector)를 이용하면 해의 특성을 분석하고 예측하는데 도움이 된다.
 
