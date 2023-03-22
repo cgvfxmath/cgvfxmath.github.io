@@ -21,7 +21,7 @@ Relationship between the surface area of ​​a sphere and a cylinder<!--more--
 
 다음 그림과 같이 구 표면을 사각형으로 잘게 쪼개보자. (북극과 남극 주변은 삼각형이지만 사각형의 특수한 경우로 볼 수 있기 때문에 문제가 되지 않는다.)
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_02.png"><figcaption>그림 출처: https://www.youtube.com/watch?v=GNcFjFmqEc8</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_02.png" width="50%"><figcaption>그림 출처: https://www.youtube.com/watch?v=GNcFjFmqEc8</figcaption></figure></center>
 
 같은 위도상(여기서는 위에서 5번째 줄)에 존재하는 띠 형태를 구성하는 사각형 요소들을 합하면 위의 그림에서의 $S_1$이 된다. 임의의 $S_1$에 속해 있는 사각형 요소들 중에서 하나를 선택해서 생각해보자. 이 사각형 요소를 노란색으로 표시하였다. 수직 방향의 중심축에서 바깥쪽 방향으로 뻗어 나와서 원기둥 상에 투영(projection)되어 대응되는 사각형 또한 같은 노란색으로 표시하였다. (이 사각형은 $S_2$를 구성하는 요소이다.) 이 때 해당 요소들만을 떼어내서 생각하면 다음과 같은 쐐기(wedge) 형태가 된다.
 
