@@ -61,7 +61,6 @@ Relationship between the surface area of ​​a sphere and a cylinder<!--more--
 <p style="text-align: center;">$d:r=h:y \;\;\; \Longrightarrow \;\;\; h=\frac{d}{r}y$</p>
 <p style="text-align: center;">$\therefore w \times h = \frac{r}{d}x \times \frac{d}{r}y = x \times y$</p>
 
-
-우리가 원하는 결과인 $wh = xy$가 증명되었다. 따라서, 아르키메데스의 모자상자 정리(Archimedes’ HatBox Theorem)가 성립한다는 것이 증명되었다. Q.E.D.
+$wh = xy$이기 때문에 두 노란색 사각형의 넓이가 같음이 확인되었다. 따라서, 아르키메데스의 모자상자 정리(Archimedes’ HatBox Theorem)가 성립한다는 것이 증명되었다. Q.E.D.
 
 
