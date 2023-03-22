@@ -54,7 +54,7 @@ Relationship between the surface area of ​​a sphere and a cylinder<!--more--
 
 다시 옆에서 본 모양을 상상해보자.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_07.png" width="70%"></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_07.png" width="50%"></figure></center>
 
 위의 그림에서 두 개의 직삼각형은 서로 닮음이다. 따라서, 다음과 같은 관계가 성립한다.
 
