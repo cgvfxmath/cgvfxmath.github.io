@@ -15,7 +15,7 @@ Closed Form vs Open Form<!--more-->
 
 닫힌 형태(closed form)란 방정식(equation)의 해(solution)를 해석적(analytic)으로 표현할 수 있는 종류의 문제를 말한다. 즉, 닫힌 형태를 가지는 방정식의 해는 변수(variable), 상수(constant), 사칙연산( +−×÷), 그리고 잘 알려진 기본 함수(삼각함수, 로그함수, 제곱근 등) 등을 조합해서 “해 = …” 꼴로 표현될 수 있다. 대표적인 닫힌 형태 해(closed form solution)의 예로는 2차 방정식의 근의 공식을 들 수 있다.
 
-<p style="text-align: center;">$ax^2 + bx + c = 0 \; (a \neq 0) \;\;\; \Leftrightarrow \;\;\; x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$</p>
+<p style="text-align: center;">$ax^2 + bx + c = 0 \; (a \neq 0) \;\;\; \Longleftrightarrow \;\;\; x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$</p>
 
 
 닫힌 형태의 반대 개념으로 열린 형태(open form)라는 것도 있다. 열린 형태란 유한개(finite number)의 수학적 표현을 사용해서 정확하게 해를 표현할 수 없는 문제를 말한다. 이와 같이 주어진 문제가 열린 형태여서 명확한 해가 존재하지 않을 경우에는 컴퓨터를 이용한 수치해석 기법으로 근사해(approximation)을 구할 수 있다. 수치해석으로 근사해를 구하는 기법은 다양하지만 대부분의 방식들이 반복적으로 조금씩 해에 접근해 가는 반복해법(iterative method) 범주에 속한다. 따라서 일반적으로 닫힌 형태의 문제가 열린 형태의 문제보다 답을 빠르고 정확하게 구할 수 있다.
