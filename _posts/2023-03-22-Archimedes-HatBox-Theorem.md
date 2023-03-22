@@ -3,7 +3,7 @@ layout: post
 title: "Archimedes’ HatBox Theorem"
 author: "wano"
 excerpt_separator: <!--more-->
-tags: ['opencv', 'dev']
+tags: ['math']
 use_math: true
 lastmode: 2023-03-22 13:00:00
 sitemap:
