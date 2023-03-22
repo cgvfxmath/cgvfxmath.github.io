@@ -15,7 +15,6 @@ $serif-primary: 'Nanum Gothic', sans-serif;
 $serif-secondary: 'Nanum Gothic', sans-serif;
 $sans-serif: 'Nanum Gothic', sans-serif;
 $monospaced: Menlo, Monaco, monospace !default;
-$font-size: 1em;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
