@@ -69,9 +69,13 @@ permalink: /about/
 * [Private](https://vimeo.com/torturu)
 
 ### Conference Presentations
-* SIGGRAPH Asia 2019 Technical Briefs “Beyond the Screen”
-* SIGGRAPH 2017 Talks “Build Your Own Procedural Grooming Pipeline”
-* DigiPro 2013 “Building Efficient Fur Pipeline for a Low Cost Production of Creature based Feature Film”
+* SIGGRAPH Asia 2019 Technical Briefs “Beyond the Screen” [paper](https://drive.google.com/file/d/1-pG2SpmwGY5xUrkkVHjP3-zG9aiy-j4o/view) [video](https://www.youtube.com/watch?v=mAJKfnEU67U)
+* SIGGRAPH 2017 Talks “Build Your Own Procedural Grooming Pipeline” [paper](https://drive.google.com/file/d/1ZTJWK7wkIbxuhPfvyOdyO0JAMOzFF3QE/view) [video](https://www.youtube.com/watch?v=rqbQAr9HAss)
+* DigiPro 2013 “Building Efficient Fur Pipeline for a Low Cost Production of Creature based Feature Film” [paper](https://drive.google.com/file/d/1dqTU20Qngj7Xx02gFV_cgoBkzUEBocKD/view) [video](https://vimeo.com/82147446)
+* [Fluid Simulation without Pressure (SIGGRAPH 2011 Posters)] [paper](https://drive.google.com/file/d/1JMZHvWqC2a8qKqNAo8fIezmPsIhBpNV9/view) [video](https://vimeo.com/364600119)
+
+### Publications
+* 초등수학을 결정하는 개념 총정리 [link](https://search.shopping.naver.com/book/catalog/32489569973)
 
 ### Miscellanea
 * 포스테키안 N’173 l 알턴십 DEXTER 덱스터 스튜디오
