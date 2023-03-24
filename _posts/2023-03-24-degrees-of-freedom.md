@@ -56,8 +56,7 @@ Degrees of Freedom is the number of independent parameters that define its confi
 
 이렇게 만들어진 360 형식의 동영상을 구(sphere)에 매핑(mapping)해서 보여주면 사용자는 자신의 위치를 중심으로 자유도를 얻을 수 있습니다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/dof_06.png" width="80%"></figure></center>
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/dof_07.png" width="80%"><figcaption>그림 출처: https://wordpress.discretization.de/houdini/home/advanced-2/textures</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/dof_06_07.png" width="80%"><figcaption>그림 출처: https://wordpress.discretization.de/houdini/home/advanced-2/textures</figcaption></figure></center>
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/dof_08.png" width="80%"><figcaption>그림 출처: https://www.pinterest.co.kr/pin/216946907035230677</figcaption></figure></center>
 <br/>
 
