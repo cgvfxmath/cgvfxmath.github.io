@@ -13,6 +13,8 @@ sitemap:
 
 Relationship between the surface area of ​​a sphere and a cylinder<!--more-->
 
+*본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요.*
+
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/Archimedes_HatBox_Theorem_01.png" width="50%"><figcaption>그림 출처: https://mathworld.wolfram.com/ArchimedesHat-BoxTheorem.html</figcaption></figure></center>
 
 위의 그림에서 $S_1$과 $S_2$의 넓이가 같다는 사실을 아르키메데스의 모자상자 정리(Archimedes’ HatBox Theorem)라고 한다. 그 이유를 대략적으로 살펴보면 다음과 같다.
