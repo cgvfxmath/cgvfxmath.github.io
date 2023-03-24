@@ -89,7 +89,7 @@ Finding the surface area and volume of a sphere without using integrals<!--more-
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/sphere_area_07.png" width="50%"></figure></center>
 
-보다 자세한 설명은 다음 [링크](https://www.youtube.com/watch?v=xuPl_8o_j7k)에서 확인할 수 있다.
+보다 자세한 설명은 다음 [링크](https://www.youtube.com/watch?v=xuPl_8o_j7k)에서 확인할 수 있다. Q.E.D.
 
 마지막으로 한 가지 중요한 사실을 확인해보자. 다음 그림과 같이 반지름을 공유하는 원뿔, 원기둥, 구의 부피 사이에는 1:2:3의 비가 성립한다.
 
