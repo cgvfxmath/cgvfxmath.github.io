@@ -29,9 +29,9 @@ Degrees of Freedom is the number of independent parameters that define its confi
 
 왼쪽 그림에서 중력이 없다고 가정하면 스프링 끝에 달려 있는 질점은 좌우로만 왔다 갔다 하게 됩니다. 이러한 경우의 자유도는 1입니다. 왜냐하면 질점의 변위를 $x$라는 하나의 변수로 기술할 수 있기 때문입니다.
 
-오른쪽 그림은 대표적인 3차원 저작툴인 Autodesk Maya에서 사용하는 manipulator의 모습입니다. 여기서 말하는 manipulator란 선택한 물체의 자세(pose) 및 크기(size)를 직관적으로 수정할 수 있도록 도와주는 GUI(Graphical User Interface) 를 말합니다. 이와  같이 3차원 이동(translation), 회전(rotation), 크기(scale)를 모두 변경할 수 있는 manipulator의 자유도는 9입니다. 왜냐하면 이동(tx, ty, tz), 회전(rx, ry, rz), 크기(sx, sy, sz) 이렇게 총 9개의 변수로 움직임을 기술할 수 있기 때문입니다.
+오른쪽 그림은 대표적인 3차원 저작툴인 Autodesk Maya에서 사용하는 manipulator의 모습입니다. 여기서 말하는 manipulator란 선택한 물체의 자세(pose) 및 크기(size)를 직관적으로 수정할 수 있도록 도와주는 GUI(Graphical User Interface) 요소를 말합니다. 이처럼 3차원 이동(translation), 회전(rotation), 크기(scale)를 모두 변경할 수 있는 manipulator의 자유도는 9입니다. 왜냐하면 이동(tx, ty, tz), 회전(rx, ry, rz), 크기(sx, sy, sz) 이렇게 총 9개의 변수로 움직임을 기술할 수 있기 때문입니다.
 
-아마 이제는 자유도의 의미를 대략적으로 알게 되었을 겁니다.
+이제 우리는 자유도의 의미를 대략적으로 알게 되었습니다.
 
 보다 엄밀한 자유도의 정의는 다음과 같습니다.
 * 주어진 시스템에서 독립적으로 달라질 수 있는 매개 변수의 개수
@@ -41,7 +41,7 @@ Degrees of Freedom is the number of independent parameters that define its confi
 
 3차원 물체의 자세(pose)는 다음과 같이 6개의 변수로 나타낼 수 있습니다. (이동 3개, 회전 3개)
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/dof_04.png" width="80%"><figcaption>그림 출처: https://alex4d.com/notes/item/what-is-six-degrees-of-freedom-360-video</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/dof_04.gif" width="80%"><figcaption>그림 출처: https://alex4d.com/notes/item/what-is-six-degrees-of-freedom-360-video</figcaption></figure></center>
 <br/>
 
 참고로 3차원 회전은 회전의 중심이 되는 좌표축의 종류에 따라서 yaw, roll, pitch라는 이름으로 불리는데, 이것은 자동차, 선박, 항공기 등의 자세를 표현할 때 일반적으로 사용되는 개념이기 때문에 상식적인 수준에서 알아두면 좋습니다.
