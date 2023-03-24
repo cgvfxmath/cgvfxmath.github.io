@@ -15,7 +15,7 @@ Degrees of Freedom is the number of independent parameters that define its confi
 
 다음은 SIGGRAPH Asia 2019 XR Presentations & Talks에 대한 소개입니다.
 
-<center><figure><img src="https://cgvfxmath.github.io/assets/img/dof_01.png" width="80%"><figcaption>그림 출처: https://sa2019.siggraph.org/attend/xr/session_slot/494</figcaption></figure></center>
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/dof_01.png" width="90%"><figcaption>그림 출처: https://sa2019.siggraph.org/attend/xr/session_slot/494</figcaption></figure></center>
 <br/>
 
 여기서 등장하는 6Dof란 무엇일까요?
