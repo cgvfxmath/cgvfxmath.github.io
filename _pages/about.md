@@ -10,7 +10,7 @@ permalink: /about/
 * cgvfxmath (at) gmail.com
 
 ### Edaucation & Experience
-* 2022.04~ CEO @ DiBlAT Inc.
+* 2022.04~ CEO @ DiBlAT Inc. [website](https://diblat.com) [youtube](https://www.youtube.com/@diblat)
 * 2020.01~2022.03 CTO @ Dexter Studios
 * 2019.03~2022.03 Head of Technical Support Department @ Dexter Studios
 * 2013.11~2022.03 Director of Research & Development @ Dexter Studios
