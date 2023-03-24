@@ -13,8 +13,8 @@ sitemap:
 
 Elementary Mathematics Concept Summary<!--more-->
 
-<center><img src="https://cgvfxmath.github.io/assets/img/wano_1st_book_01" width="50%"></center>
-<center><img src="https://cgvfxmath.github.io/assets/img/wano_1st_book_02" width="50%"></center>
+<center><img src="https://cgvfxmath.github.io/assets/img/wano_1st_book_01.png" width="50%"></center>
+<center><img src="https://cgvfxmath.github.io/assets/img/wano_1st_book_02.png" width="50%"></center>
 
 다음은 출판시 누락된 에필로그입니다.
 
