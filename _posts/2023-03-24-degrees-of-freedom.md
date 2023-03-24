@@ -24,7 +24,12 @@ Degrees of Freedom is the number of independent parameters that define its confi
 
 자유도의 의미를 다음의 두 가지 간단한 예를 통해서 살펴보겠습니다.
 
-![image.jpg1](https://cgvfxmath.github.io/assets/img/dof_02.png) |![image.jpg2](https://cgvfxmath.github.io/assets/img/dof_03.png)
+<table>
+  <tr>
+    <td><img src="https://cgvfxmath.github.io/assets/img/dof_02.png"></td><td><img src="https://cgvfxmath.github.io/assets/img/dof_03.png"></td>
+  <tr>
+</table>
+<br/>
 
 왼쪽 그림에서 중력이 없다고 가정하면 스프링 끝에 달려 있는 질점은 좌우로만 왔다 갔다 하게 됩니다. 이러한 경우의 자유도는 1입니다. 왜냐하면 질점의 변위를 $x$라는 하나의 변수로 기술할 수 있기 때문입니다.
 
