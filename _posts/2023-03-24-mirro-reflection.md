@@ -19,4 +19,4 @@ Why does a mirror reverse left and right?<!--more-->
 
 거울은 좌우 방향으로 뒤집히는 것이 아니고 앞뒤 방향으로 뒤집히는 결과를 만들어 냅니다. 내가 거울을 보고 있을 때, 거울 속의 나는 나와 반대 방향을 바라보고 있기 때문에 우리가 바라볼 때에는 좌우가 반대로 뒤집힌 것 처럼 보이게 됩니다. 다음 그림을 보면 어렵지 않게 거울 반사의 결과를 이해할 수 있습니다.
 
-<center><img src="https://cgvfxmath.github.io/assets/img/mirror_reflection.png" width="80%"></center>
+<center><img src="https://cgvfxmath.github.io/assets/img/mirror_reflection.png" width="70%"></center>
