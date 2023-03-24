@@ -29,7 +29,7 @@ Degrees of Freedom is the number of independent parameters that define its confi
 
 왼쪽 그림에서 중력이 없다고 가정하면 스프링 끝에 달려 있는 질점은 좌우로만 왔다 갔다 하게 됩니다. 이러한 경우의 자유도는 1입니다. 왜냐하면 질점의 변위를 $x$라는 하나의 변수로 기술할 수 있기 때문입니다.
 
-오른쪽 그림은 대표적인 3차원 저작툴인 Autodesk Maya에서 사용하는 manipulator의 모습입니다. 여기서 말하는 manipulator란 선택한 물체의 자세(pose) 및 크기(size)를 직관적으로 수정할 수 있도록 도와주는 GUI(Graphical User Interface)를 말합니다. 이와  같이 3차원 이동(translation), 회전(rotation), 크기(scale)를 모두 변경할 수 있는 manipulator의 자유도는 9입니다. 왜냐하면 이동(tx, ty, tz), 회전(rx, ry, rz), 크기(sx, sy, sz) 이렇게 총 9개의 변수로 움직임을 기술할 수 있기 때문입니다.
+오른쪽 그림은 대표적인 3차원 저작툴인 Autodesk Maya에서 사용하는 manipulator의 모습입니다. 여기서 말하는 manipulator란 선택한 물체의 자세(pose) 및 크기(size)를 직관적으로 수정할 수 있도록 도와주는 GUI(Graphical User Interface) 를 말합니다. 이와  같이 3차원 이동(translation), 회전(rotation), 크기(scale)를 모두 변경할 수 있는 manipulator의 자유도는 9입니다. 왜냐하면 이동(tx, ty, tz), 회전(rx, ry, rz), 크기(sx, sy, sz) 이렇게 총 9개의 변수로 움직임을 기술할 수 있기 때문입니다.
 
 아마 이제는 자유도의 의미를 대략적으로 알게 되었을 겁니다.
 
