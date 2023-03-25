@@ -37,7 +37,7 @@ Angular fisheye 이미지는 원래 이미지를 변환하여 전체 이미지�
 
 3차원 공간상의 한 점을 angular fisheye image의 픽셀 좌표(pixel coordinate)로 변환하는 C언어 스타일의 pseudo code는 다음과 같습니다.
 
-'''cpp
+```cpp
 // given data
 Point worldPoint = ...;
 Point worldCameraPosition = ...;
@@ -105,4 +105,4 @@ img.load( "fisheye.exr" );
 // why 1.0 - t rather than just t?
 // because the origin of an image: top-left
 Color pixelValue =img.sample( s, 1.0 - t );
-'''
+```
