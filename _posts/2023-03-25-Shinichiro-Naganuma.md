@@ -25,9 +25,8 @@ sitemap:
 
 틈이 나는 대로 서점과 도서관에 가서 Vector Calculus 관련 책들을 살펴보았지만 천편일률적인 설명들 뿐...
 
-gradient = 기울기
-divergence = 발산
-curl = 회전
+<center><b>gradient = 기울기 / divergence = 발산 / curl = 회전</b></center>
+<br/>
 
 그 후로도 한참동안 그 찝찝함을 가슴 속 한켠에 묻어둔 채 살았다.
 
