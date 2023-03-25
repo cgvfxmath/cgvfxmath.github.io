@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pixar USD"
+title: "Angular Fisheye Image"
 author: "wano"
 excerpt_separator: <!--more-->
 tags: ['dev', 'math']
