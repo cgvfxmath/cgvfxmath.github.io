@@ -31,8 +31,8 @@ Angular fisheye 이미지는 원래 이미지를 변환하여 전체 이미지�
 
 ---
 
-<center><img src="https://cgvfxmath.github.io/assets/img/fisheye_mapping1.jpg" width="70%"></center>
-<center><img src="https://cgvfxmath.github.io/assets/img/fisheye_mapping2.jpg" width="70%"></center>
+<center><img src="https://cgvfxmath.github.io/assets/img/fisheye_mapping1.jpg" width="80%"></center>
+<center><img src="https://cgvfxmath.github.io/assets/img/fisheye_mapping2.jpg" width="80%"></center>
 <br/>
 
 3차원 공간상의 한 점을 angular fisheye image의 픽셀 좌표(pixel coordinate)로 변환하는 C언어 스타일의 pseudo code는 다음과 같습니다.
