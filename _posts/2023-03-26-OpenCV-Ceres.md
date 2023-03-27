@@ -23,7 +23,7 @@ After installation, add the environment variable below to the system environment
 * [Variable value] C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
 
 * [Variable name] CUDA_PATH  
-* [Variable value] $(CUDA_PATH_V11_6)
+* [Variable value] %CUDA_PATH_V11_6%
 
 ### Visual Studio (MSVC)
 
