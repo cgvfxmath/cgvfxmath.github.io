@@ -22,3 +22,14 @@ Please refer to other resources regarding CUDA installation. After installation,
 
 [Variable name] CUDA_PATH  
 [Variable value] $(CUDA_PATH_V11_6)
+
+### Visual Studio (MSVC)
+
+Please refer to other resources regarding MSVC installation.
+
+### CMake
+
+1. Download cmake-3.23.1-windows-x86_64.msi file from https://cmake.org.
+2. Run it as an administrator.
+
+### Eigen3
