@@ -11,7 +11,7 @@ sitemap:
   priority: 0.5
 ---
 
-The Journey to Install OpenCV & Ceres Solver on Windows<!--more-➜
+The Journey to Install OpenCV & Ceres Solver on Windows<!--more-->
 
 ### CUDA with cuDNN
 
