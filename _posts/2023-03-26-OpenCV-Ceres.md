@@ -146,7 +146,7 @@ To specify this, you must use cmake in the Command Prompt instead of CMake-gui.
 
 ### OpenCV
 
-1. Download opencv-4.x.zip file from [GitHub](https://github.com/AcademySoftwareFoundation/openexr) and unzip it to "C:\tmp\opencv-4.x".
+1. Download opencv-4.x.zip file from [GitHub](https://github.com/opencv/opencv) and unzip it to "C:\tmp\opencv-4.x".
 
 2. Download opencv_contrib-4.x.zip file from [GitHub](https://github.com/opencv/opencv_contrib) and unzip it to "C:\tmp\opencv_contrib-4.x".
 
