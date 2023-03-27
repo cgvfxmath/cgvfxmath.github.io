@@ -296,8 +296,6 @@ CMake-gui does not find the already installed CXSparse and SuiteSparse. So I'll 
 * "C:\tmp\built\lib*.lib" files ➜ "$(DIBLAT_PATH)\extern\lib"
 * "C:\tmp\built\bin*.dll" files ➜ "$(DIBLAT_PATH)\extern\bin"
 
----
-
 If some errors occur while building your source code by linking the Ceres library as shown below,
 change "SDL checks" to "No(/sdl-)".
 
