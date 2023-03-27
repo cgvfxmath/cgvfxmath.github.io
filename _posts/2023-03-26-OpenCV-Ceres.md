@@ -303,7 +303,7 @@ change "SDL checks" to "No(/sdl-)".
 
 * C4996 'ceres::GradientProblem::parameterization_'
 * C4996 'ceres::LocalParameterization': LocalParameterizations will be removed from the Ceres Solver API in version 2.2.0. Use Manifolds instead.
-* C4996 'j0': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _j0. See online help for details.
+* C4996 'j0': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: \_j0. See online help for details.
 
 <center><img src="https://cgvfxmath.github.io/assets/img/opencv_ceres_01.png" width="80%"></center>
 <center><img src="https://cgvfxmath.github.io/assets/img/opencv_ceres_02.png" width="80%"></center>
