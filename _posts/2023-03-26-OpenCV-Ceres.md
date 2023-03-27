@@ -17,11 +17,11 @@ The Journey to Install OpenCV & Ceres Solver on Windows<!--more-➜
 
 Please refer to other resources regarding CUDA installation. After installation, add the environment variable below to the system environment variables.
 
-[Variable name] CUDA_PATH_V11_6  
-[Variable value] C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
+* [Variable name] CUDA_PATH_V11_6  
+* [Variable value] C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
 
-[Variable name] CUDA_PATH  
-[Variable value] $(CUDA_PATH_V11_6)
+* [Variable name] CUDA_PATH  
+* [Variable value] $(CUDA_PATH_V11_6)
 
 ### Visual Studio (MSVC)
 
