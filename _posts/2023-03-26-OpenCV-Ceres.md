@@ -36,7 +36,7 @@ Please refer to other resources regarding MSVC installation.
 
 Eigen3 is a header only library, there is no need to build/install Eigen3 to use it if you include it manually. So you don't need to add any path related to it in MSVC's "Additional Libraries Directory". Just add the path that includes its header files to MSVC's "Additional Include Directories". However, we should to build and install it so that other 3rd party libraries that will be installed later know the existence of Eigen3.
 
-1. Download eigen-3.4.0.zip file from GitHub and unzip it to "C:\tmp\eigen-3.4.0".
+1. Download eigen-3.4.0.zip file from [GitHub](https://github.com/libigl/eigen) and unzip it to "C:\tmp\eigen-3.4.0".
 
 2. In CMake-gui:
 * Specify the directory where the source code is located. We'll refer to it as {source}.
@@ -63,7 +63,7 @@ Eigen3 is a header only library, there is no need to build/install Eigen3 to use
 
 ### zlib
 
-1. Download zlib1213.zip file from GitHub and unzip it to "C:\tmp\Imath-main".
+1. Download zlib1213.zip file from [GitHub](https://github.com/madler/zlib) and unzip it to "C:\tmp\Imath-main".
 
 2. In CMake-gui:
 * Specify the directory where the source code is located. We'll refer to it as {source}.
@@ -91,7 +91,7 @@ Eigen3 is a header only library, there is no need to build/install Eigen3 to use
 
 ### Imath
 
-1. Download Imath-main.zip file from GitHub and unzip it to "C:\tmp\zlib-1.2.13".
+1. Download Imath-main.zip file from [GitHub](https://github.com/AcademySoftwareFoundation/Imath) and unzip it to "C:\tmp\zlib-1.2.13".
 
 2. In CMake-gui:
 * Specify the directory where the source code is located. We'll refer to it as {source}.
@@ -121,7 +121,7 @@ Eigen3 is a header only library, there is no need to build/install Eigen3 to use
 The math library used by OpenEXR has been changed from IlmBase to Imath.
 To specify this, you must use cmake in the Command Prompt instead of CMake-gui.
 
-1. Download openexr-main.zip file from GitHub and unzip it to "C:\tmp\openexr-main".
+1. Download openexr-main.zip file from [GitHub](https://github.com/AcademySoftwareFoundation/openexr) and unzip it to "C:\tmp\openexr-main".
 
 2. In the the Command Prompt:
 * cd C:\tmp\openexr-main
@@ -139,16 +139,16 @@ To specify this, you must use cmake in the Command Prompt instead of CMake-gui.
 
 ### NASM
 
-1. Download nasm-2.15.05-installer-x64.exe file from https://www.nasm.us.
+1. Download nasm-2.15.05-installer-x64.exe file from [https://www.nasm.us](https://www.nasm.us).
 2. Run it as an administrator.
 3. After installation, add the following path to the Path environment variable.
 * C:\Program Files\NASM (The path where nasm.exe exists)
 
 ### OpenCV
 
-1. Download opencv-4.x.zip file from GitHub and unzip it to "C:\tmp\opencv-4.x".
+1. Download opencv-4.x.zip file from [GitHub](https://github.com/AcademySoftwareFoundation/openexr) and unzip it to "C:\tmp\opencv-4.x".
 
-2. Download opencv_contrib-4.x.zip file from GitHub and unzip it to "C:\tmp\opencv_contrib-4.x".
+2. Download opencv_contrib-4.x.zip file from [GitHub](https://github.com/opencv/opencv_contrib) and unzip it to "C:\tmp\opencv_contrib-4.x".
 
 3. In CMake-gui:
 * Specify the directory where the source code is located. We'll refer to it as {source}.
@@ -176,7 +176,7 @@ To specify this, you must use cmake in the Command Prompt instead of CMake-gui.
 
 ### gflags (formerly Google Commandline Flags)
 
-1. Download gflags-master.zip file from GitHub and unzip it to “C:\tmp\gflags-master”.
+1. Download gflags-master.zip file from [GitHub](https://github.com/gflags/gflags) and unzip it to “C:\tmp\gflags-master”.
 
 2. In CMake-gui:
 * Specify the directory where the source code is located. We’ll refer to it as {source}.
@@ -203,7 +203,7 @@ To specify this, you must use cmake in the Command Prompt instead of CMake-gui.
 
 ### glog (Google Logging Library)
 
-1. Download glog-master.zip file from GitHub and unzip it to "C:\tmp\glog-master".
+1. Download glog-master.zip file from [GitHub](https://github.com/google/glog) and unzip it to "C:\tmp\glog-master".
 
 2. In CMake-gui:
 * Specify the directory where the source code is located. We'll refer to it as {source}.
@@ -230,7 +230,7 @@ To specify this, you must use cmake in the Command Prompt instead of CMake-gui.
 
 ### SuiteSparse
 
-1. Download suitesparse-metis-for-windows-master.zip file from GitHub and unzip it to "C:\tmp\suitesparse-metis-for-windows-master".
+1. Download suitesparse-metis-for-windows-master.zip file from [GitHub](https://github.com/jlblancoc/suitesparse-metis-for-windows) and unzip it to "C:\tmp\suitesparse-metis-for-windows-master".
 
 2. In CMake-gui:
 * Specify the directory where the source code is located. We'll refer to it as {source}.
@@ -259,7 +259,7 @@ To specify this, you must use cmake in the Command Prompt instead of CMake-gui.
 
 CMake-gui does not find the already installed CXSparse and SuiteSparse. So I'll use the Command Prompt.
 
-1. Download ceres-solver-2.1.0.tar.gz file from https://ceres-solver.googlesource.com/ceres-solver.
+1. Download ceres-solver-2.1.0.tar.gz file from [https://ceres-solver.googlesource.com/ceres-solver](https://ceres-solver.googlesource.com/ceres-solver).
 
 2. Unzip it by "tar xvfz ceres-solver-2.1.0.tar.gz" in the Prompt Command.
 
