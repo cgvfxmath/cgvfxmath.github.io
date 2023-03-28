@@ -15,9 +15,9 @@ Graphics Card Buying Guide for Deep Learning<!--more-->
 
 이 포스트는 다음 두 글의 내용을 러프하게 요약한 글입니다.
 
-[ref #1](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning)
+[Which GPU(s) to Get for Deep Learning: My Experience and Advice for Using GPUs in Deep Learning](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning)
 
-[ref #2](https://www.2cpu.co.kr/deep/982?&sst=wr_good&sod=desc&sop=and&page=1)
+[딥러닝 서버 구매/구축 가이드](https://www.2cpu.co.kr/deep/982?&sst=wr_good&sod=desc&sop=and&page=1)
 
 ---
 
