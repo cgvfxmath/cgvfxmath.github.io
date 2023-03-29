@@ -36,7 +36,7 @@ Information collected from the web about the memory usage mechanism in Linux<!--
 다음 줄에 출력되는 내용은 다음과 같다.
 
 <span style="color:black;font-weight:bold"> -/+ buffer/cache: </span>
-<span style="color:coral;font-weight:bold">used(3805)</span>
+<span style="color:darkorange;font-weight:bold">used(3805)</span>
 <span style="color:black;font-weight:bold">, </span>
 <span style="color:chartreuse;font-weight:bold">free(4181)</span>
 
