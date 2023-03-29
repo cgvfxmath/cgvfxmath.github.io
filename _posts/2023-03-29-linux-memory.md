@@ -25,12 +25,12 @@ Information collected from the web about the memory usage mechanism in Linux<!--
 * <span style="color:goldenrod">**buffers: 42**</span>
 * <span style="color:purple">**cached: 2156**</span>
 
-여기서 <span style="color:blue">**total(7986)**</span>은 장착되어 있는 전체 메모리 용량이다.
+여기서 <span style="color:blue">**total(7986)**</span>은 장착되어 있는 전체 메모리 용량이므로 다음과 같은 관계가 성립한다.
 
 <span style="color:blue">** total(7986) **</span>
-=
+<span style="color:black">** = **</span>
 <span style="color:red">** used(6004) **</span>
-+
+<span style="color:black">** + **</span>
 <span style="color:green">** free(1982) **</span>
 
 다음 줄에 출력되는 내용은 다음과 같다.
