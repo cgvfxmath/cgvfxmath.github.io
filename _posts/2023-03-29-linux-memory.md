@@ -68,14 +68,14 @@ Information collected from the web about the memory usage mechanism in Linux<!--
 
 만약 <span style="color:purple;font-weight:bold">cached</span> 영역을 강제로 삭제하고 싶다면 다음과 같이 1,2,3 중에 하나의 값을 설정해서 drop_caches를 이용하면 된다. (커널 버전 2.6.16 이상에서 사용 가능)
 
-* To free pagecache]
-: echo 1 > /proc/sys/vm/drop_caches
+* To free pagecache
+echo 1 > /proc/sys/vm/drop_caches
 
 * To free dentries and inodes
-: echo 2 > /proc/sys/vm/drop_caches
+echo 2 > /proc/sys/vm/drop_caches
 
 * To free pagecache, dentries and inodes
-: echo 3 > /proc/sys/vm/drop_caches
+echo 3 > /proc/sys/vm/drop_caches
 
 단 수행하기 점에 sync 명령어를 먼저 실행하는 것을 권장한다.
 
