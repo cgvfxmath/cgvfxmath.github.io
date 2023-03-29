@@ -64,7 +64,7 @@ Information collected from the web about the memory usage mechanism in Linux<!--
 
 리눅스 부팅 후 이것저것 프로그램들을 사용하게 되면 <span style="color:red;font-weight:bold">used</span>와 <span style="color:purple;font-weight:bold">cached</span>는 계속 증가하고, 반대로 <span style="color:chartreuse;font-weight:bold">free</span>는 계속 감소하는 것을 확인할 수 있는데, 앞에서 설명한 이유로 크게 걱정하지 않아도 된다.
 
-<span style="color:purple;font-weight:bold">cached</span> 영역은 언제든지 임의 어플리케이션에 의해서 사용될 수 있는 free영역으로 생각하면 된다. (앞의 예제에서는 전체 메모리 용량중에 <span style="color:purple;font-weight:bold">cached</span>를 디스크 캐쉬 용도로 사용하고 있음.) 어쨌든 <span style="color:darkblue;font-weight:bold">Swap used = 0</span>이라면 메모리가 부족하여 디스크를 가상 메모리로 사용하게되는 상태는 아니라고 이해하면 된다.
+<span style="color:purple;font-weight:bold">cached</span> 영역은 언제든지 임의 어플리케이션에 의해서 사용될 수 있는 free영역으로 생각하면 된다. (앞의 예제에서는 전체 메모리 용량중에 <span style="color:purple;font-weight:bold">cached(2156)</span>를 디스크 캐쉬 용도로 사용하고 있음.) 어쨌든 <span style="color:darkblue;font-weight:bold">Swap used = 0</span>이라면 메모리가 부족하여 디스크를 가상 메모리로 사용하게되는 상태는 아니라고 이해하면 된다.
 
 만약 <span style="color:purple;font-weight:bold">cached</span> 영역을 강제로 삭제하고 싶다면 다음과 같이 1,2,3 중에 하나의 값을 설정해서 drop_caches를 이용하면 된다. (커널 버전 2.6.16 이상에서 사용 가능)
 
