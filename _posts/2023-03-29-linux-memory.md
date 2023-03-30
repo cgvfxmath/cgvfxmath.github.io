@@ -31,7 +31,7 @@ Information gleaned from the web about memory usage mechanisms in Linux<!--more-
 <span style="color:black;font-weight:bold"> + </span>
 <span style="color:green;font-weight:bold"> free(1982) </span>
 
-다음 줄에 출력되는 내용은 다음과 같다.
+그 다음 줄에 출력되는 내용은 다음과 같다.
 
 <span style="color:black;font-weight:bold"> -/+ buffer/cache: </span>
 <span style="color:darkorange;font-weight:bold">used(3805)</span>
