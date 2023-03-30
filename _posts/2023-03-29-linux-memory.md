@@ -15,9 +15,9 @@ Information collected from the web about the memory usage mechanism in Linux<!--
 
 리눅스 시스템의 메모리 사용 방식은 윈도우즈와 다르다. 리눅스는 커널(kernel)이 메모리를 제어한다. 그런데 데이터를 디스크에서 읽어 오는 것보다 메모리에서 읽어오는 것이 훨씬 효율적이기 때문에 (대략 1000배 정도) 리눅스 커널(kernel)은 시스템 성능의 향상을 위해서 최근 사용한 것들을 그때마다 바로 지워버리지 않고 메모리상에 캐쉬화(caching)해서 남겨 둔다. 용량이 큰 파일을 처음 로드할 때 보다 그 다음에 로드할 때 속도가 더 빨라지는 것은 이러한 이유 때문이다.
 
-쉘(shell)에서 **free -m** (-m 옵션은 MB 단위로 출력) 명령어를 실행해보면 현재 메모리 사용 내용을 볼 수 있다.
+쉘(shell)에서 **free -m** (-m 옵션은 MB 단위로 출력) 명령어를 실행해 보면 현재 메모리 사용 현황을 볼 수 있다.
 
-예를 들면, 8기가 메모리가 장착되어 있는 시스템에서 **free -m**을 실행하게 되면 다음과 같은 항목들을 확인할 수 있다.
+예를 들면 8G 메모리가 장착되어 있는 시스템에서 **free -m**을 실행하게 되면 다음과 같은 항목들을 확인할 수 있다.
 * <span style="color:blue">**total: 7986**</span>
 * <span style="color:red">**used: 6004**</span>
 * <span style="color:green">**free: 1982**</span>
@@ -40,15 +40,15 @@ Information collected from the web about the memory usage mechanism in Linux<!--
 <span style="color:black;font-weight:bold">, </span>
 <span style="color:chartreuse;font-weight:bold">free(4181)</span>
 
-이것은 어플리케이션의 관점에서 보는 내용이다. 역시 다음과 같은 관계식이 성립한다.
+이것은 어플리케이션의 관점에서 보는 내용이다. 여기에 표시되는 내용이 "System Monitor"에 출력되는 "User Memory"라고 생각하면 된다.
+
+다음과 같은 관계식이 성립한다.
 
 <span style="color:blue;font-weight:bold">total(7986)</span>
 <span style="color:black;font-weight:bold"> = </span>
 <span style="color:darkorange;font-weight:bold">used(3805)</span>
 <span style="color:black;font-weight:bold"> + </span>
 <span style="color:chartreuse;font-weight:bold">free(4181)</span>
-
-또한 다음과 같은 관계식도 성립한다.
 
 <span style="color:red;font-weight:bold"> used(6004) </span>
 <span style="color:black;font-weight:bold"> = </span>
@@ -58,9 +58,7 @@ Information collected from the web about the memory usage mechanism in Linux<!--
 <span style="color:black;font-weight:bold"> + </span> 
 <span style="color:purple;font-weight:bold">cached(2156)</span>
 
-<span style="color:black;font-weight:bold">-/+ buffer/cache</span>에 표시되는 내용이 "System Monitor"에 출력되는 "User Memory"라고 생각하면 된다.
-
-참고로 8기가 메모리가 장착되어 있다면 <span style="color:blue;font-weight:bold">total</span>에 8192가 표시되어야 하지만 7986으로 표시되어 차이가 나는 이유는 커널(kernel)이 상주하는 영역 때문이며 (이 영역은 swap되면 안되므로 아예 배제시킴), 또한 하드웨어 또는 다른 시스템 아키텍쳐에 사용을 위해 남겨둔 영역이 있기 때문이다.
+참고로 8G 메모리가 장착되어 있다면 <span style="color:blue;font-weight:bold">total</span>에 8192가 표시되어야 하지만 7986으로 표시되어 차이가 나는 이유는 커널(kernel)이 상주하는 영역 때문이며 (이 영역은 swap되면 안되므로 아예 배제시킴), 또한 하드웨어 또는 다른 시스템 아키텍쳐에 사용을 위해 남겨둔 영역이 있기 때문이다.
 
 리눅스 부팅 후 이것저것 프로그램들을 사용하게 되면 <span style="color:red;font-weight:bold">used</span>와 <span style="color:purple;font-weight:bold">cached</span>는 계속 증가하고, 반대로 <span style="color:chartreuse;font-weight:bold">free</span>는 계속 감소하는 것을 확인할 수 있는데, 앞에서 설명한 이유로 크게 걱정하지 않아도 된다.
 
