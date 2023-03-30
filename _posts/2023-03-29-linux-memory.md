@@ -38,9 +38,9 @@ Information gleaned from the web about memory usage mechanisms in Linux<!--more-
 <span style="color:black;font-weight:bold">, </span>
 <span style="color:chartreuse;font-weight:bold">free(4181)</span>
 
-이것은 어플리케이션의 관점에서 보는 내용이다. 여기에 표시되는 내용이 "System Monitor"에 출력되는 "User Memory"라고 생각하면 된다.
+여기에 표시되는 내용이 "System Monitor"에 출력되는 "User Memory"라고 생각하면 된다.
 
-다음과 같은 관계식이 성립한다.
+이들 사이의 관계는 다음과 같다.
 
 <span style="color:blue;font-weight:bold">total(7986)</span>
 <span style="color:black;font-weight:bold"> = </span>
