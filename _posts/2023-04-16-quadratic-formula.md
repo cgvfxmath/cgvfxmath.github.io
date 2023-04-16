@@ -48,7 +48,7 @@ It provides the solution(s) to a quadratic equation.<!--more-->
 <p style="text-align: center;">$x^2 + \frac{b}{a}x = -\frac{c}{a}$</p>
 
 3) 양변에 각각 ${(\frac{b}{2a})}^2$를 더한다.
-<p style="text-align: center;">$x^2 + \frac{b}{a}x + {(\frac{b}{2a})}^2= -\frac{c}{a}$ +{(\frac{b}{2a})}^2</p>
+<p style="text-align: center;">$x^2 + \frac{b}{a}x + {(\frac{b}{2a})}^2= -\frac{c}{a}$ + {(\frac{b}{2a})}^2</p>
 
 4) 좌변을 완전제곱식으로 묶는다. 그리고 우변은 통분한다.
 <p style="text-align: center;">$(x + \frac{b}{2a})^2 = \frac{b^2-4ac}{4a^2}$</p>
