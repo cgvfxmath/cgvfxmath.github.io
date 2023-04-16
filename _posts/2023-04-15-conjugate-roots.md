@@ -31,14 +31,17 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 
 1) $f(\alpha + \beta i) = 0$ 일 때 $f(\alpha - \beta i) = 0$이 되는 것을 증명하면 됩니다.
 
-$f(\alpha + \beta i) = (\alpha + \beta i)^2 + p(\alpha + \beta i) + q = (\alpha^2 - \beta^2 + p \alpha + q) + (2\alpha\beta + p\beta)i = 0$
+<p style="text-align: center;">$f(\alpha + \beta i) = (\alpha + \beta i)^2 + p(\alpha + \beta i) + q = (\alpha^2 - \beta^2 + p \alpha + q) + (2\alpha\beta + p\beta)i = 0$</p>
 
 실수는 덧셈에 대해서 닫혀있기 때문에 이 식을 만족시키려면 실수부와 허수부가 모두 0이어야 합니다.
 
 <p style="text-align: center;">$\alpha^2 - \beta^2 + p \alpha + q = 0$</p>
 <p style="text-align: center;">$2\alpha\beta + p\beta = 0$</p>
 
-이때 $f(\alpha - \beta i) = (\alpha - \beta i)^2 + p(\alpha - \beta i) + q = (\alpha^2 - \beta^2 + p \alpha + q) - (2\alpha\beta + p\beta)i = 0$ 이므로 
-$f(\alpha - \beta i) = 0$이 되고, $x = \alpha - \beta i$ 또한 주어진 방정식의 해가 됩니다.
+이때 $f(\alpha - \beta i) = (\alpha - \beta i)^2 + p(\alpha - \beta i) + q$ 인데, 이 식을 정리하면 다음과 같습니다.
+
+<p style="text-align: center;">$f(x) = (\alpha^2 - \beta^2 + p \alpha + q) - (2\alpha\beta + p\beta)i = 0$</p>
+
+따라서 $f(\alpha - \beta i) = 0$이 되고, $x = \alpha - \beta i$ 또한 주어진 방정식의 해가 되는 것을 알 .
 
 
