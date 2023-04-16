@@ -41,14 +41,14 @@ It provides the solution(s) to a quadratic equation.<!--more-->
 
 근의공식의 유도과정이 다소 복잡해보일 수 있는데, 기본적으로는 등식의 성질(등식의 양변을 같은 수로 더하거나, 빼거나, 곱하거나, 나누어도 여전히 등식은 성립한다.)을 이용하여 $x = \msquare$ 꼴로 정리하는 과정에 불과하다는 기본적인 방향성을 염두하면서 보면 쉽게 이해할 수 있습니다.
 
-1) 양변을 $a$로 나눈다. ($a \eq 0$ 이므로 양변을 $a$로 나눌 수 있다.)
+1) 양변을 $a$로 나눈다. ($a \neq 0$ 이므로 양변을 $a$로 나눌 수 있다.)
 <p style="text-align: center;">$x^2 + \frac{b}{a}x + \frac{c}{a} = 0$</p>
 
 2) 양변에 각각 $-\frac{c}{a}$를 더한다.
 <p style="text-align: center;">$x^2 + \frac{b}{a}x = -\frac{c}{a}$</p>
 
 3) 양변에 각각 ${(\frac{b}{2a})}^2$를 더한다.
-<p style="text-align: center;">$x^2 + \frac{b}{a}x + {(\frac{b}{2a})}^2 = -\frac{c}{a}$ + {(\frac{b}{2a})}^2</p>
+<p style="text-align: center;">$x^2 + \frac{b}{a}x + {(\frac{b}{2a})}^2 = -\frac{c}{a} + {(\frac{b}{2a})}^2$</p>
 
 4) 좌변을 완전제곱식으로 묶는다. 그리고 우변은 통분한다.
 <p style="text-align: center;">$(x + \frac{b}{2a})^2 = \frac{b^2-4ac}{4a^2}$</p>
