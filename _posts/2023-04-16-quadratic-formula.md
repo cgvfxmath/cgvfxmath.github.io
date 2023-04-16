@@ -57,7 +57,7 @@ It provides the solution(s) to a quadratic equation.<!--more-->
 <p style="text-align: center;">$x + \frac{b}{2a} = \pm \sqrt{\frac{b^2-4ac}{4a^2}}$</p>
 
 6) 양변에 각각 $-\frac{b}{2a}$를 더한다.
-<p style="text-align: center;">$x = \frac{b}{2a} \pm \sqrt{\frac{b^2-4ac}{4a^2}}$</p>
+<p style="text-align: center;">$x = -\frac{b}{2a} \pm \sqrt{\frac{b^2-4ac}{4a^2}}$</p>
 
 7) 우변을 통분한다.
 <p style="text-align: center;">$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$</p>
