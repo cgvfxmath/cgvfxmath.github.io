@@ -38,7 +38,7 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 <p style="text-align: center;">$\alpha^2 - \beta^2 + p \alpha + q = 0$</p>
 <p style="text-align: center;">$2\alpha\beta + p\beta = 0$</p>
 
-이때 $f(\alpha - \beta i) = (\alpha - \beta i)^2 + p(\alpha - \beta i) + q$ 인데, 이 식을 정리하면 다음과 같습니다.
+한편 $f(\alpha - \beta i) = (\alpha - \beta i)^2 + p(\alpha - \beta i) + q$ 인데, 이 식을 정리하면 다음과 같습니다.
 
 <p style="text-align: center;">$f(x) = (\alpha^2 - \beta^2 + p \alpha + q) - (2\alpha\beta + p\beta)i = 0$</p>
 
