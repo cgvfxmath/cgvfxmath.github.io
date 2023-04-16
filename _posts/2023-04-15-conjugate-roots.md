@@ -46,7 +46,7 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 
 ---
 
-켤레근의 성질은 삼차방정식에 대해서도 성립합니다. 이에 대한 증명은 간단합니다.
+켤레근의 성질은 삼차방정식에 대해서도 성립합니다. 삼차방정식의 켤레근의 성질은 이차방정식의 켤레근이 성질을 이용하여 쉽게 증명할 수 있습니다.
 
 1) 세 근이 모두 복소수인 경우
 
