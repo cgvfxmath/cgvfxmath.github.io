@@ -88,13 +88,11 @@ $x^n - 1$은 다음과 같이 인수분해할 수 있습니다.
 최고차항인 $x^n$은 $x \times x^{n-1}$로 만들어집니다.
 
 그 다음 최고차항인 $x^{n-1}$은
-<p style="text-align: center;">$x \times x^{n-2}$</p>
-<p style="text-align: center;">$-1 \times x^{n-1}$</p>
+<p style="text-align: center;">$x \times x^{n-2}$ 과 $-1 \times x^{n-1}$</p>
 로 만들어지는데 두 결과가 상쇄되어 0이되므로 만들어지지 않습니다.
 
 그 다음 고차항인 $x^{n-2}$은
-<p style="text-align: center;">$x \times x^{n-3}$</p>
-<p style="text-align: center;">$-1 \times x^{n-2}$</p>
+<p style="text-align: center;">$x \times x^{n-3} 과 $-1 \times x^{n-2}$</p>
 로 만들어지는데 두 결과가 상쇄되어 0이되므로 만들어지지 않습니다.
 
 $\vdots$
