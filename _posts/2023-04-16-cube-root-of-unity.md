@@ -46,10 +46,13 @@ $\vdots$
 
 그리고 다음과 같은 문제 또한 $\omega$의 3주기 성질을 이용하여 풀 수 있습니다.
 
-<p style="text-align: center;">$1 + \omega + \omega^2 + \omega^3 + \cdots + \omega^98 = ?$</p>
+<p style="text-align: center;">$1 + \omega + \omega^2 + \omega^3 + \cdots + \omega^{98} = ?$</p>
 
 $1 + \omega + \omega^2 + \omega^3 + \cdots + \omega^{98}$
+
 $= (1 + \omega + \omega^2) + \omega^3(1 + \omega + \omega^2) + \omega^6(1 + \omega + \omega^2) + \cdots + \omega^{3 \times 32}(1 + \omega + \omega^2)$
+
 $= 0 \times 33$
+
 $= 0$
 
