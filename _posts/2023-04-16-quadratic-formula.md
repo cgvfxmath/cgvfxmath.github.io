@@ -54,7 +54,7 @@ It provides the solution(s) to a quadratic equation.<!--more-->
 <p style="text-align: center;">$(x + \frac{b}{2a})^2 = \frac{b^2-4ac}{4a^2}$</p>
 
 5) 양변에 루트를 씌운다.
-<p style="text-align: center;">$x + \frac{b}{2a} = \pm \sqrt{frac{b^2-4ac}{4a^2}}$</p>
+<p style="text-align: center;">$x + \frac{b}{2a} = \pm \sqrt{\frac{b^2-4ac}{4a^2}}$</p>
 
 6) 양번에 각각 -\frac{b}{2a}를 더한다.
 7) <p style="text-align: center;">$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$</p>
