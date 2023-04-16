@@ -83,7 +83,7 @@ $x^n - 1$은 다음과 같이 인수분해할 수 있습니다.
 
 이 식은 복잡해보이지만 어렵지 않게 이해할 수 있습니다.
 
-<p style="text-align: center;">$(x-1)(x^{n-1} + x^{n-2} + \cdots + x + 1)$</p> 에서
+<p style="text-align: center;">$(x-1)(x^{n-1} + x^{n-2} + \cdots + x + 1)$ 에서</p>
 
 최고차항인 $x^n$은 $x \times x^{n-1}$로 만들어집니다.
 
