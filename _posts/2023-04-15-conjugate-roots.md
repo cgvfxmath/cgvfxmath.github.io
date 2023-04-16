@@ -43,3 +43,20 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 <p style="text-align: center;">$f(x) = (\alpha^2 - \beta^2 + p \alpha + q) - (2\alpha\beta + p\beta)i = 0$</p>
 
 따라서 $f(\alpha - \beta i) = 0$이 되고, $x = \alpha - \beta i$ 또한 주어진 방정식의 해가 되는 것을 알 수 있습니다. Q.E.D.
+
+---
+
+켤레근의 성질을 삼차방정식에 대해서도 성립합니다. 이에 대한 증명은 간단합니다.
+
+1) 세 근이 모두 복소수인 경우
+$f(x)={x-(a+bi)}{x-(c+di)}{x-(e+fi)}$의 상수항은 허수가 되므로 계수가 모두 실수라는 사실에 위배됩니다. 따라서 이러한 경우는 존재할 수 없습니다.
+
+2) 한 근만 복소수아고 두 근은 실수인 경우
+$f(x)={x-(a+bi)}(x-c)(x-d)$의 상수항은 허수가 되므로 계수가 모두 실수라는 사실에 위배됩니다. 따라서 이러한 경우는 존재할 수 없습니다.
+
+3) 두 근이 복소수이고 한 근은 실수인 경우
+$f(x)={x-(a+bi)}{x-(c+di)}(x-e)$의 모든 계수가 실수가 되므로 주어진 조건을 만족합니다.
+
+따라서 계수가 실수인 삼차방정식의 한 근이 $a+bi$라면 켤레근인 $a-bi$ 또한 이 방정식의 근이라는 사실을 알 수 있습니다. Q.E.D.
+
+
