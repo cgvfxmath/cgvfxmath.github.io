@@ -15,7 +15,7 @@ The root of unity is a number which is complex in nature and gives 1 if raised t
 
 *본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요.*
 
-$x^3 = 1$의 허근에 대해서 알아보겠습니다.
+$x^3 = 1$의 허근에 대해서 살펴보겠습니다.
 
 이 식은 다음과 같이 인수분해할 수 있습니다.
 
