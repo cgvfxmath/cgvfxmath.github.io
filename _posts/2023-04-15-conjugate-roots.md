@@ -30,6 +30,7 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 <p style="text-align: center;">$f(x) = x^2 + px + q = 0 (단, $p=\frac{b}{a}$, $q=\frac{c}{a}$)</p>
 
 1) $f(\alpha + \beta i) = 0$ 일 때 $f(\alpha - \beta i) = 0$이 되는 것을 증명하면 됩니다.
+
 $f(\alpha + \beta i) = (\alpha + \beta i)^2 + p(\alpha + \beta i) + q = (\alpha^2 - \beta^2 + p \alpha + q) + (2\alpha\beta + p\beta)i = 0$
 
 실수는 덧셈에 대해서 닫혀있기 때문에 이 식을 만족시키려면 실수부와 허수부가 모두 0이어야 합니다.
