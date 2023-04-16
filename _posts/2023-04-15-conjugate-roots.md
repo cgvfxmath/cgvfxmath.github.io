@@ -23,13 +23,13 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 
 이때 만약 이 이차방정식이 $x = \alpha + \beta i$를 근으로 가진다면, 나머지 한 근은 켤레근인 $x = \alpha - \beta i$ 형태가 됩니다.
 
-이것을 증명하는 방법은 두 가지가 있습니다.
+이것에 대한 증명은 다음과 같습니다.
 
-증명을 간단하게 하기 위해서 주어진 이차식의 양변을 $a$로 나누고 시작하겠습니다. 그리고 이 함수식을 $f(x)$라 하겠습니다.
+우선 증명을 간단하게 하기 위해서 주어진 이차식의 양변을 $a$로 나누고 시작하겠습니다. 그리고 이 함수식을 $f(x)$라 하겠습니다.
 
 <p style="text-align: center;">$f(x) = x^2 + px + q = 0$ (단, $p=\frac{b}{a}$, $q=\frac{c}{a}$)</p>
 
-1) $f(\alpha + \beta i) = 0$ 일 때 $f(\alpha - \beta i) = 0$이 되는 것을 증명하면 됩니다.
+$f(\alpha + \beta i) = 0$ 일 때 $f(\alpha - \beta i) = 0$이 되는 것을 증명하면 됩니다.
 
 <p style="text-align: center;">$f(\alpha + \beta i) = (\alpha + \beta i)^2 + p(\alpha + \beta i) + q = (\alpha^2 - \beta^2 + p \alpha + q) + (2\alpha\beta + p\beta)i = 0$</p>
 
@@ -43,5 +43,3 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 <p style="text-align: center;">$f(x) = (\alpha^2 - \beta^2 + p \alpha + q) - (2\alpha\beta + p\beta)i = 0$</p>
 
 따라서 $f(\alpha - \beta i) = 0$이 되고, $x = \alpha - \beta i$ 또한 주어진 방정식의 해가 되는 것을 알 수 있습니다. Q.E.D.
-
-
