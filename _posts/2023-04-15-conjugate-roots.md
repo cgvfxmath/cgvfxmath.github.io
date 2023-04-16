@@ -27,7 +27,7 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 
 증명을 간단하게 하기 위해서 주어진 이차식의 양변을 $a$로 나누고 시작하겠습니다. 그리고 이 함수식을 $f(x)$라 하겠습니다.
 
-<p style="text-align: center;">$f(x) = x^2 + px + q = 0 (단, $p=\frac{b}{a}$, $q=\frac{c}{a}$)</p>
+<p style="text-align: center;">$f(x) = x^2 + px + q = 0$ (단, $p=\frac{b}{a}$, $q=\frac{c}{a}$)</p>
 
 1) $f(\alpha + \beta i) = 0$ 일 때 $f(\alpha - \beta i) = 0$이 되는 것을 증명하면 됩니다.
 
