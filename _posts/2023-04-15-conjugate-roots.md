@@ -33,7 +33,7 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 
 <p style="text-align: center;">$f(\alpha + \beta i) = (\alpha + \beta i)^2 + p(\alpha + \beta i) + q = (\alpha^2 - \beta^2 + p \alpha + q) + (2\alpha\beta + p\beta)i = 0$</p>
 
-실수는 덧셈에 대해서 닫혀있기 때문에 이 식을 만족시키려면 실수부와 허수부가 모두 0이어야 합니다.
+허수는 덧셈에 대해서 닫혀있기 때문에 이 식을 만족시키려면 실수부와 허수부가 모두 0이어야 합니다.
 
 <p style="text-align: center;">$\alpha^2 - \beta^2 + p \alpha + q = 0$</p>
 <p style="text-align: center;">$2\alpha\beta + p\beta = 0$</p>
@@ -50,19 +50,19 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 
 1) 세 근이 모두 복소수인 경우
 
-$f(x)=\lbrace x-(a+bi) \rbrace \lbrace x-(c+di)\rbrace \lbrace x-(e+fi) \rbrace$의 상수항은 허수가 되므로 계수가 모두 실수라는 사실에 위배된다. 따라서 이러한 경우는 존재할 수 없다.
+$f(x)=\lbrace x-(a+bi) \rbrace \lbrace x-(c+di)\rbrace \lbrace x-(e+fi) \rbrace$의 상수항은 허수가 되므로 계수가 모두 실수라는 사실에 위배됩니다. 따라서 이러한 경우는 존재할 수 없습니다.
 
 2) 한 근만 복소수아고 두 근은 실수인 경우
 
-$f(x)=\lbrace x-(a+bi) \rbrace (x-c)(x-d)$의 상수항은 허수가 되므로 계수가 모두 실수라는 사실에 위배된다. 따라서 이러한 경우는 존재할 수 없다.
+$f(x)=\lbrace x-(a+bi) \rbrace (x-c)(x-d)$의 상수항은 허수가 되므로 계수가 모두 실수라는 사실에 위배됩니다. 따라서 이러한 경우는 존재할 수 없습니다.
 
 3) 두 근이 복소수이고 한 근은 실수인 경우
 
-실근을 $\alpha$라고 하면 $f(x)$는 다음과 같이 인수분해할 수 있다.
+실근을 $\alpha$라고 하면 $f(x)$는 다음과 같이 인수분해할 수 있습니다.
 
 <p style="text-align: center;">$f(x)=(x-\alpha)(x^2+px+q)$</p>
 
-두 복소수 근 중 하나를 $a+bi$라고 하면, 이것은 이차방정식 $x^2+px+q=0$의 해가 된다. 그런데 이때 앞에서 증명한 바와 같이 $a-bi$ 또한 이 이차방정식의 해가 된다.
+두 복소수 근 중 하나를 $a+bi$라고 하면, 이것은 이차방정식 $x^2+px+q=0$의 해가 됩니다. 그런데 이때 앞에서 증명한 바와 같이 $a-bi$ 또한 이 이차방정식의 해가 됩니다.
 
 따라서 계수가 실수인 삼차방정식의 한 근이 $a+bi$라면 켤레근인 $a-bi$ 또한 이 방정식의 근이라는 사실을 알 수 있습니다. Q.E.D.
 
