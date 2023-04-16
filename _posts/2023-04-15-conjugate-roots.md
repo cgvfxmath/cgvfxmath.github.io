@@ -42,6 +42,6 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 
 <p style="text-align: center;">$f(x) = (\alpha^2 - \beta^2 + p \alpha + q) - (2\alpha\beta + p\beta)i = 0$</p>
 
-따라서 $f(\alpha - \beta i) = 0$이 되고, $x = \alpha - \beta i$ 또한 주어진 방정식의 해가 되는 것을 알 .
+따라서 $f(\alpha - \beta i) = 0$이 되고, $x = \alpha - \beta i$ 또한 주어진 방정식의 해가 되는 것을 알 수 있습니다. Q.E.D.
 
 
