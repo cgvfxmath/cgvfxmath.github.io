@@ -80,7 +80,7 @@ $x^n - 1$은 다음과 같이 인수분해할 수 있습니다.
 
 <p style="text-align: center;">$x^n - 1 = (x-1)(x^{n-1} + x^{n-2} + \cdots + x + 1)$</p>
 
-이 식은 복잡해보이지만 어렵지 않게 이해할 수 있습니다.
+이 식은 복잡해 보이지만 어렵지 않게 이해할 수 있습니다.
 
 <p style="text-align: center;">$(x-1)(x^{n-1} + x^{n-2} + \cdots + x + 1)$ 에서</p>
 
