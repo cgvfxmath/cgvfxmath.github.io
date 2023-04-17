@@ -11,7 +11,7 @@ sitemap:
   priority: 0.5
 ---
 
-Information gleaned from the web about memory usage mechanisms in Linux<!--more-->
+Some information gleaned from the web about memory usage mechanisms in Linux<!--more-->
 
 리눅스 시스템의 메모리 사용 방식은 윈도우즈와 다르다. 리눅스는 커널(kernel)이 메모리를 제어한다. 그런데 데이터를 디스크에서 읽어 오는 것보다 메모리에서 읽어오는 것이 훨씬 효율적이기 때문에 (대략 1000배 정도) 리눅스 커널(kernel)은 시스템 성능의 향상을 위해서 최근 사용한 것들을 그때마다 바로 지워버리지 않고 메모리상에 캐쉬화(caching)해서 남겨 둔다. 용량이 큰 파일을 처음 로드할 때 보다 그 다음에 로드할 때 속도가 더 빨라지는 것은 이러한 이유 때문이다.
 
