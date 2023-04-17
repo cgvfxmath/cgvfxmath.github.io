@@ -52,7 +52,7 @@ A conjugate pair of roots refers to two complex roots of a polynomial with oppos
 
 $f(x)=\lbrace x-(a+bi) \rbrace \lbrace x-(c+di)\rbrace \lbrace x-(e+fi) \rbrace$의 상수항은 허수가 되므로 계수가 모두 실수라는 사실에 위배됩니다. 따라서 이러한 경우는 존재할 수 없습니다.
 
-2) 한 근만 복소수아고 두 근은 실수인 경우
+2) 한 근만 복소수이고 두 근은 실수인 경우
 
 $f(x)=\lbrace x-(a+bi) \rbrace (x-c)(x-d)$의 상수항은 허수가 되므로 계수가 모두 실수라는 사실에 위배됩니다. 따라서 이러한 경우는 존재할 수 없습니다.
 
