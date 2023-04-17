@@ -11,7 +11,7 @@ sitemap:
   priority: 0.5
 ---
 
-Viewport 2.0 is the viewport and hardware renderer in Maya<!--more-->
+Viewport 2.0 is the viewport and hardware renderer in Maya.<!--more-->
 
 Viewport 2.0(이하 VP2)은 Maya 2012부터 도입된 Autodesk사의 새로운 rendering architecture이다. VP2는 AutoCAD와 3ds MAX 등의 제품군에서도 활용되는 backend system이다. VP2는 programmable shader system, high-quality per-pixel lighting 등의 강력한 기능을 제공한다. 하지만 완전히 새로운 rendering system이기 때문에 기존에 만들어 놓은 plug-in들을 지원하지 않는다. 예를들면 custom locator node는 Legacy Default Viewport에서만 작동하고 VP2에서는 draw() 함수가 호출조차 되지 않는다. Custom locator node에서 OpenGL을 이용해서 그린 결과가 VP2에서 나타나게 하려면 추가적인 조치가 필요하다. VP2 기능 구현을 위한 class들은 MHWRender namespace 내에 정의되어 있으며 OpenMayaRender SDK를 이용하여 구현할 수 있다. VP2의 가장 큰 문제는 제 3의 rendering architecture이기 때문에 Maya 내에서 무언가를 drawing하고 VP2가 지원하는 형식의 data로 만들어주는 과정이 매우 복잡하다는 점이다.
 
