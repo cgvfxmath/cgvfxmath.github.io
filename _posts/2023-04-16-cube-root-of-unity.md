@@ -21,7 +21,7 @@ $x^3 = 1$의 허근에 대해서 살펴보겠습니다.
 
 <p style="text-align: center;">$x^3 - 1 = (x-1)(x^2 + x + 1) = 0$</p>
 
-따라서 $x^3 = 1$의 한 허근을 $\omega$라고 하면 다음과 같은 두 등식을 얻을 수 있습니다.
+따라서 $x^3 = 1$의 한 허근을 $\omega$라고 하면 다음과 같은 두 개의 등식을 얻을 수 있습니다.
 
 <p style="text-align: center;">$\omega^3 = 1$</p>
 <p style="text-align: center;">$\omega^2 + \omega + 1 = 0$</p>
@@ -48,7 +48,7 @@ $\vdots$
 
 위의 패턴을 살펴보면 $n$이 3의 배수일 때 마다 1이 반복적으로 나타나는 3주기 성질을 가지는 것을 알 수 있습니다.
 
-그리고 다음과 같은 문제 또한 $\omega$의 3주기 성질을 이용하여 풀 수 있습니다.
+이러한 $\omega$의 3주기 성질을 이용하면 다음과 같은 문제를 쉽게 풀 수 있습니다.
 
 <p style="text-align: center;">$1 + \omega + \omega^2 + \omega^3 + \cdots + \omega^{98} = ?$</p>
 
