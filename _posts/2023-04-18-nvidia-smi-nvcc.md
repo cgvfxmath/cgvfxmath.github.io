@@ -11,7 +11,7 @@ sitemap:
   priority: 0.5
 ---
 
-How the version of nvidia-smi differs from nvcc -V<!--more-->
+How nvidia-smi differs from nvcc -V<!--more-->
 
 *nvidia-smi*는 NVIDIA System Management Interface를 나타내며, GPU에 대한 정보를 제공합니다. 예를 들어 현재 시스템에서 사용 가능한 GPU의 수, GPU의 이름 및 모델, 현재 GPU의 메모리 사용량 등을 확인할 수 있습니다. 또한, nvidia-smi를 사용하여 GPU의 성능, 온도, 전력 소비 등의 정보를 확인할 수도 있습니다.
 
