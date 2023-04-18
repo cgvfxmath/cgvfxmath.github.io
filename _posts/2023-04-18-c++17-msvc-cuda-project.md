@@ -20,7 +20,10 @@ The way to use C++17 in your MSVC CUDA project<!--more-->
 3. In the left-hand pane of the project properties window, select "CUDA C/C++" > "Command Line".
 
 4. Write the following in the additional options.
-: -std=c++17 -Xcompiler "/std:c++17"
+
+```ini
+-std=c++17 -Xcompiler "/std:c++17"
+```
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/VC_CUDA_C++17.jpg" width="90%"></figure></center>
 <br/>
