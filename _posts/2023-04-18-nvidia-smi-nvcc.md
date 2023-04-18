@@ -20,8 +20,8 @@ How nvidia-smi differs from nvcc -V<!--more-->
 즉, **nvidia-smi**는 GPU에 대한 정보를 제공하고, **nvcc -V**는 컴파일러에 대한 정보를 제공합니다.
 
 따라서 두 명령어의 결과에서 나오는 CUDA 버전의 의미하는 바는 다음과 같습니다.
-* nvidia-smi: 현재 설치된 드라이버에서 지원하는 최대 CUDA 버전
-* nvcc-V: 실제로 설치되어 빌드시 사용되는 CUDA 버전
+* **nvidia-smi**: 현재 설치된 드라이버에서 지원하는 최대 CUDA 버전
+* **nvcc-V**: 실제로 설치되어 빌드시 사용되는 CUDA 버전
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/nvidia-smi.jpg" width="90%"></figure></center>
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/nvcc-V.jpg" width="90%"></figure></center>
