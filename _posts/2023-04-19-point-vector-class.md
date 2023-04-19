@@ -110,23 +110,23 @@ int main(int argc, char* argv[])
         MyVector v(1, 2, 3);
         cout << v << endl; // ( 1, 2, 3 )
 
-        Eigen::Vector3d V_eg = v;
-        cout << V_eg << endl; // 1 2 3
+        Eigen::Vector3d v_eg = v;
+        cout << v_eg << endl; // 1 2 3
 
-        MyVector VV = V_eg;
-        cout << VV << endl; // ( 1, 2, 3 )
+        MyVector vv = v_eg;
+        cout << vv << endl; // ( 1, 2, 3 )
     }
 
     // point
     {
-        MyPoint P(1, 2, 3);
-        cout << P << endl; // ( 1, 2, 3 )
+        MyPoint p(1, 2, 3);
+        cout << p << endl; // ( 1, 2, 3 )
 
-        cv::Point2d P_CV = P;
-        cout << P_CV << endl; // [0.333333, 0.666667]
+        cv::Point2d p_cv = p;
+        cout << p_cv << endl; // [0.333333, 0.666667]
 
-        MyPoint PP = P_CV;
-        cout << PP << endl; // ( 0.333333, 0.666667, 1 )
+        MyPoint pp = p_cv;
+        cout << pp << endl; // ( 0.333333, 0.666667, 1 )
     }
 
     return EXIT_SUCCESS;
