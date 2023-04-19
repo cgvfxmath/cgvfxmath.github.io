@@ -5,7 +5,7 @@ author: "wano"
 excerpt_separator: <!--more-->
 tags: ['dev', 'linux']
 use_math: true
-lastmode: 2023-04-19 09:00:00
+lastmode: 2023-04-18 09:00:00
 sitemap:
   changefreq: weekly
   priority: 0.5
