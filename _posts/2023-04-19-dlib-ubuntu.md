@@ -22,7 +22,7 @@ python setup.py install
 ```
 
 ---
-<p style="text-align: center;">**Shared Library**</p>
+<p style="text-align: center;">**How to build shared library**</p>
 
 ```bash
 mkdir shared_build
