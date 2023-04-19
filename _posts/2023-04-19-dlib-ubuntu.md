@@ -32,9 +32,9 @@ cmake –build . –config Release
 make install
 ```
 
-# AVX works on processors released after 2011, which is the fastest one.
-# SSE2 works for most Intel or AMD chips: -DUSE_SSE2_INSTRUCTIONS=ON
-# SSE4 works for most current machines: -DUSE_SSE4_INSTRUCTIONS=ON
+AVX works on processors released after 2011, which is the fastest one.   
+SSE2 works for most Intel or AMD chips: -DUSE_SSE2_INSTRUCTIONS=ON   
+SSE4 works for most current machines: -DUSE_SSE4_INSTRUCTIONS=ON   
 
 ---
 <b><p style="text-align: center;">How to check my CPU supports AVX/AVX2 on Linux</p></b>
