@@ -22,7 +22,7 @@ python setup.py install
 ```
 
 ---
-<p style="text-align: center;">**How to build shared library**</p>
+<b><p style="text-align: center;">How to build shared library</p></b>
 
 ```bash
 mkdir shared_build
@@ -37,7 +37,7 @@ make install
 # SSE4 works for most current machines: -DUSE_SSE4_INSTRUCTIONS=ON
 
 ---
-<p style="text-align: center;">**How to check my CPU supports AVX/AVX2 on Linux**</p>
+<b><p style="text-align: center;">How to check my CPU supports AVX/AVX2 on Linux</p></b>
 
 ```bash
 grep avx /proc/cpuinfo
