@@ -22,7 +22,7 @@ python setup.py install
 ```
 
 ---
-<b><p style="text-align: center;">How to build shared library</p></b>
+## **How to build shared library**
 
 ```bash
 mkdir shared_build
@@ -37,7 +37,7 @@ SSE2 works for most Intel or AMD chips: -DUSE_SSE2_INSTRUCTIONS=ON
 SSE4 works for most current machines: -DUSE_SSE4_INSTRUCTIONS=ON   
 
 ---
-<b><p style="text-align: center;">How to check my CPU supports AVX/AVX2 on Linux</p></b>
+## **How to check my CPU supports AVX/AVX2 on Linux**
 
 ```bash
 grep avx /proc/cpuinfo
