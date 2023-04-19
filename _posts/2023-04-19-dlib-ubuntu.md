@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to install Dlib on Ubuntu"
+title: "How to install Dlib on Linux"
 author: "wano"
 excerpt_separator: <!--more-->
 tags: ['dev', 'linux']
