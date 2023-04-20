@@ -14,9 +14,9 @@ sitemap:
 When rotating about an arbitrary point that is not the origin<!--more-->
 
 $
-\begin{pmatrix}
+\begin{matrix}
 1 & 0 & pivot.x \\ 
 0 & 1 & pivot.y \\
 0 & 0 & 1
-\end{pmatrix}
+\end{matrix}
 $
