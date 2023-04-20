@@ -28,7 +28,7 @@ The way to use C++17 in your MSVC CUDA project<!--more-->
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/VC_CUDA_C++17.jpg" width="90%"></figure></center>
 <br/>
 
-5. If you encounter nvcc compilation warnings, write the following as additional options.
+If you encounter nvcc compilation warnings, write the following as additional options.
 
 ```ini
 -std=c++17 -Xcompiler "/std:c++17" --expt-relaxed-constexpr -Xcudafe --diag_suppress=20012 -Xcudafe --diag_suppress=1394 
