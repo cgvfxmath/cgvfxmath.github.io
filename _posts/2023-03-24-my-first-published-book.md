@@ -15,7 +15,7 @@ Elementary Mathematics Concept Summary<!--more-->
 
 ![image.jpg1](https://cgvfxmath.github.io/assets/img/wano_1st_book_01.png) |![image.jpg2](https://cgvfxmath.github.io/assets/img/wano_1st_book_02.png)  
 
-다음은 이 책의 에필로그입니다.
+다음은 [초등수학을 결정하는 개념 총정리](http://www.yes24.com/Product/Goods/89148614)의 에필로그입니다.
 
 <center><b>이 책을 마무리하며</b></center>
 <br/>
