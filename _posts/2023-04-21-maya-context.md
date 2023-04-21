@@ -30,38 +30,38 @@ Autodesk Maya에서 context란 마우스의 이벤트에 반응하여 어떠한 
 
 Context 실행시 각 함수들의 실행순서는 다음과 같습니다.
 
-* 플러그인을 로드하면..
-MPxContextCommand::creator()
-MPxContextCommand::MPxContextCommand()
+* 플러그인을 로드하면..   
+MPxContextCommand::creator()   
+MPxContextCommand::MPxContextCommand()   
 
-* setToolTo를 실행하면..
-MPxContextCommand::appendSyntax()
-MPxContextCommand::makeObj()
-MPxContext::MPxContext()
-MPxConTextCommand::doEditFlags()
-MPxContextCommand::doQueryFlags()
-MPxContext::toolOnSetup()
-MPxContext::getClassName()
+* setToolTo를 실행하면..   
+MPxContextCommand::appendSyntax()   
+MPxContextCommand::makeObj()   
+MPxContext::MPxContext()   
+MPxConTextCommand::doEditFlags()   
+MPxContextCommand::doQueryFlags()   
+MPxContext::toolOnSetup()   
+MPxContext::getClassName()   
 
-* 마우스 버튼을 클릭, 드래그를 하면..
-MPxContext::doPress()
-MPxContext::doDrag()
-...
-MPxContext::doDrag()
+* 마우스 버튼을 클릭, 드래그를 하면..   
+MPxContext::doPress()   
+MPxContext::doDrag()   
+...   
+MPxContext::doDrag()   
 
-* 마우스 버튼을 떼면..
-MPxContext::doRelease()
-MPxToolCommand::newSyntax(): 처음 한 번만 호출됨
-MPxToolCommand::creator()
-MPxToolCommand::MPxToolCommand()
-MPxToolCommand::redoIt()
-MPxToolCommand::finalize()
+* 마우스 버튼을 떼면..   
+MPxContext::doRelease()   
+MPxToolCommand::newSyntax(): 처음 한 번만 호출됨   
+MPxToolCommand::creator()   
+MPxToolCommand::MPxToolCommand()   
+MPxToolCommand::redoIt()   
+MPxToolCommand::finalize()   
 
-* undo를 실행하면..
-MPxToolCommand::undoIt()
+* undo를 실행하면..   
+MPxToolCommand::undoIt()   
 
-* redo를 실행하면..
-MPxToolCommand::redoIt()
+* redo를 실행하면..   
+MPxToolCommand::redoIt()   
 
-* Context를 빠져나오면..
-MPxContext::toolOffCleanup()
+* Context를 빠져나오면..   
+MPxContext::toolOffCleanup()   
