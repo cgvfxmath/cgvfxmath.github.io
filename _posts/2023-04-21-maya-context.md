@@ -18,9 +18,9 @@ Autodesk Maya에서 context란 마우스의 이벤트에 반응하여 어떠한 
 "setToolTo [context name]" 명령어를 사용하여 특정 context 모드로 들어갈 수 있습니다. 현재 어떠한 context 모드에 있는지 알 수 있는 명령어는 currentCtx입니다.
 
 다음과 같은 세 가지 API 클래스를 상속받아서 자신만의 custom context를 만들 수 있습니다.
-1) MPxContext
-2) MPxContextCommand
-3) MPxToolCommand
+1. MPxContext
+2. MPxContextCommand
+3. MPxToolCommand
 
 * MPxContext가 실제 컨텍스트 구현부를 담당하고, MPxContextCommand가 컨텍스트 등록을 담당합니다.
 
