@@ -3,7 +3,7 @@ layout: post
 title: "DoF"
 author: "wano"
 excerpt_separator: <!--more-->
-tags: ['math', 'physics', 'mechanics', 'XR']
+tags: ['math', 'physics', 'mechanics', 'xr']
 use_math: true
 lastmode: 2023-03-24 13:00:00
 sitemap:
