@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stereocamera Calibration"
+title: "Stereo Camera Calibration"
 author: "wano"
 excerpt_separator: <!--more-->
 tags: ['opencv', 'dev']
