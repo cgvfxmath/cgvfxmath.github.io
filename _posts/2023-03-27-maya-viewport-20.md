@@ -3,7 +3,7 @@ layout: post
 title: "Maya Viewport 2.0"
 author: "wano"
 excerpt_separator: <!--more-->
-tags: ['dev', 'maya']
+tags: ['maya', 'dev']
 use_math: true
 lastmode: 2023-03-27 00:00:00
 sitemap:
