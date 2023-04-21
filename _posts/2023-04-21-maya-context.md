@@ -3,7 +3,7 @@ layout: post
 title: "Maya Context"
 author: "wano"
 excerpt_separator: <!--more-->
-tags: ['maya', 'xgen', 'dev']
+tags: ['maya', 'dev']
 use_math: true
 lastmode: 2023-03-23 13:00:00
 sitemap:
