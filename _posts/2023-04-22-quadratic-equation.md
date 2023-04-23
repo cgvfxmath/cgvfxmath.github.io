@@ -32,9 +32,9 @@ Several Important facts about quadratic equations<!--more-->
 여기서 $\alpha = \frac{-b-\sqrt{b^2-4ac}}{2a}$, $\beta = \frac{-b+\sqrt{b^2-4ac}}{2a}$ 입니다. 이것을 근의공식이라고 부르며 완전제곱식을 이용하여 어렵지 않게 [증명](https://cgvfxmath.github.io/2023-04-14/quadratic-formula)할 수 있습니다.
 
 위의 식에서 $D=b^2-4ac$라 하면 $D$의 부호에 따라서 실근의 개수가 정해지기 때문에 이것을 판별식(determinant)라고 부릅니다.
-* D=b^2-4ac>0 이면 서로 다른 두 실근을 가진다. ($alpha$, $beta$는 실수)
+* D=b^2-4ac>0 이면 서로 다른 두 실근을 가진다. ($\alpha$, $\beta$는 실수)
 * D=b^2-4ac=0 이면 하나의 실근을 가진다. ($\alpha=\beta$인 중근)
-* D=b^2-4ac<0 이면 서로 다른 두 허근을 가진다. ($alpha$, $beta$는 허수)
+* D=b^2-4ac<0 이면 서로 다른 두 허근을 가진다. ($\alpha$, $\beta$는 허수)
 
 인수분해형을 전개하여 일반형과 계수비교를 하거나, 아니면 위의 $\alpha$, $\beta$에서 직접 계산하면 다음과 같은 근과 계수와의 관계가 성립합니다.
 <p style="text-align: center;">$\alpha + \beta = -\frac{b}{a}, \;\;\; \alpha \beta = \frac{c}{a}$</p>
