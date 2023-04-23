@@ -32,7 +32,7 @@ Several Important facts about quadratic equations<!--more-->
 
 인수분해형을 전개하여 일반형과 계수비교를 하거나, 아니면 위의 $\alpha$, $\beta$에서 직접 계산하면 다음과 같은 근과 계수와의 관계가 성립합니다.
 <p style="text-align: center;">$\alpha + \beta = -\frac{b}{a}, \;\;\; \alpha \beta = \frac{c}{a}$</p>
-두 근의 합과 곱 외에 두 의 차 또한 다음과 같이 구할 수 있습니다.
+두 근의 합과 곱 외에 두 근의 차 또한 다음과 같이 구할 수 있습니다.
 <p style="text-align: center;">$|\alpha - \beta| = \beta - \alpha = \frac{\sqrt{b^2-4ac}}{a}$</p>
 
 대칭축 $x=p$를 근과 계수와의 관계 $\alpha + \beta = -\frac{b}{a}$와 연관지어 다음과 같이 정리할 수 있습니다.
