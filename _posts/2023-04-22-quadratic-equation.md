@@ -39,6 +39,8 @@ Several Important facts about quadratic equations<!--more-->
 <p style="text-align: center;">$x=p=-\frac{b}{2a}=\frac{\alpha+\beta}{2}$</p>
 이것은 대칭축의 $x$값인 $p$가 $\alpha$와 $\beta$의 평균과 같다는 의미입니다. 두 해 $\alpha$와 $\beta$는 각각 함수 $f(x)$가 $x$축과 만나는 두 점의 위치를 의미하는데, 이차함수의 그래프는 축 $x=p$에 대해서 대칭이기 때문에 당연하게 성립하는 성질입니다.
 
-이러한 사실을 조금 더 확장해보겠습니다. 만약 같은 $y$값을 가지게 하는 두 수 $x=m$과 $x=n$이 있다면 이 두 수의 평균인 $\frac{m+n}{2}$이 대칭축을 정의하는 $p$의 값이 된다는 것을 알 수 있습니다. (위의 $p=\frac{\alpha+\beta}{2}$는 $y=0$인 특별한 경우를 의미 됩니다.) 즉, $f(m)=f(n)$이면 $p=\frac{m+n}{2}$ 됩니다. 그리고 만약 $f(m)=f(n)=F$이면, $m$과 $n$은 $g(x)=f(x)-F$의 두 해가 됩니다. 왜냐하면 $g(m) = g(n) = 0$이 되기 때문입니다.
+이러한 사실을 조금 더 확장해보겠습니다. 만약 같은 $y$값을 가지게 하는 두 수 $x=m$과 $x=n$이 있다면 이 두 수의 평균인 $\frac{m+n}{2}$이 대칭축을 정의하는 $p$의 값이 된다는 것을 알 수 있습니다. (위의 $p=\frac{\alpha+\beta}{2}$는 $y=0$인 특별한 경우를 의미 됩니다.) 즉, $f(m)=f(n)$이면 $p=\frac{m+n}{2}$ 됩니다.
+
+그리고 만약 $f(m)=f(n)=F$이면, $m$과 $n$은 $g(x)=f(x)-F$의 두 해가 됩니다. 왜냐하면 $g(m) = g(n) = 0$이 되기 때문입니다.
 
 한편 만약 $f(x)=ax^2+bx+c$의 두 근이 $\alpha$, $\beta$이면 계수의 순서를 반대로 뒤집은 $h(x)=cx^2+bx+a$의 두 근은 $\frac{1}{\alpha}$, $\frac{1}{\beta}$가 됩니다. 왜냐하면 $f(\alpha)=a\alpha^2+b\alpha+c=0$와 $f(\beta)=a\beta^2+b\beta+c=0$에서 양변을 각각 $\alpha^2$과 $\beta^2$으로 나누면 $h(\frac{1}{\alpha})=h(\frac{1}{\beta})=0$ 되기 때문입니다.
