@@ -30,7 +30,7 @@ Several Important facts about quadratic equations<!--more-->
 <p style="text-align: center;">$f(x) = a(x-\alpha)(x-\beta)$</p>
 여기서 $\alpha = \frac{-b-\sqrt{b^2-4ac}}{2a}$, $\beta = \frac{-b+\sqrt{b^2-4ac}}{2a}$ 입니다. 이것을 근의공식이라고 부르며 완전제곱식을 이용하여 어렵지 않게 [증명](https://cgvfxmath.github.io/2023-04-14/quadratic-formula)할 수 있습니다.
 
-인수분해형을 전개하여 일반형과 계수비교를 하면 다음과 같은 근과 계수와의 관계가 성립합니다.
+인수분해형을 전개하여 일반형과 계수비교를 하거나, 아니면 위의 $\alpha$, $\beta$에서 직접 계산하면 다음과 같은 근과 계수와의 관계가 성립합니다.
 <p style="text-align: center;">$\alpha + \beta = -\frac{b}{a}, \;\;\; \alpha \beta = \frac{c}{a}$</p>
 두 근의 합과 곱 외에 두 군의 차 또한 다음과 같이 구할 수 있습니다.
 <p style="text-align: center;">$|\alpha - \beta| = \beta - \alpha = \frac{\sqrt(b^2-4ac)}{a}$</p>
