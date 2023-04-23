@@ -43,4 +43,4 @@ Several Important facts about quadratic equations<!--more-->
 
 만약 $f(m)=f(n)=F$이면, $m$과 $n$은 $g(x)=f(x)-F$의 두 해가 됩니다. 왜냐하면 $g(m) = g(n) = 0$이 되기 때문입니다.
 
-한편 만약 $f(x)=ax^2+bx+c$의 두 근이 $\alpha$, $\beta$이면 계수의 순서를 반대로 뒤집은 $h(x)=cx^2+bx+a$의 두 근은 $\frac{1}{\alpha}$, $\frac{1}{\beta}$가 됩니다. 왜냐하면 $f(\alpha)=a\alpha^2+b\alpha+c=0$와 $f(\beta)=a\beta^2+b\beta+c=0$에서 양변을 각각 $\alpha^2$과 $\beta^2$으로 나누면 $h(\frac{1}{\alpha})=h(\frac{1}{\beta})=0$가 되기 때문입니다.
+한편 만약 $f(x)=ax^2+bx+c$의 두 근이 $\alpha$, $\beta$이면 계수의 순서를 반대로 뒤집은 $h(x)=cx^2+bx+a$의 두 근은 $\frac{1}{\alpha}$, $\frac{1}{\beta}$가 됩니다. 왜냐하면 $f(\alpha)=a\alpha^2+b\alpha+c=0$와 $f(\beta)=a\beta^2+b\beta+c=0$에서 양변을 각각 $\alpha^2$과 $\beta^2$으로 나누면 $h(\frac{1}{\alpha})=h(\frac{1}{\beta})=0$ 되기 때문입니다.
