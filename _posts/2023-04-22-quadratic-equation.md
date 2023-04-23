@@ -37,7 +37,7 @@ Several Important facts about quadratic equations<!--more-->
 
 대칭축 $x=p$를 근과 계수와의 관계 $\alpha + \beta = -\frac{b}{a}$와 연관지어 다음과 같이 정리할 수 있습니다.
 <p style="text-align: center;">$x=p=-\frac{b}{2a}=\frac{\alpha+\beta}{2}$</p>
-두 해 $\alpha$와 $\beta$는 함수 $f(x)$가 $x$축과 만나는 위치를 의미하는데, $y=f(x)$는 축 $x=p$에 의해서 대칭이기 때문에 대칭축은 두 수 $\alpha$와 $\beta$의 중점을 지난다는 의미입니다.
+이것은 대칭축이 두 수 $\alpha$와 $\beta$의 중점을 지난다는 의미입니다. 두 해 $\alpha$와 $\beta$는 함수 $f(x)$가 $x$축과 만나는 위치를 의미하는데, 이차함수의 그래프는 축 $x=p$에 대해서 대칭이기 때문에 당연하게 성립하는 성
 
 이러한 사실을 조금 더 확장하면 같은 $y$값을 가지게 하는, 두 수 $m$, $n$가 있다면 이 두 수의 평균인 $\frac{m+n}{2}$을 이용하여 대칭축인 $x=p$를 구할 수 있다는 것을 알 수 있습니다. 즉, $f(m)=f(n)$이면 $p=\frac{m+n}{2}$가 됩니다.
 
