@@ -41,7 +41,7 @@ Several Important facts about quadratic equations<!--more-->
 * $D<0$이고 $a<0$이면 위로 볼록하고 $x$축과 만나는 점이 없기 때문에 모든 실수 $x$에 대해서 $f(x)<0$ 입니다. 즉, 이때 전역최대값인 $q$는 음수가 됩니다.
 * $D<0$이고 $a>0$이면 아래로 볼록하고 $x$축과 만나는 점이 없기 때문에 모든 실수 $x$에 대해서 $f(x)>0$ 입니다. 즉, 이때 전역최소값인 $q$는 양수가 됩니다.
 
-인수분해형을 전개하여 일반형과 계수비교를 하거나, 아니면 위의 $\alpha$, $\beta$에서 직접 계산하면 다음과 같은 근과 계수와의 관계가 성립합니다.
+인수분해형을 전개하여 일반형과 계수비교를 하거나, 아니면 위의 $\alpha$, $\beta$에서 직접 계산하면 다음과 같은 근과 계수와의 관계를 얻을 수 있습니다.
 <p style="text-align: center;">$\alpha + \beta = -\frac{b}{a}, \;\;\; \alpha \beta = \frac{c}{a}$</p>
 두 근의 합과 곱 외에 두 근의 차 또한 다음과 같이 구할 수 있습니다.
 <p style="text-align: center;">$|\alpha - \beta| = \beta - \alpha = \frac{\sqrt{b^2-4ac}}{a}$</p>
