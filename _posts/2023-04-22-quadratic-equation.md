@@ -18,7 +18,8 @@ Several Important facts about quadratic equations<!--more-->
 이차다항식은 대수학에서 매우 중요한 개념 중 하나입니다. 이차다항식은 $x$의 2차항이 있는 다항식으로, 그래프가 포물선 모양을 가지기 때문에 수학, 물리학, 공학 등에서 많이 사용됩니다. 예를 들어 이차다항식은 자유낙하운동의 운동방정식, 추락체의 높이나 거리를 계산하는 문제, 최소값과 최대값을 찾는 최적화 문제, 그리고 딥러닝의 비용함수(cost function)에서도 활용됩니다.
 
 다음과 같은 일반형을 가지는 이차다항식의 몇 가지 중요한 성질들을 살펴보겠습니다.
-<p style="text-align: center;">$f(x) = ax^2 + bx + c \; (a \neq 0)$</p>
+<p style="text-align: center;">$f(x) = ax^2 + bx + c$</p>
+이 식에서 $a$, $b$, $c$는 모두 실수이고, $a \neq 0$이라고 가정하겠습니다.
 
 일단 위의 이차함수는 다음과 같은 표준형으로 바꿀 수 있습니다. 
 <p style="text-align: center;">$f(x) = a(x-p)^2 + q$</p>
@@ -29,6 +30,11 @@ Several Important facts about quadratic equations<!--more-->
 그리고 $f(x)=0$의 두 해를 $\alpha$, $\beta$ (단, $\alpha \leq \beta$)라고 하면 주어진 이차함수는 다음과 같은 인수분해형으로 쓸 수도 있습니다
 <p style="text-align: center;">$f(x) = a(x-\alpha)(x-\beta)$</p>
 여기서 $\alpha = \frac{-b-\sqrt{b^2-4ac}}{2a}$, $\beta = \frac{-b+\sqrt{b^2-4ac}}{2a}$ 입니다. 이것을 근의공식이라고 부르며 완전제곱식을 이용하여 어렵지 않게 [증명](https://cgvfxmath.github.io/2023-04-14/quadratic-formula)할 수 있습니다.
+
+위의 식에서 $D=b^2-4ac$라 하면 $D$의 부호에 따라서 실근의 개수가 정해지기 때문에 이것을 판별식(determinant)라고 부릅니다.
+* D=b^2-4ac>0 이면 서로 다른 두 실근을 가진다. ($alpha$, $beta$는 실수)
+* D=b^2-4ac=0 이면 하나의 실근을 가진다. ($\alpha=\beta$인 중근)
+* D=b^2-4ac<0 이면 서로 다른 두 허근을 가진다. ($alpha$, $beta$는 허수)
 
 인수분해형을 전개하여 일반형과 계수비교를 하거나, 아니면 위의 $\alpha$, $\beta$에서 직접 계산하면 다음과 같은 근과 계수와의 관계가 성립합니다.
 <p style="text-align: center;">$\alpha + \beta = -\frac{b}{a}, \;\;\; \alpha \beta = \frac{c}{a}$</p>
