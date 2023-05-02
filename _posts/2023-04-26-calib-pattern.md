@@ -20,7 +20,7 @@ import numpy as np
 def create_calibration_pattern_image(cols, rows, img_height, img_width, aruco_type=cv2.aruco.DICT_6X6_250):
     # chessboard pattern
     if aruco_type == None:
-        chessboard = np.zeros((rows, cols), dtype=np.uint8) # black
+        chessboard = np.zeros((rows, cols), dtype=np.uint8) # black image
         chessboard[1::2, ::2] = 255 # white for odd column & even row
         chessboard[::2, 1::2] = 255 # white for even row & odd column
         img = cv2.resize(chessboard, (img_height, img_width), interpolation=cv2.INTER_NEAREST)
