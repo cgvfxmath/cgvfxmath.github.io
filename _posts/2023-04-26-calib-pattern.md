@@ -24,13 +24,12 @@ def create_calibration_pattern_image(cols, rows, img_width, img_height, aruco_ty
         chessboard[1::2, ::2] = 255 # white for odd column & even row
         chessboard[::2, 1::2] = 255 # white for even row & odd column
         img = cv2.resize(chessboard, (img_height, img_width), interpolation=cv2.INTER_NEAREST)
-        img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
     # charuco pattern
     else:
         dict = cv2.aruco.getPredefinedDictionary(aruco_type)
         board = cv2.aruco.CharucoBoard((cols, rows), 1.0, 0.5, dict)
         img = board.generateImage((img_height, img_width))
-        img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
+    img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
     return img
 ```
 
