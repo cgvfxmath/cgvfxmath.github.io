@@ -11,7 +11,7 @@ sitemap:
   priority: 0.5
 ---
 
-How to generate a calibration pattern for both Chessboard and ChArUco<!--more-->
+How to generate a calibration pattern image for both Chessboard and ChArUco<!--more-->
 
 ```python
 import cv2
