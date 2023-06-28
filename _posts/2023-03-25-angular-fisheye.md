@@ -25,10 +25,9 @@ Angular fisheye 이미지는 광각 렌즈로 찍은 이미지로서 일반적�
 
 3차원 공간상의 한 점을 angular fisheye image의 픽셀 좌표(pixel coordinate)로 변환하는 C언어 스타일의 pseudo code는 다음과 같습니다.
 
-```cpp
-//////////////
-// CPU Code //
+CPU 코드
 
+```cpp
 Image img; // the image rendered with a fisheye lens
 img.load( "rendering_result.exr" );
 
@@ -47,10 +46,11 @@ Vector upVector = Vector( 0.0, 1.0, 0.0 );
 Vector zAxis = Normalize( worldAimingPoint - worldCameraPosition );
 Vector xAxis = Normalize( Cross( zAxis, upVector ) );
 Vector yAxis = Normalize( Cross( xAxis, zAxis ) );
+```
 
-////////////////
-// Shder Code //
+Shder Code
 
+```cpp
 // The unit directional vector corresponding to the pixel being queried.
 Vector direction = Normalize( worldPoint - worldCameraPosition );
  
