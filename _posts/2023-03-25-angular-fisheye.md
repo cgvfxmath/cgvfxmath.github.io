@@ -93,8 +93,8 @@ Real s = ( 0.5 * x ) + 0.5;
 Real t = ( 0.5 * y ) + 0.5;
  
 // Now, we are ready to get the pixel color.
-// why 1.0 - t rather than just t?
-// because the origin of an image: top-left
+// Why 1.0 - t rather than just t?
+// Because the origin of an image is the top-left corner.
 Color pixelValue = img.sample( s, 1.0 - t );
 
 return pixelValue;
