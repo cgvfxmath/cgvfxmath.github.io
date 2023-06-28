@@ -3,7 +3,7 @@ layout: post
 title: "Camera Calibration Pattern"
 author: "wano"
 excerpt_separator: <!--more-->
-tags: ['dev']
+tags: ['dev', 'opencv']
 use_math: true
 lastmode: 2023-04-26 13:00:00
 sitemap:
