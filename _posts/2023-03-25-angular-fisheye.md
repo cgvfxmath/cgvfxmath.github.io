@@ -50,7 +50,7 @@ Vector yAxis = Normalize( Cross( xAxis, zAxis ) );
 Shder Code (per pixel operation)
 
 ```cpp
-// the wotld position the current pixel where RGB values need to be determined
+// the wotld position of the current pixel where RGB values need to be determined
 Point worldPoint = ...;
 
 // The unit directional vector corresponding to the pixel being queried.
