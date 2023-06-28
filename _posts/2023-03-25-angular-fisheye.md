@@ -32,7 +32,6 @@ Image img; // the image rendered with a fisheye lens
 img.load( "rendering_result.exr" );
 
 // given data
-Point worldPoint = ...;
 Point worldCameraPosition = ...;
 Point worldAimingPoint = ...;
  
@@ -48,9 +47,12 @@ Vector xAxis = Normalize( Cross( zAxis, upVector ) );
 Vector yAxis = Normalize( Cross( xAxis, zAxis ) );
 ```
 
-Shder Code
+Shder Code (per pixel operation)
 
 ```cpp
+// the wotld position the current pixel where RGB values need to be determined
+Point worldPoint = ...;
+
 // The unit directional vector corresponding to the pixel being queried.
 Vector direction = Normalize( worldPoint - worldCameraPosition );
  
