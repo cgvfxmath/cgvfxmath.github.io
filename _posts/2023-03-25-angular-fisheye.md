@@ -70,7 +70,7 @@ Vector projectedDirection = ( xValue * xAxis ) + ( yValue * yAxis );
 // direction = right or left: theta = 0.0
 Real theta = acos( Length( projectedDirection ) );
  
-// Convert theta to alpha that is the scaling factor to image space.
+// Convert theta to alpha that is the scaling factor in the image space.
 // the range of theta: pi/2 (forward) ~ 0.0 (right/left)
 // the range of alpha: 0.0 (forward) ~ 1.0 (right/left)
 Real alpha = 1.0 - theta / ( 0.5 * PI );
