@@ -38,13 +38,18 @@ Angular fisheye 이미지는 원래 이미지를 변환하여 전체 이미지�
 3차원 공간상의 한 점을 angular fisheye image의 픽셀 좌표(pixel coordinate)로 변환하는 C언어 스타일의 pseudo code는 다음과 같습니다.
 
 ```cpp
+//////////////
+// CPU Code //
+
+Image img; // the image rendered with a fisheye lens
+img.load( "rendering_result.exr" );
+
 // given data
 Point worldPoint = ...;
 Point worldCameraPosition = ...;
 Point worldAimingPoint = ...;
  
-// the assumption in this example)
-// the camera's up vector = world y-axis
+// In this example, we assume that the up vector is the world y-axis and remains fixed.
 Vector upVector = Vector( 0.0, 1.0, 0.0 );
  
 // three orthogonal unit axes of the camera space
@@ -54,10 +59,11 @@ Vector upVector = Vector( 0.0, 1.0, 0.0 );
 Vector zAxis = Normalize( worldAimingPoint - worldCameraPosition );
 Vector xAxis = Normalize( Cross( zAxis, upVector ) );
 Vector yAxis = Normalize( Cross( xAxis, zAxis ) );
- 
-// the unit directional vector
-// from the cameraPosition to the point on the unit sphere
-// the center of the sphere = worldCameraPosition
+
+////////////////
+// Shder Code //
+
+// The unit directional vector corresponding to the pixel being queried.
 Vector direction = Normalize( worldPoint - worldCameraPosition );
  
 // the coordinates of its end point
@@ -98,11 +104,10 @@ Real y = Dot( projectedDirection, yAxis );
 Real s = ( 0.5 * x ) + 0.5;
 Real t = ( 0.5 * y ) + 0.5;
  
-Image img;
-img.load( "fisheye.exr" );
- 
 // Now, we are ready to get the pixel color.
 // why 1.0 - t rather than just t?
 // because the origin of an image: top-left
-Color pixelValue =img.sample( s, 1.0 - t );
+Color pixelValue = img.sample( s, 1.0 - t );
+
+return pixelValue;
 ```
