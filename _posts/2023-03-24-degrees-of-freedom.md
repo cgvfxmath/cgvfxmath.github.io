@@ -31,6 +31,11 @@ Degrees of Freedom is the number of independent parameters that define its confi
 
 오른쪽 그림은 대표적인 3차원 저작툴인 Autodesk Maya에서 사용하는 manipulator의 모습입니다. 여기서 말하는 manipulator란 선택한 물체의 자세(pose) 및 크기(size)를 직관적으로 수정할 수 있도록 도와주는 GUI(Graphical User Interface) 요소를 말합니다. 이처럼 3차원 이동(translation), 회전(rotation), 크기(scale)를 모두 변경할 수 있는 manipulator의 자유도는 9입니다. 왜냐하면 이동(tx, ty, tz), 회전(rx, ry, rz), 크기(sx, sy, sz) 이렇게 총 9개의 변수로 움직임을 기술할 수 있기 때문입니다.
 
+그렇다면 다음과 같은 3x3 행렬의 자유도는 얼마일까요?
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/dof_3x3.png" width="60%"></figure></center>
+
+위의 행렬은 9개의 변수를 가지기 때문에 자유도의 크기는 9입니다. 하지만 만약 3개의 변수로 이 행렬이 가지고 있는 9개의 변수를 만들어낼 수 있다면, 이 행렬의 자유도는 9가 아닌 3이 됩니다. 이러한 대표적인 예가 3차원 공간상에서의 회전행렬입니다. 이에 대한 자세한 설명은 [여기]를 참고해주시기 바랍니다.
+
 이제 우리는 자유도의 의미를 대략적으로 알게 되었습니다.
 
 보다 엄밀한 자유도의 정의는 다음과 같습니다.
