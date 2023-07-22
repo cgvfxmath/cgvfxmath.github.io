@@ -34,7 +34,7 @@ Degrees of Freedom is the number of independent parameters that define its confi
 그렇다면 다음과 같은 3x3 행렬의 자유도는 얼마일까요?
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/dof_3x3.png" width="40%"></figure></center>
 
-위의 행렬은 9개의 변수를 가지기 때문에 자유도는 9입니다. 하지만 만약 3개의 변수로 이 행렬이 가지고 있는 9개의 변수를 만들어낼 수 있다면, 이 행렬의 자유도는 9가 아닌 3이 됩니다. 이러한 대표적인 예가 3차원 공간상에서의 회전행렬입니다. 이에 대한 자세한 설명은 [여기](https://drive.google.com/file/d/1YuBfoTYtXGL7PQsZieYZfN5krwmit6GF/view)를 참고해주시기 바랍니다.
+위의 행렬은 9개의 변수를 가지기 때문에 자유도는 9입니다. 하지만 만약 3개의 변수로 이 행렬이 가지고 있는 9개의 변수를 만들어낼 수 있다면, 이 행렬의 자유도는 9가 아닌 3이 됩니다. 이러한 대표적인 예가 3차원 공간상에서의 회전행렬입니다. 이에 대한 자세한 설명은 [여기](https://drive.google.com/file/d/1MvMavq9fT2AR8asAj3u_K65qaildKG1N/view?usp=sharing)를 참고해주시기 바랍니다.
 
 이제 우리는 자유도의 의미를 대략적으로 알게 되었습니다.
 
