@@ -78,6 +78,7 @@ permalink: /about/
 * 초등수학을 결정하는 개념 총정리 [link](https://search.shopping.naver.com/book/catalog/32489569973)
 
 ### Miscellanea
+* 홍랩 전) 덱스터 스튜디오 CTO, 현) AI 스타트업 디블라트 CEO 최완호 인터뷰
 * 포스테키안 N’173 l 알턴십 DEXTER 덱스터 스튜디오
 * ICT R&D 우수성과 문화유산 홀로그램(플랜옵틱) 덱스터 스튜디오 최완호 기술이사
 * DEXTER V-LOG EP.07 – 기술지원본부 편
