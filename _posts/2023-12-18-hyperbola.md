@@ -65,3 +65,7 @@ $\frac{x^2}{b^2} - \frac{y^2}{a^2} = 1$
 여기서 x를 무한대로 보내면 이 식은 $y = \pm \frac{b}{a} x$가 되고, 이 식이 바로 쌍곡선의 두 점근선이 된다.
 
 (보다 엄밀한 증명은 극한을 도입해야 하지만, 여기서는 약식으로 증명하였다.)
+
+따라서 쌍곡선의 그래프는 다음과 같이 그릴 수 있다.
+
+<center><img src="https://cgvfxmath.github.io/assets/img/hyperbola_graph.jpg"></center>
