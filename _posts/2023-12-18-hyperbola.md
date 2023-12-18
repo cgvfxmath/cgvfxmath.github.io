@@ -23,7 +23,7 @@ Hyperbola <!--more-->
 
 <p style="text-align: center;">$\left| \overline{\mathbf{F}^{\prime}\mathbf{P}} - \overline{\mathbf{FP}} \right| = 2a$</p>
 
-이 등식을 정리하면 하면 다음과 같은 포물선의 방정식을 얻을 수 있다.
+이 등식을 정리하면 하면 다음과 같은 쌍곡선의 방정식을 얻을 수 있다.
 
 <p style="text-align: center;">$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</p>
 
