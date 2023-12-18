@@ -23,7 +23,8 @@ Hyperbola <!--more-->
 <p style="text-align: center;">$\sqrt{x^2+2cx+c^2+y^2} = \sqrt{x^2-2cx+c^2+y^2} \pm 2a$</p>
 <p style="text-align: center;">$x^2+2cx+c^2+y^2 = (x^2-2cx+c^2+y^2) \pm 4a \sqrt{x^2-2cx+c^2+y^2} + 4a^2$</p>
 <p style="text-align: center;">$2cx = -2cx \pm 4a \sqrt{x^2-2cx+c^2+y^2} + 4a^2$</p>
-<p style="text-align: center;">$4cx - 4a^2= \pm 4a \sqrt{x^2-2cx+c^2+y^2}$</p>
-<p style="text-align: center;">$cx - a^2= \pm a \sqrt{x^2-2cx+c^2+y^2}$</p>
+<p style="text-align: center;">$4cx - 4a^2 = \pm 4a \sqrt{x^2-2cx+c^2+y^2}$</p>
+<p style="text-align: center;">$cx - a^2 = \pm a \sqrt{x^2-2cx+c^2+y^2}$</p>
+<p style="text-align: center;">$(cx - a^2)^2 = a^2 (x^2-2cx+c^2+y^2)$</p>
 
 
