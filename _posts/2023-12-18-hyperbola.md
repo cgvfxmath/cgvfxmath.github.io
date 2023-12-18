@@ -23,7 +23,12 @@ Hyperbola <!--more-->
 
 $| \overline{\mathbf{F}^{\prime}\mathbf{P}} - \overline{\mathbf{FP}} | = 2a$
 
-이 등식을 다음과 같이 정리하자.
+이 등식을 정리하면 하면 다음과 같은 포물선의 방정식을 얻을 수 있다.
+
+<p style="text-align: center;">$\frac{x^2}{b^2} - \frac{y^2}{a^2} = 1$</p>
+
+---
+**NOTE**
 
 $\sqrt{(x+c)^2+y^2} - \sqrt{(x-c)^2+y^2} = \pm 2a$
 
@@ -51,4 +56,5 @@ $b^2x^2 - a^2y^2 = a^2b^2$
 
 $\frac{x^2}{b^2} - \frac{y^2}{a^2} = 1$
 
+---
 
