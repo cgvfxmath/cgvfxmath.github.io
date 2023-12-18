@@ -28,5 +28,6 @@ Hyperbola <!--more-->
 <p style="text-align: center;">$(cx - a^2)^2 = a^2 (x^2-2cx+c^2+y^2)$</p>
 <p style="text-align: center;">$c^2x^2 - 2ca^2x + a^4 = a^2x^2 - 2ca^2x + a^2c^2 + a^2y^2$</p>
 <p style="text-align: center;">$c^2x^2 + a^4 = a^2x^2 + a^2c^2 + a^2y^2$</p>
+<p style="text-align: center;">$(c^2-a^2)x^2 - a^2y^2 = a^2(c^2 - a^2)$</p>
 
 
