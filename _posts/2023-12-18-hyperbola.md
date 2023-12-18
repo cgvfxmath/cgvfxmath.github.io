@@ -25,7 +25,7 @@ Hyperbola <!--more-->
 
 이 등식을 정리하면 하면 다음과 같은 포물선의 방정식을 얻을 수 있다.
 
-<p style="text-align: center;">$\frac{x^2}{b^2} - \frac{y^2}{a^2} = 1$</p>
+<p style="text-align: center;">$\left| \overline{\frac{x^2}{b^2}} - \overline{\frac{y^2}{a^2}} \right| = 1$</p>
 
 ---
 proof
