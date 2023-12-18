@@ -19,7 +19,7 @@ Hyperbola <!--more-->
 
 일정한 거리의 차를 $2a$, 쌍곡선 위의 임의의 점을 $\mathbf{P}(x,y)$라 하자.
 
-그러면 다음과 같은 등식이 성립한다.
+그러면 쌍곡선의 정의에 의해 다음과 같은 등식이 성립한다.
 
 <p style="text-align: center;">$\left| \mathbf{F}^{\prime}\mathbf{P} - \mathbf{FP} \right| = 2a$</p>
 
