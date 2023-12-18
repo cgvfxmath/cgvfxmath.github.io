@@ -26,17 +26,29 @@ $| \overline{\mathbf{F}^{\prime}\mathbf{P}} - \overline{\mathbf{FP}} | = 2a$
 이 등식을 다음과 같이 정리하자.
 
 $\sqrt{(x+c)^2+y^2} - \sqrt{(x-c)^2+y^2} = \pm 2a$
+
 $\sqrt{x^2+2cx+c^2+y^2} - \sqrt{x^2-2cx+c^2+y^2} = \pm 2a$
+
 $\sqrt{x^2+2cx+c^2+y^2} = \sqrt{x^2-2cx+c^2+y^2} \pm 2a$
+
 $x^2+2cx+c^2+y^2 = (x^2-2cx+c^2+y^2) \pm 4a \sqrt{x^2-2cx+c^2+y^2} + 4a^2$
+
 $2cx = -2cx \pm 4a \sqrt{x^2-2cx+c^2+y^2} + 4a^2$
+
 $4cx - 4a^2 = \pm 4a \sqrt{x^2-2cx+c^2+y^2}$
+
 $cx - a^2 = \pm a \sqrt{x^2-2cx+c^2+y^2}$
+
 $(cx - a^2)^2 = a^2 (x^2-2cx+c^2+y^2)$
+
 $c^2x^2 - 2ca^2x + a^4 = a^2x^2 - 2ca^2x + a^2c^2 + a^2y^2$
+
 $c^2x^2 + a^4 = a^2x^2 + a^2c^2 + a^2y^2$
+
 $(c^2-a^2)x^2 - a^2y^2 = a^2(c^2 - a^2)$
+
 $b^2x^2 - a^2y^2 = a^2b^2$
+
 $\frac{x^2}{b^2} - \frac{y^2}{a^2} = 1$
 
 
