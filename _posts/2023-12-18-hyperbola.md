@@ -19,6 +19,8 @@ Hyperbola <!--more-->
 
 일정한 거리의 차를 $2a$, 쌍곡선 위의 임의의 점을 $\mathbf{P}(x,y)$라 하자.
 
+$\overline(\mathbf{F}^{\prime}\mathbf{P})$
+
 
 
 <p style="text-align: center;">$\sqrt{(x+c)^2+y^2} - \sqrt{(x-c)^2+y^2} = \pm 2a$</p>
