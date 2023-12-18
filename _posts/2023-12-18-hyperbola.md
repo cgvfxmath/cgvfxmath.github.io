@@ -21,7 +21,7 @@ Hyperbola <!--more-->
 
 그러면 쌍곡선의 정의에 의해 다음과 같은 등식이 성립한다.
 
-<p style="text-align: center;">$\lvert \overline{\mathbf{F}^{\prime}\mathbf{P}} - \overline{\mathbf{FP}} \ㄱvert  = 2a$</p>
+<p style="text-align: center;">$\lvert \overline{\mathbf{F}^{\prime}\mathbf{P}} - \overline{\mathbf{FP}} \rvert  = 2a$</p>
 
 이 등식을 정리하면 하면 다음과 같은 쌍곡선의 방정식을 얻을 수 있다.
 
