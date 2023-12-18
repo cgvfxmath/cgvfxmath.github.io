@@ -28,7 +28,7 @@ $| \overline{\mathbf{F}^{\prime}\mathbf{P}} - \overline{\mathbf{FP}} | = 2a$
 <p style="text-align: center;">$\frac{x^2}{b^2} - \frac{y^2}{a^2} = 1$</p>
 
 ---
-**NOTE**
+proof
 
 $\sqrt{(x+c)^2+y^2} - \sqrt{(x-c)^2+y^2} = \pm 2a$
 
