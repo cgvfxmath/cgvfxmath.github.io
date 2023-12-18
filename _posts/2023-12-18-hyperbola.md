@@ -21,7 +21,7 @@ Hyperbola <!--more-->
 
 그러면 다음과 같은 등식이 성립한다.
 
-$| \overline{\mathbf{F}^{\prime}\mathbf{P}} - \overline{\mathbf{FP}} | = 2a$
+$| \mathbf{F}^{\prime}\mathbf{P} - \mathbf{FP} | = 2a$
 
 이 등식을 정리하면 하면 다음과 같은 포물선의 방정식을 얻을 수 있다.
 
