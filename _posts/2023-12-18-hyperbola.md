@@ -19,7 +19,7 @@ Hyperbola <!--more-->
 
 일정한 거리의 차를 $2a$, 쌍곡선 위의 임의의 점을 $\mathbf{P}(x,y)$라 하자.
 
-$| \overline{\mathbf{F}^{\prime}\mathbf{P}}$
+$| \overline{\mathbf{F}^{\prime}\mathbf{P}} - \overline{\mathbf{FP} | = 2a$
 
 
 
