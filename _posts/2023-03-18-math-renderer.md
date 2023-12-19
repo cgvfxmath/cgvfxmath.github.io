@@ -44,4 +44,4 @@ iPhone의 Safari에서는 아무 수식에 대해 더블 탭하고 홀드하세�
 
 <center><img src="https://cgvfxmath.github.io/assets/img/math_renderer_iOS.png"></center>
 
-Source(출처): [https://math.meta.stackexchange.com/questions/30859/how-do-i-change-math-renderer-for-mathjax](https://math.meta.stackexchange.com/questions/30859/how-do-i-change-math-renderer-for-mathjax)
+Source(출처): [link](https://math.meta.stackexchange.com/questions/30859/how-do-i-change-math-renderer-for-mathjax)
