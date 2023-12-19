@@ -13,7 +13,7 @@ sitemap:
 
 The root of unity is a number which is complex in nature and gives 1 if raised to the power of a positive integer n.<!--more-->
 
-*본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요.*
+*본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요. (➔[How-To](https://cgvfxmath.github.io/2023-03-18/math-renderer))*
 
 $x^3 = 1$의 허근에 대해서 살펴보겠습니다.
 

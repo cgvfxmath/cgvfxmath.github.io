@@ -13,7 +13,7 @@ sitemap:
 
 A conjugate pair of roots refers to two complex roots of a polynomial with opposite imaginary parts.<!--more-->
 
-*본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요.*
+*본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요. (➔[How-To](https://cgvfxmath.github.io/2023-03-18/math-renderer))*
 
 이차방정식의 근이 복소수일 때, 허수부분의 부호가 반대인 두 근을 서로 켤레근이라고 합니다.
 

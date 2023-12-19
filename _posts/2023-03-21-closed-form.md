@@ -13,7 +13,7 @@ sitemap:
 
 Closed Form vs Open Form<!--more-->
 
-*본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요.*
+*본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요. (➔[How-To](https://cgvfxmath.github.io/2023-03-18/math-renderer))*
 
 닫힌 형태(closed form)란 방정식(equation)의 해(solution)를 해석적(analytic)으로 표현할 수 있는 종류의 문제를 말한다. 즉, 닫힌 형태를 가지는 방정식의 해는 변수(variable), 상수(constant), 사칙연산( +−×÷), 그리고 잘 알려진 기본 함수(삼각함수, 로그함수, 제곱근 등) 등을 조합해서 “해 = …” 꼴로 표현될 수 있다. 대표적인 닫힌 형태 해(closed form solution)의 예로는 2차 방정식의 근의 공식을 들 수 있다.
 
