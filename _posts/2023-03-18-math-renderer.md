@@ -36,4 +36,4 @@ In Safari on an iPhone, use double-tap+hold on any formula. In other browsers, y
 
 <center><img src="https://cgvfxmath.github.io/assets/img/math_renderer_iOS.png"></center>
 
-[Original](https://math.meta.stackexchange.com/questions/30859/how-do-i-change-math-renderer-for-mathjax)
+[출처](https://math.meta.stackexchange.com/questions/30859/how-do-i-change-math-renderer-for-mathjax)
