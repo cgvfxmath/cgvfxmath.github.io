@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quadratic Curve #3"
+title: "Conic Sections #3"
 author: "wano"
 excerpt_separator: <!--more-->
 tags: ['math']
