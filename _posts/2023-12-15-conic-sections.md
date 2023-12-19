@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conic Sections #1"
+title: "Conic Sections"
 author: "wano"
 excerpt_separator: <!--more-->
 tags: ['math']
