@@ -4,7 +4,6 @@ title: "Math Renderer"
 author: "wano"
 excerpt_separator: <!--more-->
 tags: ['math']
-sticky: true
 lastmode: 2023-03-18 15:00:00
 sitemap:
   changefreq: weekly
@@ -12,8 +11,6 @@ sitemap:
 ---
 
 How do I change Math Renderer for MathJax?<!--more-->
-
-<div align="center"> <font size="6">그래픽스 개발을 위한 수학 기초 개념</font></div>
 
 ### Windows
 
@@ -39,4 +36,4 @@ In Safari on an iPhone, use double-tap+hold on any formula. In other browsers, y
 
 <center><img src="https://cgvfxmath.github.io/assets/img/math_renderer_iOS.png"></center>
 
-Original <!-- Source: https://math.meta.stackexchange.com/questions/30859/how-do-i-change-math-renderer-for-mathjax -->
+[Original](https://math.meta.stackexchange.com/questions/30859/how-do-i-change-math-renderer-for-mathjax)
