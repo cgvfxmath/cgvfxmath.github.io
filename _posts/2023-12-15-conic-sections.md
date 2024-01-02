@@ -13,6 +13,8 @@ sitemap:
 
 Curves obtained from a cone's surface intersecting a plane <!--more-->
 
+*본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요. (➔[How-To](https://cgvfxmath.github.io/2023-03-18/math-renderer))*
+
 다음 그림과 같이 원뿔을 임의의 평면으로 잘랐을 때 얻어지는 곡선을 원뿔 곡선 또는 원추 곡선이라고 부릅니다. 이렇게 얻어지는 곡선의 종류로는 원(circle), 타원(ellipse), 포물선(parabola), 쌍곡선(hyperbola)이 있습니다.
 
 <center><img src="https://cgvfxmath.github.io/assets/img/conic_sections.jpg"></center>
