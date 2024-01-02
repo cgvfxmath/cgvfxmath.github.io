@@ -25,7 +25,7 @@ Curves obtained from a cone's surface intersecting a plane <!--more-->
 
 여기서 $xy$항은 편의상 생략하겠습니다. 즉, $e=0$으로 가정하겠습니다. ($xy$항은 축에 정렬되어 있는 이차곡선을 회전시킨 결과로 나타나는 항이기 때문에 이차곡선의 본질과는 직접적으로 관련이 없습니다.)
 
-이때 이 방정식의 그래프는 다음과 같은 조건에 따라 결정됩니다.
+이때 다음과 같은 조건에 따라 위의 이차곡선 중 하나를 나타내게 됩니다.
 
 1. 원(circle): $a = b$, $ab \neq 0$, $f \neq 0$
 2. 타원(ellipse): $a \neq b$, $ab>0$, $f \neq 0$
