@@ -25,17 +25,17 @@ Curves obtained from a cone's surface intersecting a plane <!--more-->
 
 이때 이 방정식의 그래프는 다음과 같은 조건에 따라 결정됩니다.
 
-1. 원(circle): $a = b$ and $ab \neq 0$ and $f \neq 0$
+1. 원(circle): $a = b$ & $ab \neq 0$ & $f \neq 0$
 
-2. 타원(ellipse): $a \neq b$ and $ab>0$ and $f \neq 0$
+2. 타원(ellipse): $a \neq b$ & $ab>0$ & $f \neq 0$
 
-3. 쌍곡선(hyperbola): $a \neq b$ and $ab<0$ and $f \neq 0$
+3. 쌍곡선(hyperbola): $a \neq b$ & $ab<0$ & $f \neq 0$
 
 4. 포물선(parabola)
 
-  1) 축이 $x$축에 평행한 경우: $a = 0$ and $b \neq 0$ and $c \neq 0$
+  1) 축이 $x$축에 평행한 경우: $a = 0$ & $b \neq 0$ & $c \neq 0$
 
-  2) 축이 $y$축에 평행한 경우: $a \neq 0$ and $b = 0$ and $d \neq 0$
+  2) 축이 $y$축에 평행한 경우: $a \neq 0$ & $b = 0$ & $d \neq 0$
 
 그리고 위에서 $c$나 $d$가 0이 아닌 경우는 기본 그래프를 $x$축 또는 $y$축을 평행이동한 것을 의미합니다. 타원의 경우를 예로 들어 살펴보겠습니다. 중심이 원점에 있고 각 축의 길이가 $2a$와 $2b$인 타원을 나타내는 방정식은 다음과 같습니다.
 
