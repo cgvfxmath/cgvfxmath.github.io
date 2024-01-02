@@ -36,4 +36,4 @@ Curves obtained from a cone's surface intersecting a plane <!--more-->
 
 <p style="text-align: center;">$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</p>
 
-여기서 $x$축으로 $\alpha$만큼, $y$축으로 $\beta$만큼 이동하면 $x$ 대신에 $x-\alpha$, $y$ 대신에 $y-\beta$를 대입하면 되기 때문에 $(x-\alpha)^2$을 전개한 결과로 $x$항이 생기고 $(y-\beta)^2$을 전개한 결과로 $y$항이 생기게 됩니다. 또한 전개하는 과정에서 생성되는 상수항의 계수는 $f$를 0에 영향을 줍니다.
+여기서 $x$축으로 $\alpha$만큼, $y$축으로 $\beta$만큼 이동하면 $x$ 대신에 $x-\alpha$, $y$ 대신에 $y-\beta$를 대입하면 되기 때문에 $(x-\alpha)^2$을 전개한 결과로 $x$항이 생기고 $(y-\beta)^2$을 전개한 결과로 $y$항이 생기게 됩니다. 또한 전개하는 과정에서 생성되는 상수항의 계수는 $f$에 영향을 줍니다.
