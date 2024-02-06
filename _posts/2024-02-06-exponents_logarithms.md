@@ -23,7 +23,7 @@ Assumptions of Exponents and Logarithms <!--more-->
 
 만약 $a$, $b$, $x$가 모두 실수라면 다음과 같은 조건이 필수적으로 따라 붙습니다.
 
-<p style="text-align: center;">$a \neq 1$, $\;\;\;$, $a > 0$, $\;\;\;$, $b > 0$</p>
+<p style="text-align: center;">$a \neq 1$, $\;\;\; $$a > 0$, $\;\;\;$$b > 0$</p>
 
 처음 지수를 배울 때에는 지수 $x$가 정수인 경우만 생각하지만, 고등학교 교과과정에서는 지수인 $x$를 유리수 또는 실수로 확장하게 되면서 붙는 전제들입니다. 이렇게 되어야 하는 이유는 다음과 같습니다.
 
