@@ -15,7 +15,7 @@ The reason why the volume of a pyramid is one-third of that of a prism <!--more-
 
 *본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요. (➔[How-To](https://cgvfxmath.github.io/2023-03-18/math-renderer))*
 
-밑면의 넓이와 높이가 같을 때, 삼각뿔의 부피는 삼각기둥의 부피의 3분의 1이 됩니다.
+밑면의 넓이와 높이가 같을 때, 삼각뿔과 삼각기둥의 부피 사이에는 다음과 같은 관계가 성립합니다.
 
 <center><img src="https://cgvfxmath.github.io/assets/img/prism_pyramid_01.jpg"></center>
 
