@@ -15,7 +15,6 @@ The reason why the volume of a pyramid is one-third of that of a prism <!--more-
 
 *본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요. (➔[How-To](https://cgvfxmath.github.io/2023-03-18/math-renderer))*
 
-<<<<<<< HEAD
 다음 그림과 같이 밑면의 가로와 세로 길이, 그리고 높이가 각각 $a$, $b$, $h$인 일반적인 사각기둥과 사각뿔이 있다고 생각해 보겠습니다.
 
 <center><img src="https://cgvfxmath.github.io/assets/img/prism_pyramid_01.jpg"></center>
@@ -87,4 +86,3 @@ The reason why the volume of a pyramid is one-third of that of a prism <!--more-
 <center><img src="https://cgvfxmath.github.io/assets/img/prism_pyramid_05.jpg"></center>
 
 그리고 이러한 사실은 원기둥-원뿔에도 동일하게 적용됩니다. 왜냐하면 원기둥과 원뿔은 각각 무한각기둥과 무한각뿔이라고 볼 수 있기 때문입니다. 따라서, 원뿔의 부피는 원기둥 부피의 3분의 1이 된다는 사실을 알 수 있습니다.
->>>>>>> 33946121581546e533fce5c12e6e37755f79c0d7
