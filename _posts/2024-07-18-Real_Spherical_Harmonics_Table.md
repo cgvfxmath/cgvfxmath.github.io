@@ -13,5 +13,5 @@ sitemap:
 
 Spherical Harmonics: Derivation of the Analytic Form<!--more-->
 
-<center><img src="https://cgvfxmath.github.io/assets/img/RealSphericalHarmonicsTable.jpg"></center>
+<center><img src="https://cgvfxmath.github.io/assets/img/RealSphericalHarmonicsTable.jpg" witdh="100%"></center>
 
