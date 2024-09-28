@@ -21,9 +21,9 @@ The reason why the volume of a pyramid is one-third of that of a prism <!--more-
 
 이 사각기둥과 사각뿔의 부피는 다음과 같습니다.
 
-* 사각기둥의 부피: $V_{prism} = a \times b \times h$</p>
+* 사각기둥의 부피: $V_{prism} = a \times b \times h$
 
-* 사각뿔의 부피: $V_{pyramid} = \frac{1}{3} \times a \times b \times h$</p>
+* 사각뿔의 부피: $V_{pyramid} = \frac{1}{3} \times a \times b \times h$
 
 즉, 사각기둥의 부피와 사각뿔의 부피 사이에는 다음과 같은 관계식이 성립합니다.
 
@@ -42,20 +42,6 @@ The reason why the volume of a pyramid is one-third of that of a prism <!--more-
 즉, 형태가 다르더라도 밑면의 넓이와 높이가 같으면 두 사각뿔의 부피는 동일합니다.
 
 이것은 다음 그림과 같이 사각뿔을 잘게 슬라이스(slice) 내어서 수평방향으로 이동한 결과이기 때문이라고 직관적으로 이해할 수도 있습니다.
-
-<center><img src="https://cgvfxmath.github.io/assets/img/prism_pyramid_03.jpg"></center>
-
-
-=======
-밑면의 넓이와 높이가 같을 때, 삼각뿔과 삼각기둥의 부피 사이에는 다음과 같은 관계가 성립합니다.
-
-<center><img src="https://cgvfxmath.github.io/assets/img/prism_pyramid_01.jpg"></center>
-
-여기서 1/3이라는 수가 어떻게 나왔는지는, 정적분을 사용하여 깔끔하게 증명할 수 있습니다. 하지만 여기서는 적분을 사용하지 않고 증명을 해보겠습니다.
-
-우선 형태가 다르더라도 밑면의 넓이와 높이가 같다면 두 사각뿔의 부피는 같습니다.
-
-이것은 다음 그림과 같이 사각뿔을 무한히 얇은 층으로 슬라이싱(slicing) 하여 수평 방향으로 이동시켜서 어떤 형태의 사각뿔도 표현할 수 있기 때문이라고 직관적으로 이해할 수 있습니다.
 
 <center><img src="https://cgvfxmath.github.io/assets/img/prism_pyramid_03.jpg"></center>
 
