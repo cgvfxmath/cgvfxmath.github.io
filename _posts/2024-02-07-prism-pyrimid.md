@@ -31,15 +31,7 @@ The reason why the volume of a pyramid is one-third of that of a prism <!--more-
 
 여기서 1/3이라는 수가 어떻게 나왔는지는, 정적분을 이용하면 깔끔하게 증명할 수 있습니다. 하지만 여기서는 적분을 사용하지 않고 증명을 해보겠습니다.
 
-앞의 공식처럼 사각뿔의 부피 공식은 다음과 같습니다.
-
-<p style="text-align: center;">$\frac{1}{3} \times$ (밑면의 넓이) $\times$ (높이)</p>
-
-따라서, 다음 두 사각뿔의 부피는 같습니다.
-
-<center><img src="https://cgvfxmath.github.io/assets/img/prism_pyramid_02.jpg"></center>
-
-즉, 형태가 다르더라도 밑면의 넓이와 높이가 같으면 두 사각뿔의 부피는 동일합니다.
+우선, 형태가 다르더라도 밑면의 넓이와 높이가 같으면 두 사각뿔의 부피는 동일합니다.
 
 이것은 다음 그림과 같이 사각뿔을 잘게 슬라이스(slice) 내어서 수평방향으로 이동한 결과이기 때문이라고 직관적으로 이해할 수도 있습니다.
 
