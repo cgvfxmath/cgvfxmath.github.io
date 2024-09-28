@@ -15,17 +15,11 @@ The reason why the volume of a pyramid is one-third of that of a prism <!--more-
 
 *본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요. (➔[How-To](https://cgvfxmath.github.io/2023-03-18/math-renderer))*
 
-다음 그림과 같이 밑면의 가로와 세로 길이, 그리고 높이가 각각 $a$, $b$, $h$인 일반적인 사각기둥과 사각뿔이 있다고 생각해 보겠습니다.
+다각기둥과 다각뿔의 부피 관계는 삼각기둥과 삼각뿔의 부피 관계를 고찰하면 됩니다. 왜냐하면, 다각기둥의 밑면은 여러 개의 삼각형으로 분할할 수 있기 때문입니다.
+
+삼각기둥의 부피와 삼각뿔의 부피 사이에는 다음과 같은 관계식이 성립합니다.
 
 <center><img src="https://cgvfxmath.github.io/assets/img/prism_pyramid_01.jpg"></center>
-
-이 사각기둥과 사각뿔의 부피는 다음과 같습니다.
-
-* 사각기둥의 부피: $V_{prism} = a \times b \times h$
-
-* 사각뿔의 부피: $V_{pyramid} = \frac{1}{3} \times a \times b \times h$
-
-즉, 사각기둥의 부피와 사각뿔의 부피 사이에는 다음과 같은 관계식이 성립합니다.
 
 <p style="text-align: center;">$V_{prism} = \frac{1}{3} V_{pyramid}$</p>
 
