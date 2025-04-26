@@ -47,6 +47,15 @@ Fast Polygon Normal Calculation<!--more-->
 
 단, 여기서 $next(i)$는 일반적으로 $i$번째 정점의 다음 정점인 $i+1$번째 정점의 인덱스를 의미하고, $i=N$일 때에는 다음 점인 $N+1$번째 점이 존재하지 않기 때문에 다시 처음 점인 첫 번째 점의 인덱스를 출력으로 뱉어주는 함수입니다.
 
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/newell04.jpg" width="50%"></figure></center>
+
+이제 주어진 다각형의 $i$번째 선분인 $\overline{\mathbf{V}_i \mathbf{V}_{i+1}}$으로 구성되는 삼각형의 부호 넓이를 구해보겠습니다.
+
+따라서 $\Delta \mathbf{O} \mathbf{V}_i \mathbf{V}_{i+1}$의 부호 넓이는 $x_i y_{i+1} - y_i x_{i+1}$가 됨을 알 수 있습니다. 따라서 다각형 $\mathbf{V}_{1}
+\mathbf{V}_{2}
+\cdots
+\mathbf{V}_{N}$의 넓이는 다음과 같습니다.
+
 
 Q.E.D.
 
