@@ -43,10 +43,7 @@ Fast Polygon Normal Calculation<!--more-->
 
 하나의 $n$각형은 $n-1$개의 삼각형의 합으로 구성되기 때문에 이 공식은 다음과 같이 다각형의 넓이를 구하는 공식으로 확장될 수 있습니다.
 
-
-
-<p style="text-align: center;">
-$N$개의 정점 $\mathbf{V}_i$를 가지는 다각형의 넓이)=$\frac{1}{2}$</p>
+$N$개의 정점 $\mathbf{V}_i$를 가지는 다각형의 넓이)=$\frac{1}{2}$
 
 Q.E.D.
 
