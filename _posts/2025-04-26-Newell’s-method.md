@@ -49,7 +49,8 @@ Fast Polygon Normal Calculation<!--more-->
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/newell04.jpg" width="100%"></figure></center>
 
-이제 주어진 다각형의 $i$번째 선분인 $\overline{\mathbf{V}_i\mathbf{V}_{i+1}}$으로 구성되는 삼각형의 부호 넓이를 구해보겠습니다.
+세 점 $\mathbf{O}$, $\mathbf{V}$, \mathbf{V}$로 구성되는 삼각형의 넓이는 다음과 같습니다.
+
 
 
 Q.E.D.
