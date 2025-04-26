@@ -29,7 +29,9 @@ Fast Polygon Normal Calculation<!--more-->
 
 <p style="text-align: center;">$\overrightarrow{\mathbf{M}}=(A_{yz},A_{zx}, A_{xy})\;\;\;\Longrightarrow\;\;\;\overrightarrow{\mathbf{N}}=\frac{\overrightarrow{\mathbf{M}}}{\Vert \overrightarrow{\mathbf{M}} \Vert}$</p>
 
-여기서 $A_{yz}$, $A_{zx}$, $A_{xy}$는 각각 주어진 다각형의 넓이 $A$를 $yz$-평면, $zx$-평면, $xy$-평면으로 투영한 넓이를 의미합니다. 왜 이렇게 투영한 넓이를 이용하여 법선 벡터를 나타낼 수 있는지 살펴보겠습니다. 다음처럼 $xy$-평면과 $\theta$만큼의 각도를 이루고 있는 평면을 옆에서 보고 있다고 가정해 보겠습니다.
+여기서 $A_{yz}$, $A_{zx}$, $A_{xy}$는 각각 주어진 다각형의 넓이 $A$를 $yz$-평면, $zx$-평면, $xy$-평면으로 투영한 넓이를 의미합니다.
+
+왜 이렇게 투영한 넓이를 이용하여 법선 벡터를 나타낼 수 있는지 조금 더 수학적으로 엄밀히 살펴보겠습니다. 다음처럼 $xy$-평면과 $\theta$만큼의 각도를 이루고 있는 평면을 옆에서 보고 있다고 가정해 보겠습니다.
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/newell02.jpg" width="100%"></figure></center>
 
