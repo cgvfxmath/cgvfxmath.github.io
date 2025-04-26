@@ -46,7 +46,7 @@ Fast Polygon Normal Calculation<!--more-->
 
 
 <p style="text-align: center;">
-$N$개의 정점 $\mathbf{V}_i$를 가지는 다각형의 넓이)=$\frac{1}{2}\sum_{i=1}^{N}(\overrightarrow{\mathbf{OV}}_i\times\overrightarrow{\mathbf{OV}}_{next(i)})$</p>
+$N$개의 정점 $\mathbf{V}_i$를 가지는 다각형의 넓이)=$\frac{1}{2}$</p>
 
 Q.E.D.
 
