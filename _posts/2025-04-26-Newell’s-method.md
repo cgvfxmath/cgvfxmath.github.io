@@ -55,25 +55,25 @@ Fast Polygon Normal Calculation<!--more-->
 
 따라서 $N$개의 점 $V_{i}, V_{2}, \cdots ,V_{N}$으로 구성되는 다각형의 넓이는 다음과 같습니다.
 
-$(x_1 y_2 - y_1 x_2)  + (x_2 y_3 - y_2 x_3) + \cdots + (x_N y_1 - y_N x_1)$
+<p style="text-align: center;">$(x_1 y_2 - y_1 x_2)  + (x_2 y_3 - y_2 x_3) + \cdots + (x_N y_1 - y_N x_1)$</p>
 
-$=(x_1 y_1 + x_1 y_2 - y_1 x_2 - x_2 y_2) + (x_2 y_2 + x_2 y_3 - y_2 x_3 - x_3 y_3) + \cdots + (x_{N-1} y_{N-1} + x_N y_1 - y_N x_1 - x_1 y_1)$
+<p style="text-align: center;">$=(x_1 y_1 + x_1 y_2 - y_1 x_2 - x_2 y_2) + (x_2 y_2 + x_2 y_3 - y_2 x_3 - x_3 y_3) + \cdots + (x_{N-1} y_{N-1} + x_N y_1 - y_N x_1 - x_1 y_1)$</p>
 
-$=(x_1 - x_2) (y_1 + y_2) + (x_2 - x_3) (y_2 + y_3) + \cdots + (x_N - x_1) (y_N + y_1)$
+<p style="text-align: center;">$=(x_1 - x_2) (y_1 + y_2) + (x_2 - x_3) (y_2 + y_3) + \cdots + (x_N - x_1) (y_N + y_1)$</p>
 
-$= \sum_{i=1}^N (x_i - x_{next(i)}) (y_i + y_{next(i)})$
+<p style="text-align: center;">$= \sum_{i=1}^N (x_i - x_{next(i)}) (y_i + y_{next(i)})$</p>
 
 이것은 주어진 3차원 다각형을 $yz$-평면으로 투영한 넓이를 구한 것입니다. 마찬가지로 주어진 3차원 다각형을  $zx$-평면과 $xy$-평면으로 각각 투영한 넓이를 구하여 정리하면 이 다각형의 법선 벡터를 다음과 같이 구할 수 있습니다.
 
-$\overrightarrow{\mathbf{M}}=(A_{yz},A_{zx},A_{xy})$
+<p style="text-align: center;">$\overrightarrow{\mathbf{M}}=(A_{yz},A_{zx},A_{xy})$</p>
 
-$\overrightarrow{\mathbf{N}}=\frac{\overrightarrow{\mathbf{M}}}{\Vert \overrightarrow{\mathbf{M}} \Vert}$
+<p style="text-align: center;">$\overrightarrow{\mathbf{N}}=\frac{\overrightarrow{\mathbf{M}}}{\Vert \overrightarrow{\mathbf{M}} \Vert}$</p>
 
-$A_{yz}=\sum_{i=1}^N(y_i - y_{i+1})(z_i + z_{i+1})$
+<p style="text-align: center;">$A_{yz}=\sum_{i=1}^N(y_i - y_{i+1})(z_i + z_{i+1})$</p>
 
-$A_{zx}=\sum_{i=1}^N(z_i - z_{i+1})(x_i + x_{i+1})$
+<p style="text-align: center;">$A_{zx}=\sum_{i=1}^N(z_i - z_{i+1})(x_i + x_{i+1})$</p>
 
-$A_{xy}=\sum_{i=1}^N(x_i - x_{i+1})(y_i + y_{i+1})$
+<p style="text-align: center;">$A_{xy}=\sum_{i=1}^N(x_i - x_{i+1})(y_i + y_{i+1})$</p>
 
 Q.E.D.
 
