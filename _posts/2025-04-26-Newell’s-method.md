@@ -17,7 +17,7 @@ Fast Polygon Normal Calculation<!--more-->
 
 **뉴웰 방법(Newell's method)**는 3차원 공간에서 임의의 다각형(polygon)의 법선 벡터(normal vector)를 구하는 방법입니다.
 
-다음 그림과 같이 네 점 $\mathbf{P}_1$, $\mathbf{P}_2$, $\mathbf{P}_3$, $\mathbf{P}_4$로 구성되는 3차원 공간상의 사각형이 있을 때, 이 다각형의 법선 벡터의 $x$, $y$, $z$ 성분은 각각 오른쪽 수식과 같이 계산할 수 있다는 것이 **뉴웰 방법(Newell's method)** 방법의 내용입니다.
+다음 그림과 같이 네 점 $\mathbf{P}_1$, $\mathbf{P}_2$, $\mathbf{P}_3$, $\mathbf{P}_4$로 구성되는 3차원 공간상의 사각형이 있을 때, 이 다각형의 법선 벡터 $\overrightarrow{\mathbf{N}}$의 $x$, $y$, $z$ 성분인 $N_x$, $N_y$, $N_z$는 각각 오른쪽 수식과 같이 계산할 수 있다는 것이 **뉴웰 방법(Newell's method)** 방법의 내용입니다.
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/newell01.jpg" width="100%"></figure></center>
 
