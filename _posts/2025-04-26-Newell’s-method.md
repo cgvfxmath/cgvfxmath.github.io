@@ -49,7 +49,7 @@ Fast Polygon Normal Calculation<!--more-->
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/newell04.jpg" width="100%"></figure></center>
 
-세 점 $\mathbf{O}\mathbf{V}_{i}\mathbf{V}_{i+1}$로 구성되는 삼각형의 넓이는 다음과 같습니다.
+세 점 $\mathbf{O} \mathbf{V}_{i} \mathbf{V}_{i+1}$로 구성되는 삼각형의 넓이는 다음과 같습니다.
 
 
 
