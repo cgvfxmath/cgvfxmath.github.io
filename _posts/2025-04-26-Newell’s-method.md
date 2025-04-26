@@ -51,10 +51,7 @@ Fast Polygon Normal Calculation<!--more-->
 
 이제 주어진 다각형의 $i$번째 선분인 $\overline{\mathbf{V}_i \mathbf{V}_{i+1}}$으로 구성되는 삼각형의 부호 넓이를 구해보겠습니다.
 
-따라서 $\Delta \mathbf{O} \mathbf{V}_i \mathbf{V}_{i+1}$의 부호 넓이는 $x_i y_{i+1} - y_i x_{i+1}$가 됨을 알 수 있습니다. 따라서 다각형 $\mathbf{V}_{1}
-\mathbf{V}_{2}
-\cdots
-\mathbf{V}_{N}$의 넓이는 다음과 같습니다.
+따라서 $\Delta \mathbf{O} \mathbf{V}_i \mathbf{V}_{i+1}$의 넓이는 다음과 같습니다.
 
 
 Q.E.D.
