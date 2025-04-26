@@ -31,7 +31,7 @@ Fast Polygon Normal Calculation<!--more-->
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/newell02.jpg" width="100%"></figure></center>
 
-주어진 평면의 넓이를 $A$라 하고, 이 평면을 $xy$-평면에 투영한 넓이를 $A_{xy}$라고 하면 코사인 함수의 정의에 따라 $A_{xy}=A\cos\theta$와 같은 관계식이 성립합니다. 그리고 위의 그림에서 나타나는 모든 직각삼각형은 서로 닮음이라는 것과 \Vert \overrightarrow{\mathbf{N}} \Vert = 1이라는 사실로부터 법선 벡터 $\overrightarrow{\mathbf{N}}$의 $z$-축 성분의 크기는 $N_z=\cos\theta$가 됨을 알 수 있습니다. 이 두 식에서 공통 부분인 $\cos\theta$를 정리해서 없애면 $N_z=\frac{A_{xy}}{A}$를 얻을 수 있습니다. 마찬가지 방법으로, $x$-축 성분과 $y$-축 성분을 구해서 정리하면 법선 벡터 $\overrightarrow{\mathbf{N}}$은 다음과 같이 쓸 수 있습니다.
+주어진 평면의 넓이를 $A$라 하고, 이 평면을 $xy$-평면에 투영한 넓이를 $A_{xy}$라고 하면 코사인 함수의 정의에 따라 $A_{xy}=A\cos\theta$와 같은 관계식이 성립합니다. 그리고 위의 그림에서 나타나는 모든 직각삼각형은 서로 닮음이라는 것과 법선 벡터의 크기는 1이라는 사실로부터 법선 벡터 $\overrightarrow{\mathbf{N}}$의 $z$-축 성분의 크기는 $N_z=\cos\theta$가 됨을 알 수 있습니다. 이 두 식에서 공통 부분인 $\cos\theta$를 정리해서 없애면 $N_z=\frac{A_{xy}}{A}$를 얻을 수 있습니다. 마찬가지 방법으로, $x$-축 성분과 $y$-축 성분을 구해서 정리하면 법선 벡터 $\overrightarrow{\mathbf{N}}$은 다음과 같이 쓸 수 있습니다.
 
 <p style="text-align: center;">$\overrightarrow{\mathbf{N}}=(\frac{A_{yz}}{A},\frac{A_{zx}}{A},\frac{A_{xy}}{A})=\frac{1}{A}(A_{yz},A_{zx},A_{xy})$</p>
 
