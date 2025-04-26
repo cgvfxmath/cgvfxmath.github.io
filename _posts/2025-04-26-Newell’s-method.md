@@ -25,6 +25,27 @@ Fast Polygon Normal Calculation<!--more-->
 
 <p style="text-align: center;">$\overrightarrow{\mathbf{M}}=(A_{yz},A_{zx}, A_{xy})\;\;\;\Longrightarrow\;\;\;\overrightarrow{\mathbf{N}}=\frac{\overrightarrow{\mathbf{M}}}{\Vert \overrightarrow{\mathbf{M}} \Vert}$</p>
 
- Q.E.D.
+여기서 $A_{yz}$, $A_{zx}$, $A_{xy}$는 각각 주어진 다각형의 넓이 A를 $yz$-평면, $zx$-평면, $xy$-평면으로 투영한 넓이를 의미합니다. 왜 이렇게 투영한 넓이를 이용하여 법선 벡터를 나타낼 수 있는지 살펴보겠습니다. 다음처럼 $xy$-평면과 $\theta$만큼의 각도를 이루고 있는 평면을 옆에서 보고 있다고 가정해 보겠습니다.
+
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/newell02.jpg" width="50%"></figure></center>
+
+주어진 평면의 넓이를 $A$라 하고, 이 평면을 $xy$-평면에 투영한 넓이를 $A_{xy}$라고 하면 코사인 함수의 정의에 따라 $A_{xy}=A\cos\theta$와 같은 관계식이 성립합니다. 그리고 위의 그림에서 나타나는 모든 직각삼각형은 서로 닮음이라는 것과 \Vert \overrightarrow{\mathbf{N}} \Vert = 1이라는 사실로부터 법선 벡터 $\overrightarrow{\mathbf{N}}$의 $z$-축 성분의 크기는 $N_z=\cos\theta$가 됨을 알 수 있습니다. 이 두 식에서 공통 부분인 $\cos\theta$를 정리해서 없애면 $N_z=\frac{A_{xy}}{A}$를 얻을 수 있습니다. 마찬가지 방법으로, $x$-축 성분과 $y$-축 성분을 구해서 정리하면 법선 벡터 $\overrightarrow{\mathbf{N}}$은 다음과 같이 쓸 수 있습니다.
+
+<p style="text-align: center;">$\overrightarrow{\mathbf{N}}=(\frac{A_{yz}}{A},\frac{A_{zx}}{A},\frac{A_{xy}}{A})=\frac{1}{A}(A_{yz},A_{zx},A_{xy})$</p>
+
+그러므로 각 평면으로 투영한 넓이를 각각의 성분으로 가지는 벡터는 법선 벡터와 같은 방향을 나타냅니다.
+
+이제 각 평면으로 투영된 다각형의 넓이를 구해보겠습니다. 2차원 평면상에 존재하는 임의의 다각형은 몇 개의 삼각형으로 분할된다는 사실과, 이때 각 삼각형의 크기는 삼각형을 구성하는 두 벡터의 외적으로 구한 벡터의 길이의 절반이 된다는 사실을 우리는 이미 알고 있습니다. 다만 외적을 구할 때 두 벡터의 순서에 따라서 부호를 결정할 수 있는데, 반시계 방향으로 외적한 결과 벡터의 길이로 구한 넓이를 양(+)의 부호를 가지도록 정의하고, 시계 방향으로 외적한 결과 벡터의 길이로 구한 넓이를 음(-)의 부호를 가지도록 정의하겠습니다. 이렇게 외적의 순서에 따라서 양과 음의 부호를 모두 가질 수 있도록 정의한 넓이를 부호 넓이(signed area)라고 합니다.
+
+<center><figure><img src="https://cgvfxmath.github.io/assets/img/newell03.jpg" width="50%"></figure></center>
+
+부호 넓이에 대한 한 가지 예를 살펴보겠습니다. 다음과 같이 $xy$-평면상에 존재하는 2차원 삼각형 ABC가 있다고 가정하겠습니다. 그러면 이 삼각형의 넓이는 부호 넓이를 이용하여 다음과 같이 계산할 수 있습니다.
+
+하나의 $n$각형은 $n-1$개의 삼각형의 합으로 구성되기 때문에 이 공식은 다음과 같이 다각형의 넓이를 구하는 공식으로 확장될 수 있습니다.
+
+<p style="text-align: center;">$
+(N\text{개의 정점 } \mathbf{V}_i \text{ 를 가지는 다각형의 넓이)}=\frac{1}{2}\sum_{i=1}^{N}(\overrightarrow{\mathbf{OV}}_i\times\overrightarrow{\mathbf{OV}}_{next(i)})$</p>
+
+Q.E.D.
 
 
