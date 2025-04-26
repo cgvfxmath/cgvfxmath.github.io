@@ -45,6 +45,9 @@ Fast Polygon Normal Calculation<!--more-->
 
 <p style="text-align: center;">$\frac{1}{2} \sum_{i=1}^{N} ( \overrightarrow{\mathbf{OV}}_i \times \overrightarrow{\mathbf{OV}}_{next(i)} )$</p>
 
+단, 여기서 $next(i)$는 일반적으로 $i$번째 정점의 다음 정점인 $i+1$번째 정점의 인덱스를 의미하고, $i=N$일 때에는 다음 점인 $N+1$번째 점이 존재하지 않기 때문에 다시 처음 점인 첫 번째 점의 인덱스를 출력으로 뱉어주는 함수입니다.
+
+
 Q.E.D.
 
 
