@@ -59,6 +59,9 @@ $(x_1 y_2 - y_1 x_2)  + (x_2 y_3 - y_2 x_3) + \cdots + (x_N y_1 - y_N x_1)$
 
 $=(x_1 y_1 + x_1 y_2 - y_1 x_2 - x_2 y_2) + (x_2 y_2 + x_2 y_3 - y_2 x_3 - x_3 y_3) + \cdots + (x_{N-1} y_{N-1} + x_N y_1 - y_N x_1 - x_1 y_1)$
 
+$=(x_1 - x_2) (y_1 + y_2) + (x_2 - x_3) (y_2 + y_3) + \cdots + (x_N - x_1) (y_N + y_1)$
+
+$= \sum_{i=1}^N (x_i - x_{next(i)}) (y_i + y_{next(i)})$
 
 Q.E.D.
 
