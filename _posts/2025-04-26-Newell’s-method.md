@@ -21,7 +21,9 @@ Fast Polygon Normal Calculation<!--more-->
 
 단, 위 수식에서 $N=4$이고, $(x_{N+1},y_{N+1},z_{N+1})=(x_{1},y_{1},z_{1})$를 의미합니다.
 
-뉴웰 방법은 주어진 다각형의 법선 벡터의 각 성분은 각 2차원 평면으로 투영한 다각형의 넓이에 비례한다는 사실에 기반합니다. 즉, 주어진 다각형의 법선 벡터 다음과 같습니다.
+3차원 공간에서 다각형 모양의 평평한 도형이 있을 때, 이 다각형 평면의 법선 벡터는 3개의 2차원 평면으로 투영한 그림자의 넓이와 관련이 있습니다. 예를 들어, $xy$-평면으로 투영한 그림자의 넓이가 주어진 다각형의 넓이와 같다면, 이때의 법선 벡터는 $xy$-평면과 수직이므로 $x$성분과 $y$성분의 값은 0이 됩니다.
+
+즉, 주어진 다각형의 법선 벡터 다음과 같이 계산할 수 있습니다.
 
 <p style="text-align: center;">$\overrightarrow{\mathbf{M}}=(A_{yz},A_{zx}, A_{xy})\;\;\;\Longrightarrow\;\;\;\overrightarrow{\mathbf{N}}=\frac{\overrightarrow{\mathbf{M}}}{\Vert \overrightarrow{\mathbf{M}} \Vert}$</p>
 
