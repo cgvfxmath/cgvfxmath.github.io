@@ -53,7 +53,7 @@ Fast Polygon Normal Calculation<!--more-->
 
 <p style="text-align: center;">$x_i y_{i+1} - y_i x_{i+1}$</p>
 
-따라서 $N$개의 점 $V_{i}, V_{2}, ... ,V_{N}$으로 구성되는
+따라서 $N$개의 점 $V_{i}, V_{2}, \cdots ,V_{N}$으로 구성되는
 
 
 Q.E.D.
