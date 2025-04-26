@@ -51,8 +51,9 @@ Fast Polygon Normal Calculation<!--more-->
 
 세 점 $O_{}$, $V_{i}$, $V_{i+1}$로 구성되는 삼각형의 넓이는 다음과 같습니다.
 
-asfd
+<p style="text-align: center;">$x_i y_{i+1} - y_i x_{i+1}$</p>
 
+따라서 $N$개의 점 $V_{i}$, $V_{2}$, $V_N$으로 구성되는
 
 
 Q.E.D.
