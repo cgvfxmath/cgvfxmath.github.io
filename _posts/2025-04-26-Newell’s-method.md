@@ -63,6 +63,18 @@ $=(x_1 - x_2) (y_1 + y_2) + (x_2 - x_3) (y_2 + y_3) + \cdots + (x_N - x_1) (y_N 
 
 $= \sum_{i=1}^N (x_i - x_{next(i)}) (y_i + y_{next(i)})$
 
+이것은 주어진 3차원 다각형을 $yz$-평면으로 투영한 넓이를 구한 것입니다. 마찬가지로 주어진 3차원 다각형을  $zx$-평면과 $xy$-평면으로 각각 투영한 넓이를 구하여 정리하면 이 다각형의 법선 벡터를 다음과 같이 구할 수 있습니다.
+
+$\overrightarrow{\mathbf{M}}=(A_{yz},A_{zx},A_{xy})$
+
+$\overrightarrow{\mathbf{N}}=\frac{\overrightarrow{\mathbf{M}}}{\Vert \overrightarrow{\mathbf{M}} \Vert}$
+
+$A_{yz}=\sum_{i=1}^N(y_i - y_{i+1})(z_i + z_{i+1})$
+
+$A_{zx}=\sum_{i=1}^N(z_i - z_{i+1})(x_i + x_{i+1})$
+
+$A_{xy}=\sum_{i=1}^N(x_i - x_{i+1})(y_i + y_{i+1})$
+
 Q.E.D.
 
 
