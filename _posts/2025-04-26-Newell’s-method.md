@@ -49,7 +49,7 @@ Fast Polygon Normal Calculation<!--more-->
 
 <center><figure><img src="https://cgvfxmath.github.io/assets/img/newell04.jpg" width="100%"></figure></center>
 
-세 점 $A_{yz}$, $A_{zx}$, $A_{xy}$로 구성되는 삼각형의 넓이는 다음과 같습니다.
+세 점 $V_{yz}$, $V_{zx}$, $V_{xy}$로 구성되는 삼각형의 넓이는 다음과 같습니다.
 
 asfd
 
