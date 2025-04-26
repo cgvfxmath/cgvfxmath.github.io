@@ -43,6 +43,8 @@ Fast Polygon Normal Calculation<!--more-->
 
 하나의 $n$각형은 $n-1$개의 삼각형의 합으로 구성됩니다. 따라서 $N$개의 정점 $V_i$로 구성되는 다각형의 넓이는 다음과 같은 공식으로 확장될 수 있습니다. (단, $i$ = 1, 2, $\cdots$, $N$)
 
+<p style="text-align: center;">$\frac{1}{2} \sum_{i=1}^{N} ( \overrightarrow{\mathbf{OV}}_i \times \overrightarrow{\mathbf{OV}}_{next(i)} )$</p>
+
 Q.E.D.
 
 
