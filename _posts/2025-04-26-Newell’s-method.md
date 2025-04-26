@@ -53,7 +53,11 @@ Fast Polygon Normal Calculation<!--more-->
 
 <p style="text-align: center;">$x_i y_{i+1} - y_i x_{i+1}$</p>
 
-따라서 $N$개의 점 $V_{i}, V_{2}, \cdots ,V_{N}$으로 구성되는
+따라서 $N$개의 점 $V_{i}, V_{2}, \cdots ,V_{N}$으로 구성되는 다각형의 넓이는 다음과 같습니다.
+
+$(x_1 y_2 - y_1 x_2)  + (x_2 y_3 - y_2 x_3) + \cdots + (x_N y_1 - y_N x_1)$
+
+$=(x_1 y_1 + x_1 y_2 - y_1 x_2 - x_2 y_2) + (x_2 y_2 + x_2 y_3 - y_2 x_3 - x_3 y_3) + \cdots + (x_{N-1} y_{N-1} + x_N y_1 - y_N x_1 - x_1 y_1)$
 
 
 Q.E.D.
