@@ -71,6 +71,10 @@ $p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$u=x, v=-\tfrac{1}{2 \pi \lambda^2} e ^ {- \pi \lambda^2 t^2}$</p>
 
+그러면 $du=dx$이고, $dv = t e ^ {- \pi \lambda^2 t^2}$이므로 다음과 같이 정리할 수 있습니다.
+
+<p style="text-align: center;">$\lambda \int_{-\infty}^{+\infty} u dv = \lambda \left(uv \Big|_{-\infty}^{+\infty} - \int_{-\infty}^{+\infty} v du \right) = \sigma^2$</p>
+
 
 Q.E.D.
 
