@@ -55,9 +55,17 @@ $p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$\lambda \int_{-\infty}^{+\infty} e^{-h^2 t^2} dt =1$</p>
 
-이때 $u=ht$라고 치환하면 $du=hdt$이고, $t \rightarrow \pm \infty$일 때 $u \rightarrow \pm \infty$이므로 함수 $f(t)$의 아래 부분 넓이는 다음과 같이 정리할 수 있습니다.
+이때 $u=ht$라고 치환하면 $du=hdt$이고, $t \rightarrow \pm \infty$일 때 $u \rightarrow \pm \infty$이므로 함수 $f(t)$의 아래 부분 넓이는 '가우스 적분'을 이용하면 다음과 같이 정리할 수 있습니다.
 
 <p style="text-align: center;">$\lambda\int_{-\infty}^{+\infty}e^{-h^2 t^2}dt=\frac{\lambda}{h}\int_{-\infty}^{+\infty}e^{-u^2}du=\tfrac{\lambda}{h} \sqrt{\pi}=1$</p>
+
+양변을 제곱하면 다음과 같은 첫 번째 방정식을 얻을 수 있습니다.
+
+<p style="text-align: center;">$h^2 = \pi \lambda^2$</p>
+
+이 결과와 두 번째 조건에 의해 다음의 등식이 성립해야 합니다.
+
+<p style="text-align: center;">$\lambda \int_{-\infty}^{+\infty} e^{-\pi {\lambda}^2 t^2} t^2 dt = \sigma^2$</p>
 
 Q.E.D.
 
