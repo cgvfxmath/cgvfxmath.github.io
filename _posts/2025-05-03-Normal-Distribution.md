@@ -57,7 +57,7 @@ $p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 
 이때 $u=ht$라고 치환하면 $du=hdt$이고, $t \rightarrow \pm \infty$일 때 $u \rightarrow \pm \infty$이므로 함수 $f(t)$의 아래 부분 넓이는 '가우스 적분'을 이용하면 다음과 같이 정리할 수 있습니다.
 
-<p style="text-align: center;">$\lambda\int_{-\infty}^{+\infty}e^{-h^2 t^2}dt=\frac{\lambda}{h}\int_{-\infty}^{+\infty}e^{-u^2}du=\tfrac{\lambda}{h} \sqrt{\pi}=1$</p>
+<p style="text-align: center;">$\lambda\int_{-\infty}^{+\infty}e^{-h^2 t^2}dt=\frac{\lambda}{h}\int_{-\infty}^{+\infty}e^{-u^2}du=\frac{\lambda}{h} \sqrt{\pi}=1$</p>
 
 양변을 제곱하면 다음과 같은 첫 번째 방정식을 얻을 수 있습니다.
 
@@ -69,7 +69,7 @@ $p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 
 여기서 부분적분 공식 $\int_{b}^{a} u \mathrm{d}v = uv \Big|_a^b -\int_{b}^{a} v du$를 적용하기 위해 $u$와 $v$를 다음과 같이 치환하겠습니다.
 
-<p style="text-align: center;">$u=x, v=-\tfrac{1}{2 \pi \lambda^2} e ^ {- \pi \lambda^2 t^2}$</p>
+<p style="text-align: center;">$u=x, v=-\frac{1}{2 \pi \lambda^2} e ^ {- \pi \lambda^2 t^2}$</p>
 
 그러면 $du=dx$이고, $dv = t e ^ {- \pi \lambda^2 t^2}$이므로 다음과 같이 정리할 수 있습니다.
 
@@ -78,6 +78,10 @@ $p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 여기서 첫 번째 항은 다음과 같이 $0$이 되어 소거됩니다.
 
 <p style="text-align: center;">$uv \Big|_{-\infty}^{+\infty} = -\frac{x}{2 \pi \lambda } e^{- \pi \lambda^2 t^2} \Big|_{-\infty}^{+\infty} = 0$</p>
+
+두 번째 항을 정리하면 다음과 같습니다.
+
+<p style="text-align: center;">$-\int_{-\infty}^{+\infty} v du = \frac{1}{2 \pi \lambda^2} \int_{-\infty}^{+\infty} e ^ {- \pi \lambda^2 t^2} dt = \frac{1}{2 \pi \lambda^2} \int_{-\infty}^{+\infty} f(t) dt = \frac{1}{2 \pi \lambda^2} = \sigma^2$</p>
 
 Q.E.D.
 
