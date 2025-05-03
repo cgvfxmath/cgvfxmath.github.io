@@ -89,7 +89,9 @@ $p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$f(t) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{t^2}{2 \sigma^2}}$</p>
 
+여기서 $t$축으로만큼 평행이동하면 다음과 같은 형태를 얻게 됩니다.
 
+<p style="text-align: center;">$f(t) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(t-\mu)^2}{2 \sigma^2}}$</p>
 
 Q.E.D.
 
