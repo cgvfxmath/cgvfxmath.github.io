@@ -35,6 +35,12 @@ $p(\sqrt{x^2+y^2})=f(x)\,f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$g(\sqrt{x^2+y^2})=g(x)\, g(y)$</p>
 
+여기서 수학적인 직관력을 발휘해보겠습니다. 이러한 성질을 가지는 함수를 우리는 알고 있습니다. 바로 지수함수입니다.
+
+<p style="text-align: center;">$g(\sqrt{x^2+y^2})=a^{-b(x^2+y^2)} = a^{-bx^2-by^2} =a^{-bx^2} a^{-by^2}=g(x) \, g(y)$</p>
+
+즉, $g(t)=a^{- b t^2}$라고 놓을 수 있습니다.
+
 Q.E.D.
 
 
