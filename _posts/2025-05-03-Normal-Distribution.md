@@ -47,6 +47,12 @@ $p(\sqrt{x^2+y^2})=f(x)\,f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$f(t)=\lambda g(t)=\lambda e^{-h^2 t^2}$</p>
 
+이제 $h$와 $\lambda$의 값을 정하면 함수 f(t)의 식이 완성됩니다. 미지수가 2개 이므로 방정식이 2개 필요합니다. 다음과 같은 두 가지 조건을 사용하여 $h$와 $\lambda$의 값을 구해보겠습니다.
+
+전체확률은 1이므로 $\int_{-\infty}^{+\infty}f(t)\,dt=1$이며, 분산의 정의에 의해 $\int_{-\infty}^{+\infty} f(t) t^2\, dt = \sigma^2$인 사실을 사용하겠습니다.
+
+
+
 
 Q.E.D.
 
