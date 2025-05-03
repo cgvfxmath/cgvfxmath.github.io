@@ -85,6 +85,11 @@ $p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$\therefore \lambda = \frac{1}{\sigma \sqrt{2 \pi}}, h^2 = \pi \lambda^2 = \frac{1}{2 \sigma^2}$</p>
 
+이 두 값을 $f(t)=\lambda e^{-h^2 t^2}$에 대입하면 다음과 같은 정규 확률 분포의 함수식을 얻을 수 있습니다.
+
+<p style="text-align: center;">$f(t) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{t^2}{2 \sigma^2}}$</p>
+
+
 
 Q.E.D.
 
