@@ -19,8 +19,9 @@ Proof on Normal Distribution<!--more-->
 
 <p style="text-align: center;">$f(X=x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^2}$</p>
 
+2차원 평면상의 임의의 점 $(x,y)$에 다트가 맞을 확률을 $p$라 하면 $p(x,y)=p(r)$이고, 앞에서의 가정에 의해 다음의 관계가 성립합니다.
 
-
+<p style="text-align: center;">$p(r)=p(\sqrt{x^2+y^2})=f(x)f(y)$</p>
 
 
 **뉴웰 방법(Newell's method)**은 3차원 공간에서 다각형(polygon)의 법선 벡터(normal vector)를 구하는 방법입니다. 이 방법에 따르면, 다음 그림과 같이 네 점 $\mathbf{P}_1$, $\mathbf{P}_2$, $\mathbf{P}_3$, $\mathbf{P}_4$로 구성된 사각형이 있을 때, 이 사각형의 법선 벡터 $\overrightarrow{\mathbf{N}}$의 각 성분은 오른쪽 수식과 같이 계산할 수 있습니다.
