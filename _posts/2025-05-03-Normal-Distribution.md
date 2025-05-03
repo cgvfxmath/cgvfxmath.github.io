@@ -75,6 +75,9 @@ $p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$\lambda \int_{-\infty}^{+\infty} u dv = \lambda \left(uv \Big|_{-\infty}^{+\infty} - \int_{-\infty}^{+\infty} v du \right) = \sigma^2$</p>
 
+여기서 첫 번째 항은 다음과 같이 $0$이 되어 소거됩니다.
+
+<p style="text-align: center;">$uv \Big|_{-\infty}^{+\infty} = -\frac{x}{2 \pi \lambda } e^{- \pi \lambda^2 t^2} \Big|_{-\infty}^{+\infty} = 0$</p>
 
 Q.E.D.
 
