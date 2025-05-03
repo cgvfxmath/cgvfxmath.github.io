@@ -27,6 +27,13 @@ Proof on Normal Distribution<!--more-->
 
 <p style="text-align: center;">$p(t)=\lambda f(t)$</p>
 
+$p(\sqrt{x^2+y^2})=f(x)\,f(y)$에 이 결과를 적용하겠습니다.
+
+<p style="text-align: center;">$\lambda f(\sqrt{x^2+y^2})=f(x)f(y)\;\;\; \Longleftrightarrow \;\;\;\frac{f(\sqrt{x^2+y^2})}{\lambda} = \frac{f(x)}{\lambda} \frac{f(y)}{\lambda}$</p>
+
+
+
+
 Q.E.D.
 
 
