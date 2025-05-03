@@ -27,17 +27,17 @@ Proof on Normal Distribution<!--more-->
 
 <p style="text-align: center;">$p(t)=\lambda f(t)$</p>
 
-$p(\sqrt{x^2+y^2})=f(x)\,f(y)$에 이 결과를 적용하겠습니다.
+$p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$\lambda f(\sqrt{x^2+y^2})=f(x)f(y)\;\;\; \Longleftrightarrow \;\;\;\frac{f(\sqrt{x^2+y^2})}{\lambda} = \frac{f(x)}{\lambda} \frac{f(y)}{\lambda}$</p>
 
 여기서 $g(t)=\frac{f(t)}{\lambda}$라 하면 위의 식은 다음과 같이 쓸 수 있습니다.
 
-<p style="text-align: center;">$g(\sqrt{x^2+y^2})=g(x)\, g(y)$</p>
+<p style="text-align: center;">$g(\sqrt{x^2+y^2})=g(x)g(y)$</p>
 
 여기서 수학적인 직관력을 발휘해보겠습니다. 이러한 성질을 가지는 함수를 우리는 알고 있습니다. 바로 지수함수입니다.
 
-<p style="text-align: center;">$g(\sqrt{x^2+y^2})=a^{-b(x^2+y^2)} = a^{-bx^2-by^2} =a^{-bx^2} a^{-by^2}=g(x) \, g(y)$</p>
+<p style="text-align: center;">$g(\sqrt{x^2+y^2})=a^{-b(x^2+y^2)} = a^{-bx^2-by^2} =a^{-bx^2} a^{-by^2}=g(x)g(y)$</p>
 
 즉, $g(t)=a^{- b t^2}$라고 놓을 수 있습니다.
 
@@ -49,15 +49,15 @@ $p(\sqrt{x^2+y^2})=f(x)\,f(y)$에 이 결과를 적용하겠습니다.
 
 이제 $h$와 $\lambda$의 값을 정하면 함수 f(t)의 식이 완성됩니다. 미지수가 2개 이므로 방정식이 2개 필요합니다. 다음과 같은 두 가지 조건을 사용하여 $h$와 $\lambda$의 값을 구해보겠습니다.
 
-전체확률은 1이므로 $\int_{-\infty}^{+\infty}f(t)\,dt=1$이며, 분산의 정의에 의해 $\int_{-\infty}^{+\infty} f(t) t^2\, dt = \sigma^2$인 사실을 사용하겠습니다.
+전체확률은 1이므로 $\int_{-\infty}^{+\infty}f(t)dt=1$이며, 분산의 정의에 의해 $\int_{-\infty}^{+\infty} f(t) t^2 dt = \sigma^2$인 사실을 사용하겠습니다.
 
 첫 번째 조건에 의해 다음의 등식이 성립해야 합니다.
 
-<p style="text-align: center;">$\lambda \int_{-\infty}^{+\infty} e^{-h^2 t^2}\, dt =1$</p>
+<p style="text-align: center;">$\lambda \int_{-\infty}^{+\infty} e^{-h^2 t^2} dt =1$</p>
 
 이때 $u=ht$라고 치환하면 $du=hdt$이고, $t \rightarrow \pm \infty$일 때 $u \rightarrow \pm \infty$이므로 함수 $f(t)$의 아래 부분 넓이는 다음과 같이 정리할 수 있습니다.
 
-<p style="text-align: center;">$\lambda\int_{-\infty}^{+\infty}e^{-h^2 t^2}\,dt=\frac{\lambda}{h}\int_{-\infty}^{+\infty}e^{-u^2}\,du=\tfrac{\lambda}{h} \sqrt{\pi}=1$</p>
+<p style="text-align: center;">$\lambda\int_{-\infty}^{+\infty}e^{-h^2 t^2}dt=\frac{\lambda}{h}\int_{-\infty}^{+\infty}e^{-u^2}du=\tfrac{\lambda}{h} \sqrt{\pi}=1$</p>
 
 Q.E.D.
 
