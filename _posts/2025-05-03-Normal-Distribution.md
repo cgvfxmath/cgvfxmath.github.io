@@ -23,7 +23,7 @@ Proof on Normal Distribution<!--more-->
 
 <p style="text-align: center;">$p(r)=p(\sqrt{x^2+y^2})=f(x)f(y)$</p>
 
-이때, $(x,y)=(r,0)$을 대입하면 $p(r)=f(r)\,f(0)$가 되는데, 여기서 $f(0)$은 0이 아닌 어떠한 상수이므로 이 값을 $\lambda$라 하면, 두 확률분포 함수 p와 f는 다음과 같은 관계를 가진다는 사실을 알 수 있습니다.
+이때, $(x,y)=(r,0)$을 대입하면 $p(r)=f(r)f(0)$이 되는데, 여기서 $f(0)$은 0이 아닌 어떠한 상수이므로 이 값을 $\lambda$라 하면, 두 확률분포 함수 p와 f는 다음과 같은 관계를 가진다는 사실을 알 수 있습니다.
 
 <p style="text-align: center;">$p(t)=\lambda f(t)$</p>
 
