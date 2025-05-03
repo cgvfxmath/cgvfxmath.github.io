@@ -67,6 +67,11 @@ $p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$\lambda \int_{-\infty}^{+\infty} e^{-\pi {\lambda}^2 t^2} t^2 dt = \sigma^2$</p>
 
+여기서 부분적분 공식 $\int_{b}^{a} u \mathrm{d}v = uv \Big|_a^b -\int_{b}^{a} v du$를 적용하기 위해 $u$와 $v$를 다음과 같이 치환하겠습니다.
+
+<p style="text-align: center;">$u=x, v=-\tfrac{1}{2 \pi \lambda^2} e ^ {- \pi \lambda^2 t^2}$</p>
+
+
 Q.E.D.
 
 
