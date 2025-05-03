@@ -31,8 +31,9 @@ $p(\sqrt{x^2+y^2})=f(x)\,f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$\lambda f(\sqrt{x^2+y^2})=f(x)f(y)\;\;\; \Longleftrightarrow \;\;\;\frac{f(\sqrt{x^2+y^2})}{\lambda} = \frac{f(x)}{\lambda} \frac{f(y)}{\lambda}$</p>
 
+여기서 $g(t)=\frac{f(t)}{\lambda}$라 하면 위의 식은 다음과 같이 쓸 수 있습니다.
 
-
+<p style="text-align: center;">$g(\sqrt{x^2+y^2})=g(x)\, g(y)$</p>
 
 Q.E.D.
 
