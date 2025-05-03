@@ -83,6 +83,9 @@ $p(\sqrt{x^2+y^2})=f(x)f(y)$에 이 결과를 적용하겠습니다.
 
 <p style="text-align: center;">$-\int_{-\infty}^{+\infty} v du = \frac{1}{2 \pi \lambda^2} \int_{-\infty}^{+\infty} e ^ {- \pi \lambda^2 t^2} dt = \frac{1}{2 \pi \lambda^2} \int_{-\infty}^{+\infty} f(t) dt = \frac{1}{2 \pi \lambda^2} = \sigma^2$</p>
 
+<p style="text-align: center;">$\therefore \lambda = \frac{1}{\sigma \sqrt{2 \pi}}, h^2 = \pi \lambda^2 = \frac{1}{2 \sigma^2}$</p>
+
+
 Q.E.D.
 
 
