@@ -19,11 +19,11 @@ Proof on Clairaut's Theorem<!--more-->
 
 $f_{xy} = \frac{\partial}{\partial y}f_x(x,y) = \lim_{h\rightarrow 0}\frac{f_x(x,y+h)-f_x(x,y)}{h}$
 
-$= \lim_{h\rightarrow 0}\frac{\lim_{r\rightarrow 0}\frac{f(x+r,y+h)-f(x,y+h)}{r}-\lim_{r\rightarrow 0}\frac{f(x+r,y)-f(x,y+h)}{r}}{h}$
+$= \lim_{h\rightarrow 0} \frac{\lim_{r\rightarrow 0}\frac{f(x+r,y+h)-f(x,y+h)}{r}-\lim_{r\rightarrow 0}\frac{f(x+r,y)-f(x,y+h)}{r}}{h}$
 
-$= \lim_{h\rightarrow 0}\frac{\frac{f(x+h,y+h)-f(x,y+h)}{h} - \frac{f(x+h,y)-f(x,y)}{h}}{h}$
+$= \lim_{h\rightarrow 0} \frac{\frac{f(x+h,y+h)-f(x,y+h)}{h} - \frac{f(x+h,y)-f(x,y)}{h}}{h}$
 
-$$
+$= \lim_{h\rightarrow 0} \frac{\frac{f(x+h)-f(x+h,y)}{h} - \frac{f(x,y+h)-f(x,y)}{h}}{h}$
 
 $$
 
