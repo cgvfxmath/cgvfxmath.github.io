@@ -15,7 +15,7 @@ Proof on Clairaut's Theorem<!--more-->
 
 *본 포스트에는 수식이 포함되어 있습니다. 분수 등의 수식이 정상적으로 보이지 않는 경우에는 수식을 마우스 오른쪽 버튼으로 클릭한 후 "Math Renderer"를 SVG로 바꿔주세요. (➔[How-To](https://cgvfxmath.github.io/2023-03-18/math-renderer))*
 
-클레로 정리 (Clairaut's Theorem) $\frac{\partial^2 f}{\partial x_1 \partial x_2} = \frac{\partial^2 f}{\partial x_2 \partial x_1}$f를 증명해 보겠습니다.
+클레로 정리 (Clairaut's Theorem) $\frac{\partial^2 f}{\partial x_1 \partial x_2} = \frac{\partial^2 f}{\partial x_2 \partial x_1}$를 증명해 보겠습니다.
 
 $f_{xy} = \frac{\partial}{\partial y}f_x(x,y) = \lim_{h\rightarrow 0}\frac{f_x(x,y+h)-f_x(x,y)}{h}$
 
