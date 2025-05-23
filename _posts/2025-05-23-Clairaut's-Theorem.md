@@ -21,7 +21,7 @@ $f_{xy} = \frac{\partial}{\partial y}f_x(x,y) = \lim_{h\rightarrow 0}\frac{f_x(x
 
 $= \lim_{h\rightarrow 0}\frac{\lim_{r\rightarrow 0}\frac{f(x+r,y+h)-f(x,y+h)}{r}-\lim_{r\rightarrow 0}\frac{f(x+r,y)-f(x,y+h)}{r}}{h}$
 
-$$
+$= \lim_{h\rightarrow 0}\frac{\frac{f(x+h,y+h)-f(x,y+h)}{h} - \frac{f(x+h,y)-f(x,y)}{h}}{h}$
 
 $$
 
