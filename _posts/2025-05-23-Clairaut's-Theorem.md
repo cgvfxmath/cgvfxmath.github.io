@@ -27,9 +27,11 @@ $= \lim_{h\rightarrow 0} \frac{\frac{f(x+h,y+h)-f(x+h,y)}{h} - \frac{f(x,y+h)-f(
 
 $= \lim_{h\rightarrow 0} \frac{\lim_{r\rightarrow 0}\frac{f(x+h,y+r)-f(x+h,y)}{r}-\lim_{r\rightarrow 0}\frac{f(x,y+r)-f(x,y)}{r}}{h}$
 
-$$
+$= \lim_{h\rightarrow 0} \frac{f_y(x+h,y)-f_y(x,y)}{h}$
 
-$$
+$= \frac{\partial}{\partial x} f_y(x,y)$
+
+$= f_{yx}(x,y)$
 
 Q.E.D.
 
