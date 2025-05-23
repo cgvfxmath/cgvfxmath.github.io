@@ -23,7 +23,7 @@ $= \lim_{h\rightarrow 0} \frac{\lim_{r\rightarrow 0}\frac{f(x+r,y+h)-f(x,y+h)}{r
 
 $= \lim_{h\rightarrow 0} \frac{\frac{f(x+h,y+h)-f(x,y+h)}{h} - \frac{f(x+h,y)-f(x,y)}{h}}{h}$
 
-$= \lim_{h\rightarrow 0} \frac{\frac{f(x+h)-f(x+h,y)}{h} - \frac{f(x,y+h)-f(x,y)}{h}}{h}$
+$= \lim_{h\rightarrow 0} \frac{\frac{f(x+h,y+h)-f(x+h,y)}{h} - \frac{f(x,y+h)-f(x,y)}{h}}{h}$
 
 $$
 
