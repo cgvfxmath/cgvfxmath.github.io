@@ -76,8 +76,8 @@ permalink: /about/
 * [Fluid Simulation without Pressure (SIGGRAPH 2011 Posters)] [paper](https://drive.google.com/file/d/1JMZHvWqC2a8qKqNAo8fIezmPsIhBpNV9/view) [video](https://vimeo.com/364600119)
 
 ### Publications
-* 초등수학을 결정하는 개념 총정리 [link](https://search.shopping.naver.com/book/catalog/32489569973)
-* AI 시대의 기본 수학 - 고전역학에서 인공지능까지, 그래픽스 개발의 핵심 개념
+* 초등수학을 결정하는 개념 총정리 (ISBN: 978-89-6049-827-3) [link](https://search.shopping.naver.com/book/catalog/32489569973)
+* AI 시대의 기본 수학 - 고전역학에서 인공지능까지, 그래픽스 개발의 핵심 개념 (ISBN: 979-11-992716-8-5)
 
 ### Miscellanea
 * KCA AX 미디어 연구반 세미나: VFX 업계에서의 AI 활용 동향
