@@ -11,9 +11,7 @@ permalink: /about/
 
 ### Edaucation & Experience
 * 2022.04~ CEO @ DiBlAT Inc. [website](https://diblat.com) [youtube](https://www.youtube.com/@diblat)
-* 2020.01~2022.03 CTO @ Dexter Studios [website](http://www.dexterstudios.com) [youtube](https://www.youtube.com/@DEXTERSTUDIOSOfficial)
-* 2019.03~2022.03 Head of Technical Support Department @ Dexter Studios
-* 2013.11~2022.03 Director of Research & Development @ Dexter Studios
+* 2012.02~2022.03 CTO, Head of Technical Support Department, Director of Research & Development, R&D/FX team leader, R&D Supervisor @ Dexter Studios [website](http://www.dexterstudios.com) [youtube](https://www.youtube.com/@DEXTERSTUDIOSOfficial)
 * 2012.02~2013.10 R&D/FX supervisor @ Dexter Digital
 * 2010.07~2012.01 R&D team leader @ Digital IDEa
 * 2005.12~2010.02 R&D team leader @ FXGear
