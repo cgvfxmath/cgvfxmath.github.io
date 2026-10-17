@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Start a YouTube channel"
+title: "Start a YouTube Channel"
 author: "wano"
 excerpt_separator: <!--more-->
 tags: ['math']
