@@ -14,7 +14,7 @@ sitemap:
 
 AI Math Essentials - Youtube Channel<!--more-->
 
-![image.jpg1](https://cgvfxmath.github.io/assets/img/ai_math_essentials_youtube_channeld_thumbnail.jpg)
+![image.jpg1](https://cgvfxmath.github.io/assets/img/ai_math_essentials_youtube_channeld_thumbnail.png)
 
 [AI 시대의 기본 수학](https://diblat.com/ai-math-essentials/)의 [유튜브 채널](https://www.youtube.com/@AIMathEssentials/videos)이 개설되었습니다.
 
